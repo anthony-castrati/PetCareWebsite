@@ -29,6 +29,8 @@
         <!-- Contact Form -->
         <form:form cssClass="form-horizontal" commandName="contactForm" method="post" action="contactForm">
           <form:errors path="*" cssClass="alert alert-error" element="div" />
+          <div class="mini-layout">
+            <div class="mini-layout-body">
           <div class="control-group">
             <label class="control-label" for="name">Full Name</label>
             <div class="controls">
@@ -98,6 +100,8 @@
                 <button class="btn btn-primary" type="submit">Submit</button>
                 <button class="btn" type="button">Clear</button>
             </div>
+          </div>
+          </div>
           </div>
           </div>
         </form:form>

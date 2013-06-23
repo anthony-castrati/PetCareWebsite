@@ -21,13 +21,13 @@
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div>
         <div class="span4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <h2>Our Services</h2>
+          <p>We offer many services for you and your pets.  Anything from in-home care to nail trims and more!  For a full list of our services and prices, please check out our <a href="pricing">pricing</a> page.</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
        </div>
         <div class="span4">
           <h2>Free Consultation</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p>I offer free consultation for my services.  Please <a href="contact">contact me</a> and I will get back to you as soon as possible.</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div>
       </div>
