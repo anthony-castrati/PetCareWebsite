@@ -13,6 +13,20 @@
       <!-- Main hero unit for a primary marketing message or call to action -->
       
       <div class="row">
+      	<div class="span10 offset1">
+	      	<div class="row-fluid">
+		      	<div class="span4 tier">
+			      	<div></div>
+			      	<div class="detail">
+			      	test test test</div>
+			      	<div></div>
+		      	</div>
+		      	<div class="span4 tier">2</div>
+		      	<div class="span4 tier">3</div>
+      		</div>
+      	</div>
+     </div>
+     <div class="row">
         <div class="span8 offset2">
         <table class="table table-bordered table-striped">
           <caption>Walking Prices</caption>

@@ -7,7 +7,7 @@
     <!-- Le styles -->
     <link href="/${appconfig.projectName}/resources/css/bootstrap.css" rel="stylesheet">
     <link href="/${appconfig.projectName}/resources/css/font-awesome.css" rel="stylesheet">
-    <link href="/${appconfig.projectName}/resources/css/main.css" rel="stylesheet">
+    
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -15,7 +15,7 @@
       }
     </style>
     <link href="/${appconfig.projectName}/resources/css/responsive.css" rel="stylesheet">
-
+	<link href="/${appconfig.projectName}/resources/css/main.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>

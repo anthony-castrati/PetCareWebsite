@@ -1,3 +1,17 @@
+body{
+	font-size:18px;
+}
+.tier{
+	background-color:#e5ecf3;
+	border:1px solid #ddd;
+	margin-left:28px;
+	height:300px;
+	padding:10px;
+}
+.detail{
+	margin: 0px -10px;
+	background-color: #ddd;
+}
 .about-image {
   width: 300px;
   height: 300px;
