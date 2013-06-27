@@ -13,16 +13,44 @@
       <!-- Main hero unit for a primary marketing message or call to action -->
       
       <div class="row">
-      	<div class="span10 offset1">
-	      	<div class="row-fluid">
-		      	<div class="span4 tier">
-			      	<div></div>
+      	<div>
+	      	<div class="row">
+		      	<div class="span4 tier text-center">
+		      		<h3>Express</h3>
+			      	<p>Up to 20 Minutes</p>
+			      	<span class="muted"><strong>$16</strong></span>
 			      	<div class="detail">
-			      	test test test</div>
-			      	<div></div>
+			      	<h4>Available Visits</h4>
+			      	<p>AM, Midday, PM and Late Night</p>
+			      	</div>
+			      	<p>
+			      	<small>Our most popular visit! This visit is designed for those pets who just need a bathroom break with short walk, food, water, litter box scoop, and a little TLC. Call it our "in and out" visit if you will!</small>
+			      	</p>
 		      	</div>
-		      	<div class="span4 tier">2</div>
-		      	<div class="span4 tier">3</div>
+		      	<div class="span4 tier text-center">
+		      		<h3>Regular</h3>
+			      	<p>30 Minutes</p>
+			      	<span class="muted"><strong>$18</strong></span>
+			      	<div class="detail">
+			      	<h4>Available Visits</h4>
+			      	<p>AM, Midday, and PM</p>
+			      	</div>
+			      	<p>
+			      	<small>This visit includes food, fresh water, a lengthy walk, litter box scooping, complimentary services, and lots of belly rubs and head scratches!</small>
+			      	</p>
+		      	</div>
+		      	<div class="span4 tier text-center">
+		      		<h3>Extended</h3>
+			      	<p>45 Minutes</p>
+			      	<span class="muted"><strong>$21</strong></span>
+			      	<div class="detail">
+			      	<h4>Available Visits</h4>
+			      	<p>Midday Visit Only</p>
+			      	</div>
+			      	<p>
+			      	<small>This visit includes food, fresh water, an extended walk, litter box scooping, complimentary services, and extra TLC!</small>
+			      	</p>
+		      	</div>
       		</div>
       	</div>
      </div>

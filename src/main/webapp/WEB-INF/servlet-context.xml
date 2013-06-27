@@ -54,7 +54,7 @@
     <!-- Use this as an application-wide properties object -->
 	<bean class="com.castrati.fureverfriends.beans.ApplicationConfig" id="appconfig" scope="singleton">
 		<property name="administratorEmail" value="anthonyvcastrati@gmail.com"/>
-		<property name="siteName" value="Furever Friends"/>
+		<property name="siteName" value="Capital City Pet Care"/>
 		<property name="url" value="http://google.com"/>
 		<property name="projectName" value="fureverfriends"/>
 	</bean>

@@ -1,16 +1,17 @@
 body{
 	font-size:18px;
+	background-color:#7E8C96;
+	background-color:#ADADB5;
 }
 .tier{
-	background-color:#e5ecf3;
-	border:1px solid #ddd;
-	margin-left:28px;
-	height:300px;
-	padding:10px;
+	background-color:#fff;
+	color:#000;	
 }
 .detail{
-	margin: 0px -10px;
-	background-color: #ddd;
+	color:#FFF;
+	margin: 10px 0px;
+	padding:5px;
+	background-color: #BF2C7D;
 }
 .about-image {
   width: 300px;
