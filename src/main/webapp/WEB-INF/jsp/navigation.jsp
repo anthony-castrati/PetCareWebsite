@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">${appconfig.siteName}</a>
+          <a class="brand" href="<%=request.getContextPath()%>">${appconfig.siteName}</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
             <!-- Navigation from bean -->

@@ -66,5 +66,10 @@
 		<extension>woff</extension>
         <mime-type>application/font-woff</mime-type>
 	</mime-mapping>
+	
+	<error-page>
+        <error-code>404</error-code>
+        <location>/WEB-INF/jsp/error/404.jsp</location>
+    </error-page>
 
 </web-app>

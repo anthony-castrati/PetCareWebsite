@@ -5,8 +5,8 @@
     <meta name="author" content="Anthony Castrati">
 
     <!-- Le styles -->
-    <link href="/${appconfig.projectName}/resources/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/${appconfig.projectName}/resources/css/font-awesome.css" rel="stylesheet">
+    <link href="<%=request.getContextPath()%>/resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<%=request.getContextPath()%>/resources/css/font-awesome.css" rel="stylesheet">
     
     <style type="text/css">
       body {
@@ -22,8 +22,8 @@
     <![endif]-->
 
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/${appconfig.projectName}/resources/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/${appconfig.projectName}/resources/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/${appconfig.projectName}/resources/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="/${appconfig.projectName}/resources/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="/${appconfig.projectName}/resources/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<%=request.getContextPath()%>/resources/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<%=request.getContextPath()%>/resources/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<%=request.getContextPath()%>/resources/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="<%=request.getContextPath()%>/resources/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="<%=request.getContextPath()%>/resources/ico/favicon.png">

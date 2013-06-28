@@ -49,19 +49,19 @@ public class HelloController {
  
 	}
 	
-	@RequestMapping(method = RequestMethod.GET, value = "pricing")
-	public String pricing(ModelMap model) {
+	@RequestMapping(method = RequestMethod.GET, value = "services")
+	public String services(ModelMap model) {
  
-		model.addAttribute("title", "Pricing");
-		return "pricing";
+		model.addAttribute("title", "Services");
+		return "services";
  
 	}
 	
-	@RequestMapping(method = RequestMethod.GET, value = "location")
-	public String location(ModelMap model) {
+	@RequestMapping(method = RequestMethod.GET, value = "servicearea")
+	public String serviceArea(ModelMap model) {
  
-		model.addAttribute("title", "Location");
-		return "locationmap";
+		model.addAttribute("title", "Service Area");
+		return "servicearea";
  
 	}
 	

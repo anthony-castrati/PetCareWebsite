@@ -5,9 +5,9 @@
                   <c:forEach items="${carousel.scrollingImages}" var="entry">
                   <div class="item<%= i++ == 0 ? " active" : ""%>">
                     <img src="${entry.key}" alt="">
-                    <div class="carousel-caption">
+                    <!-- <div class="carousel-caption">
                       <h4>${entry.value}</h4>
-                    </div>
+                    </div> -->
                   </div>
                   </c:forEach>
                 </div>

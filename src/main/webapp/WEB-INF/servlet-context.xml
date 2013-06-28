@@ -64,10 +64,10 @@
       <property name="navItems">
         <map>
           <entry key="home" value="Home"/>
-          <entry key="about" value="About"/>
+          <entry key="about" value="About Us"/>
+          <entry key="services" value="Services"/>
+          <entry key="servicearea" value="Service Area"/>
           <entry key="contact" value="Contact"/>
-          <entry key="pricing" value="Pricing"/>
-          <entry key="location" value="Location"/>
         </map>
       </property>
     </bean>
