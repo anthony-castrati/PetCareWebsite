@@ -1,4 +1,6 @@
 body{
+	padding-top: 60px;
+    padding-bottom: 40px;
 	font-size:18px;
 	background-color:#DEDEDE;
 	-webkit-background-size: 10px 10px;

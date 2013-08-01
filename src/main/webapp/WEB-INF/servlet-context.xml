@@ -66,7 +66,6 @@
           <entry key="home" value="Home"/>
           <entry key="about" value="About Us"/>
           <entry key="services" value="Services"/>
-          <entry key="servicearea" value="Service Area"/>
           <entry key="contact" value="Contact"/>
         </map>
       </property>
@@ -91,7 +90,6 @@
     <bean class="com.castrati.capcitypetcare.beans.States" id="states" scope="singleton">
       <property name="states">
         <map>
-            <entry value="Alabama" key="AL"/>
         	<entry key="AL" value="Alabama"/>
         	<entry key="AK" value="Alaska"/>
         	<entry key="AZ" value="Arizona"/>
@@ -146,5 +144,4 @@
         </map>
       </property>
     </bean>
-
 </beans>

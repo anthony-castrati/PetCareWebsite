@@ -6,15 +6,9 @@
 
     <!-- Le styles -->
     <link href="<%=request.getContextPath()%>/resources/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<%=request.getContextPath()%>/resources/css/font-awesome.css" rel="stylesheet">
-    
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
+    <link href="<%=request.getContextPath()%>/resources/css/bootstrap-glyphicons.css" rel="stylesheet">
     <link href="<%=request.getContextPath()%>/resources/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 	<link href="<%=request.getContextPath()%>/resources/css/main.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>

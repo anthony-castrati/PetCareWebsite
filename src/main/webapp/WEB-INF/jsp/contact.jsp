@@ -77,21 +77,17 @@
             </div>
           </div>
           <div class="control-group">
-            <label class="control-label" for="inputPassword">Reason for Contact</label>
-            <div class="controls">
-              <select>
-                <option></option>
-                <option>Appointment Request</option>
-                <option>Billing</option>
-                <option>Pricing</option>
-                <option>Other</option>
-              </select>
+            <label class="control-label" for="pets">Pets</label>
+              <div class="controls">
+                <form:input id="pets" path="pets" placeholder="2 dogs 1 cat" />
+                <form:errors path="pets" cssClass="error" />
             </div>
           </div>
           <div class="control-group">
-            <label class="control-label" for="inputPassword">Message</label>
+            <label class="control-label" for="message">Message</label>
             <div class="controls controls-row">
-              <textarea rows="5" class="span5"></textarea>
+            	<form:textarea id="message" path="message" rows="5" cssClass="span5"/>
+            	<form:errors path="message" cssClass="error" />
             </div>
           </div>
           <div class="control-group">
@@ -107,14 +103,14 @@
         </form:form>
         
         <div class="row"><div class="span12"><h3>Other Contacts</h3></div></div><br>
-        <div class="row contact"><div class="span2"><i class="icon-phone contact"></i> / <i class="icon-edit contact"></i></div><div class="span5">919.723.7302</div></div>
-        <div class="row contact"><div class="span2"><i class="icon-envelope contact"></i></div><div class="span7"><a href="mailto:lexani732@gmail.com">lexani732@gmail.com</a></div></div>
-        <div class="row contact"><div class="span2"><i class="icon-facebook-sign contact"></i></div><div class="span7"><a href="http://www.facebook.com/Lexani732">Lexani732</a></div></div>
+        <div class="row contact"><div class="span2"><i class="icon-phone icon-large"></i></div><div class="span5"><a href="tel://919-816-2195">919.816.2195</a></div></div>
+        <div class="row contact"><div class="span2"><i class="icon-envelope-alt icon-large"></i></div><div class="span7"><a href="mailto:alexxis@capcitypetcare.com">alexxis@capcitypetcare.com</a></div></div>
+        <div class="row contact"><div class="span2"><i class="icon-facebook-sign icon-large"></i></div><div class="span7"><a href="http://www.facebook.com/capcitypetcare">Capital City Pet Care</a></div></div>
       </div>
       <hr>
 
       <footer>
-        <p>&copy; ${appconfig.siteName} 2012</p>
+        <p>&copy; ${appconfig.siteName} 2013</p>
       </footer>
 
     </div> <!-- /container -->
