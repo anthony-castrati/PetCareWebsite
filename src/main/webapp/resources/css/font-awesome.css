@@ -23,8 +23,8 @@
     */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('/fureverfriends/resources/font/fontawesome-webfont.eot');
-  src: url('/fureverfriends/resources/font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('/fureverfriends/resources/font/fontawesome-webfont.woff') format('woff'), url('/fureverfriends/resources/font/fontawesome-webfont.ttf') format('truetype'), url('/fureverfriends/resources/font/fontawesome-webfont.svg#FontAwesome') format('svg');
+  src: url('/capcitypetcare/resources/font/fontawesome-webfont.eot');
+  src: url('/capcitypetcare/resources/font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('/fureverfriends/resources/font/fontawesome-webfont.woff') format('woff'), url('/fureverfriends/resources/font/fontawesome-webfont.ttf') format('truetype'), url('/fureverfriends/resources/font/fontawesome-webfont.svg#FontAwesome') format('svg');
   font-weight: normal;
   font-style: normal;
 }

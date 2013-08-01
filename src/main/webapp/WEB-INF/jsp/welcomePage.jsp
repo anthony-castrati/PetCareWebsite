@@ -16,30 +16,27 @@
 		<!-- Example row of columns -->
 		<div class="row">
 			<div class="span4">
+				<h2>Our Services</h2>
+				<p>
+					Capital City Pet Care provides service for dogs, cats, small animals and exotics.  We are proud to offer daily visits, dog walking, medication administration, nail trims and much more! For more information, please check out our <a href="services">services</a> page.
+				</p>
+			</div>
+			<div class="span4">
 				<h2>Free Consultation</h2>
 				<p>
-					I offer a free <em>initial</em> consultation for my services. Please <a href="contact">contact
-						me</a> and I will get back to you as soon as possible.
+					Initial consultation is free! We will travel to your home to meet with you and your pet one on one to create a specialized care plan for you and your extended family. <a href="contact">Contact us</a> today!
 				</p>
 			</div>
 			<div class="span4">
 				<h2>Referral Program</h2>
 				<p>Refer a friend or family member and receive a $15 credit for future service after the referral's first completed service.</p>
 			</div>
-			<div class="span4">
-				<h2>Our Services</h2>
-				<p>
-					We offer many services for you and your pets. Anything from in-home
-					care to nail trims and more! For a full list of our services and
-					prices, please check out our <a href="services">services</a> page.
-				</p>
-			</div>
 		</div>
 
 		<hr>
 
 		<footer>
-			<p>&copy; ${appconfig.siteName} 2012</p>
+			<p>&copy; ${appconfig.siteName} 2013</p>
 		</footer>
 
 	</div>

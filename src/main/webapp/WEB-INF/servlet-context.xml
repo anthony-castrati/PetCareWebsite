@@ -8,7 +8,7 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
 	<!-- Scans the classpath of this application for @Components to deploy as beans -->
-	<context:component-scan base-package="com.castrati.fureverfriends.controller" />
+	<context:component-scan base-package="com.castrati.capcitypetcare.controller" />
 
 	<!-- Configures the @Controller programming model -->
 	<mvc:annotation-driven />
@@ -52,15 +52,15 @@
 	</bean>
 	
     <!-- Use this as an application-wide properties object -->
-	<bean class="com.castrati.fureverfriends.beans.ApplicationConfig" id="appconfig" scope="singleton">
+	<bean class="com.castrati.capcitypetcare.beans.ApplicationConfig" id="appconfig" scope="singleton">
 		<property name="administratorEmail" value="anthonyvcastrati@gmail.com"/>
 		<property name="siteName" value="Capital City Pet Care"/>
 		<property name="url" value="http://google.com"/>
-		<property name="projectName" value="fureverfriends"/>
+		<property name="projectName" value="capcitypetcare"/>
 	</bean>
     
     <!-- Set these to add navigation items -->
-    <bean class="com.castrati.fureverfriends.beans.Navigation" id="nav" scope="singleton">
+    <bean class="com.castrati.capcitypetcare.beans.Navigation" id="nav" scope="singleton">
       <property name="navItems">
         <map>
           <entry key="home" value="Home"/>
@@ -73,22 +73,22 @@
     </bean>
     
     <!-- Carousel Images.  Use key as the picture location and value as the caption -->
-    <bean class="com.castrati.fureverfriends.beans.Carousel" id="carousel" scope="singleton">
+    <bean class="com.castrati.capcitypetcare.beans.Carousel" id="carousel" scope="singleton">
       <property name="scrollingImages">
         <map>
-          <entry key="/fureverfriends/resources/img/Midge Eye.png" value="My Cat Midge aka Meeeeeeeedge!"/>
-          <entry key="/fureverfriends/resources/img/Panda Eyes.jpg" value="My Cat Pandora aka Panda Bear"/>
-          <entry key="/fureverfriends/resources/img/Kakarot Head.jpg" value="The Tailless Kakarot aka Goku"/>
-          <entry key="/fureverfriends/resources/img/Icarus Banner.jpg" value="The Great Flying Icarus"/>
-          <entry key="/fureverfriends/resources/img/Apollo Head.png" value="Apollo In the Snow"/>
-          <entry key="/fureverfriends/resources/img/Google Banner.jpg" value="Google the Chameleon"/>
-          <entry key="/fureverfriends/resources/img/Pixel Banner.jpg" value="Pixel's Spikes"/>
+          <entry key="/capcitypetcare/resources/img/Midge Eye.png" value="My Cat Midge aka Meeeeeeeedge!"/>
+          <entry key="/capcitypetcare/resources/img/Panda Eyes.jpg" value="My Cat Pandora aka Panda Bear"/>
+          <entry key="/capcitypetcare/resources/img/Kakarot Head.jpg" value="The Tailless Kakarot aka Goku"/>
+          <entry key="/capcitypetcare/resources/img/Icarus Banner.jpg" value="The Great Flying Icarus"/>
+          <entry key="/capcitypetcare/resources/img/Apollo Head.png" value="Apollo In the Snow"/>
+          <entry key="/capcitypetcare/resources/img/Google Banner.jpg" value="Google the Chameleon"/>
+          <entry key="/capcitypetcare/resources/img/Pixel Banner.jpg" value="Pixel's Spikes"/>
         </map>
       </property>
     </bean>
     
     <!-- State List -->
-    <bean class="com.castrati.fureverfriends.beans.States" id="states" scope="singleton">
+    <bean class="com.castrati.capcitypetcare.beans.States" id="states" scope="singleton">
       <property name="states">
         <map>
             <entry value="Alabama" key="AL"/>

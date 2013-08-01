@@ -28,7 +28,7 @@
 			      	<p>AM, Midday, PM, Late Night</p>
 			      	</div>
 			      	<p class="description">
-			      	<small>Our most popular visit! Designed for pets who just need a bathroom break with short walk, food, water, litter box scoop, and a little TLC. Call it our "in and out" visit.</small>
+			      	<small>Our most popular visit! Includes a bathroom break with short walk, food, water, litter box scoop, complementary services** and a little TLC.</small>
 			      	</p>
 		      	</div>
 		      	<div class="span4 tier text-center">
@@ -40,7 +40,7 @@
 			      	<p>AM, Midday, PM</p>
 			      	</div>
 			      	<p class="description">
-			      	<small>This visit includes a bathroom break and lengthy walk, fresh water and food, litter box scooping, complimentary services, and lots of belly rubs and head scratches!</small>
+			      	<small>This visit includes a bathroom break and lengthy walk, fresh water and food, litter box scooping, complementary services**, and lots of belly rubs!</small>
 			      	</p>
 		      	</div>
 		      	<div class="span4 tier text-center">
@@ -52,14 +52,18 @@
 			      	<p>Midday Visit Only</p>
 			      	</div>
 			      	<p class="description">
-			      	<small>This visit includes a bathroom break, extended walk and play time, fresh water and food, litter box scooping, complimentary services, and extra TLC!</small>
+			      	<small>This visit includes a bathroom break, extended walk and play time, fresh water and food, litter box scooping, complementary services**, and extra TLC!</small>
 			      	</p>
 		      	</div>
       		</div><br>
       		<div class="row">
       			<div class="span12">
-      			<div class="well well-small">
-      			<strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each additional cat is $2 and each additional dog is $3</div>
+	      			<div class="well well-small">
+	      				<strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each additional cat is $2 and each additional dog is $3
+	      			</div>
+	      			<div class="well well-small">
+					  <strong>**</strong> Complementary Services: Mail Collection, Trash Service, Light Rotation and Indoor Plant Watering
+					</div>
       			</div>
       		</div>
       		<br>
@@ -98,6 +102,37 @@
 					      	</div>
 	      			</div>
       		</div>
+      		<br>
+      		<h2>Add-on Services</h2>
+      		<blockquote>
+			  <p>We offer many other services</p>
+			</blockquote>
+			<br>
+			<div>
+				<ul class="thumbnails">
+	            <li class="span5">
+	              Medication Administration 
+				Oral/Topical $1
+				Injectible $2
+				Sub Q $5
+	            </li>
+	            <li class="span4">
+	              Kitty caps/Soft Paw application - $15+
+				Application Only     $12
+				Kitty Caps Included  $18
+	            </li>
+	            <li class="span3">
+	              Anal Sac Expression $15
+	            </li>
+	            <li class="span4">
+	              Ear Cleaning $5+
+	            </li>
+	            <li class="span3">
+	              Teeth Brushing $2
+	            </li>
+	          </ul>
+			</div>
+			
       <hr>
 
       <footer>
