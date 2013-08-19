@@ -66,7 +66,7 @@
           <entry key="home" value="Home"/>
           <entry key="about" value="About Us"/>
           <entry key="services" value="Services"/>
-          <entry key="contact" value="Contact"/>
+          <entry key="contact" value="Contact Us"/>
         </map>
       </property>
     </bean>

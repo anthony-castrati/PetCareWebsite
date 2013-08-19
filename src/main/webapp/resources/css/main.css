@@ -1,6 +1,5 @@
 body{
-	padding-top: 60px;
-    padding-bottom: 40px;
+	padding-top:70px;
 	font-size:18px;
 	background-color:#DEDEDE;
 	-webkit-background-size: 10px 10px;
@@ -32,8 +31,8 @@ body{
   margin-bottom: 20px;
 }
 .contact {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 24px;
+  line-height: 30px;
 }
 .price{
 	font-size:40px;
@@ -56,4 +55,21 @@ p.description{
 }
 .separator{
 	border-right:1px solid #DDD;
+}
+#myCarousel{
+	margin-bottom:20px;
+}
+.page-header{
+	border-bottom: 1px solid #aaa;
+}
+footer{
+	padding-top: 40px;
+	padding-bottom: 30px;
+	margin-top: 40px;
+	text-align: center;
+	border-top: 1px solid #aaa;
+	background-color: #dedede;
+}
+h2{
+	color:#BF2C7D;
 }

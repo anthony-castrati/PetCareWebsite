@@ -6,8 +6,7 @@
 
     <!-- Le styles -->
     <link href="<%=request.getContextPath()%>/resources/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<%=request.getContextPath()%>/resources/css/bootstrap-glyphicons.css" rel="stylesheet">
-    <link href="<%=request.getContextPath()%>/resources/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="<%=request.getContextPath()%>/resources/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 	<link href="<%=request.getContextPath()%>/resources/css/main.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->

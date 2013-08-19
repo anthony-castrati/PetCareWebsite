@@ -13,13 +13,7 @@
       <div class="row span9">
         <div id="map_canvas"></div>
       </div>
-    </div> <!-- /container -->
-      <hr>
-
-      <footer>
-        <p>&copy; ${appconfig.siteName} 2012</p>
-      </footer>
-    
+    </div>
   <jsp:include page="footer.jsp"/>
   
     <script type="text/javascript"

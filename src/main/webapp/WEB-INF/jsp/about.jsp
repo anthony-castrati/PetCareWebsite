@@ -15,10 +15,11 @@
       
 
       <div class="container">
-        <h1>About Us</h1>
-        <br>
+        <div class="page-header">
+	   		<h1 class="text-center">About Us</h1>
+	   	</div>
         <div class="row">
-        	<div class="span12">
+        	<div class="col-md-12">
         		<div class="hero-unit">
 			        <img class="pull-left img-rounded about-image" src="/${appconfig.projectName}/resources/img/about.jpg">
 			        <p>Hello! My name is Alexxis Castrati, owner and operator of Capital City Pet Care. I have been caring for pets since the age of 16 and have found those moments to be one of the most precious to me. After working several years at a boarding kennel, a veterinary hospital, and pet sitting part-time I decided to open Capital City Pet Care so that I may offer a more personal and catered type of pet care. Our pets are like our children and we want nothing but the best for them. Home care is a special type of service that allows me to take care of your pets in their own environment while you are away from home. Less stress equals happier and healthier pets!</p>
@@ -31,14 +32,7 @@
 			</div>
         </div>
       </div>
-      <hr>
-
-      <footer>
-        <p>&copy; ${appconfig.siteName} 2012</p>
-      </footer>
-
-    </div> <!-- /container -->
-
+    </div>
   <jsp:include page="footer.jsp"/>
   </body>
 </html>

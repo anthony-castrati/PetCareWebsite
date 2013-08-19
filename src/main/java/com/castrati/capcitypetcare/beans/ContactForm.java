@@ -35,6 +35,16 @@ public class ContactForm {
     @NotBlank(message="pet information required")
     private String pets;
     
+    private String heardfrom;
+    
+		public String getHeardfrom() {
+		return heardfrom;
+	}
+
+	public void setHeardfrom(String heardfrom) {
+		this.heardfrom = heardfrom;
+	}
+
 		public String getPets() {
 		return pets;
 	}
