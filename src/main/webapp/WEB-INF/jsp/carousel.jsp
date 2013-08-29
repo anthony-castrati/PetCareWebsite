@@ -1,11 +1,11 @@
               <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
               <div id="myCarousel" class="carousel slide">
-	              <ol class="carousel-indicators">
-	              	<%int i = 0; %>
-	                  <c:forEach items="${carousel.scrollingImages}" var="entry">
-	                  <li data-target="#myCarousel" data-slide-to="<%= i %>" class="<%= i++ == 0 ? "active" : ""%>"></li>
-	                  </c:forEach>
-				  </ol>
+                  <ol class="carousel-indicators">
+                    <%int i = 0; %>
+                      <c:forEach items="${carousel.scrollingImages}" var="entry">
+                      <li data-target="#myCarousel" data-slide-to="<%= i %>" class="<%= i++ == 0 ? "active" : ""%>"></li>
+                      </c:forEach>
+                  </ol>
                 <div class="carousel-inner">
                   <%i = 0; %>
                   <c:forEach items="${carousel.scrollingImages}" var="entry">

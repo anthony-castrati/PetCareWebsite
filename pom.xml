@@ -7,11 +7,9 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>capcitypetcare Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  
   <properties>
-		<spring.version>3.0.5.RELEASE</spring.version>
-	</properties>
-	
+        <spring.version>3.0.5.RELEASE</spring.version>
+    </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -19,52 +17,47 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
- 
-	<!-- Spring 3 dependencies -->
-	<dependency>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring-core</artifactId>
-		<version>${spring.version}</version>
-	</dependency>
+    <!-- Spring 3 dependencies -->
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-core</artifactId>
+        <version>${spring.version}</version>
+    </dependency>
 
-	<dependency>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring-web</artifactId>
-		<version>${spring.version}</version>
-	</dependency>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-web</artifactId>
+        <version>${spring.version}</version>
+    </dependency>
 
-	<dependency>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring-webmvc</artifactId>
-		<version>${spring.version}</version>
-	</dependency>
-  
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-webmvc</artifactId>
+        <version>${spring.version}</version>
+    </dependency>
     <!-- Hibernate Validator -->
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-validator</artifactId>
-			<version>4.2.0.Final</version>
-		</dependency>
-              
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>4.2.0.Final</version>
+        </dependency>
     <dependency>
       <groupId>jstl</groupId>
       <artifactId>jstl</artifactId>
       <version>1.2</version>
     </dependency>
     <dependency>
-		<groupId>javax.servlet</groupId>
-		<artifactId>servlet-api</artifactId>
-		<version>3.0-alpha-1</version>
-		<scope>provided</scope>
-	</dependency>
-	<dependency>
-	<groupId>javax.mail</groupId>
-	<artifactId>mail</artifactId>
-	<version>1.4</version>
+        <groupId>javax.servlet</groupId>
+        <artifactId>servlet-api</artifactId>
+        <version>3.0-alpha-1</version>
+        <scope>provided</scope>
+    </dependency>
+    <dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>mail</artifactId>
+    <version>1.4</version>
 </dependency>
   </dependencies>
-  
-            
   <build>
     <finalName>capcitypetcare</finalName>
     <plugins>
@@ -76,15 +69,15 @@
                         <target>1.6</target>
                 </configuration>
         </plugin>
-	<plugin>
-		<groupId>org.codehaus.mojo</groupId>
-		<artifactId>tomcat-maven-plugin</artifactId>
-		<configuration>
-			<url>http://127.0.0.1:8080/manager/text</url>
-			<server>TomcatServer</server>
-			<path>/capcitypetcare</path>
-		</configuration>
-	</plugin>
+    <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>tomcat-maven-plugin</artifactId>
+        <configuration>
+            <url>http://127.0.0.1:8080/manager/text</url>
+            <server>TomcatServer</server>
+            <path>/capcitypetcare</path>
+        </configuration>
+    </plugin>
    </plugins>
   </build>
 </project>
