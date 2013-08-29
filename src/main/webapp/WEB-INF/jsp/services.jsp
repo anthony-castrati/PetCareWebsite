@@ -65,11 +65,13 @@
       		<div class="row">
       			<div class="col-md-12">
 	      			<div class="well well-small">
-	      				<strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each additional pet is $3
+	      				<strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each additional pet is $3 (small animal & exotic pet care - contact us for a quote)<br>
+					<br>
+					<strong>**</strong> Complementary Services: Mail Collection, Trash Service, Light Rotation, Blinds Rotation, Open/Close Windows and Indoor Plant Watering.  We will do our best to give your home that lived-in appearance.
 	      			</div>
 	      			<div class="well well-small">
-					  <strong>**</strong> Complementary Services: Mail Collection, Trash Service, Light Rotation and Indoor Plant Watering
-					</div>
+					<strong>Key Pickup/Return</strong> - Generally we keep your keys for future visits, but if you would like us to pick up or drop off your key for each reservation, we can provide this service to you for <strong>$10</strong> per service.
+	      			</div>
       			</div>
       		</div>
       		<br>
@@ -100,7 +102,7 @@
 	      			<div class="col-md-3">
 	      				<div class="text-center nails">
 	      					<h4>3+ Pets</h4>
-	      					<span class="muted price"><strong>$10/pet</strong></span>
+	      					<span class="muted price"><strong>$13/pet</strong></span>
 	      					<div class="detail subtle">
 					      	Regular Finish
 					      	</div>
@@ -119,24 +121,70 @@
       		<br>
       		<h2>Add-on Services</h2>
       		<blockquote>
-			  <p>We offer many other services</p>
+			  <p>We offer many other services which you can add on to your existing visit or nail trim.  Add-on services can also be purchased as a standalone service.  Please call for a quote.</p>
 			</blockquote>
 			<br>
 			<div class="row">
 				<div class="col-md-4">
-					<h4>Medication Administration</h4><br>
-					Oral/Topical <strong>$1</strong><br>
-					Injectible <strong>$2</strong><br>
-					Sub Q <strong>$5</strong>
+					<div class="service">
+						<h4>Medication Administration</h4>
+						<table>
+					        <tbody>
+					          <tr>
+					            <td>Oral & Topical</td>
+					            <td><strong>$1</strong></td>
+					          </tr>
+					          <tr>
+					            <td>Injectable</td>
+					            <td><strong>$2</strong></td>
+					          </tr>
+					          <tr>
+					            <td>Sub Q</td>
+					            <td><strong>$5</strong></td>
+					          </tr>
+					        </tbody>
+					      </table>
+					</div>
 				</div>
 				<div class="col-md-4">
-					<h4>Kitty Caps/Soft Paw Application</h4><br>
-					Application Only <strong>$12</strong><br>
-					Kitty Caps Included <strong>$18</strong>
+					<div class="service">
+						<h4>Kitty Caps/Soft Paw Application</h4>
+						<table>
+					        <tbody>
+					          <tr>
+					            <td>Application Only</td>
+					            <td><strong>$10</strong></td>
+					          </tr>
+					          <tr>
+					            <td>Kitty Caps Included</td>
+					            <td><strong>$15</strong></td>
+					          </tr>
+					        </tbody>
+					      </table>
+					</div>
 				</div>
 				<div class="col-md-4">
-					<h4>Anal Sac Expression</h4> <strong>$5</strong>
+					<div class="service">
+						<h4>Other Services</h4>
+						<table>
+						<tbody>
+					          <tr>
+					            <td>Anal Sac Expression</td>
+					            <td><strong>$15</strong></td>
+					          </tr>
+					          <tr>
+					            <td>House Sitting *</td>
+					            <td><strong>$16</strong></td>
+					          </tr>
+					        </tbody>
+					      </table>
+					</div>
 				</div>
+			</div>
+			<div class="col-md-12">
+	      			<div class="well well-small">
+					* For the price of an express visit we will watch your home and you will receive all of our complementary services.
+	      			</div>
 			</div>
 		</div>
   <jsp:include page="footer.jsp"/>

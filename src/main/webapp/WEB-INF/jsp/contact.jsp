@@ -35,7 +35,7 @@
 		          <form:errors path="*" cssClass="alert alert-error" element="div" />
 		          <div class="form-group">
 		            <label for="name">Full Name</label>
-		              <form:input id="name" path="name" placeholder="Full Name" cssClass="form-control" cssErrorClass="error"/>
+		              <form:input id="name" path="name" placeholder="Full Name" cssClass="form-control"/>
 		              <form:errors path="name" cssClass="error" />
 		          </div>
 		          <div class="form-group">
@@ -61,7 +61,7 @@
 		              <form:errors path="state" cssClass="error" />
 		          </div>
 		          <div class="form-group">
-		            <label for="state">Zip</label>
+		            <label for="zip">Zip</label>
 		                <form:input cssClass="form-control" id="zip" path="zip" placeholder="Zip" />
 		                <form:errors path="zip" cssClass="error" />
 		          </div>
@@ -76,7 +76,7 @@
 		                <form:errors path="pets" cssClass="error" />
 		          </div>
 		          <div class="form-group">
-		            <label for="pets">How did you hear about us?</label>
+		            <label for="heardfrom">How did you hear about us?</label>
 		                <form:input cssClass="form-control" id="heardfrom" path="heardfrom" placeholder="Google, Care.com, etc" />
 		                <form:errors path="heardfrom" cssClass="error" />
 		          </div>
