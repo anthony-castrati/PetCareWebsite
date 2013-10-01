@@ -17,7 +17,6 @@
       		</div>
       		
       		<h2>Visits</h2>
-      		<br>
 	      	<div class="row">
 		      	<div class="col-md-4 ">
 		      		<div class="tier text-center">
@@ -43,7 +42,7 @@
 				      	<p>AM, Midday, PM</p>
 				      	</div>
 				      	<p class="description">
-				      	<small>This visit includes a bathroom break and lengthy walk, fresh water and food, litter box scooping, complementary services**, and lots of belly rubs!</small>
+				      	<small>Includes a bathroom break and lengthy walk, fresh water and food, litter box scoop, complementary services**, and lots of belly rubs!</small>
 				      	</p>
 					</div>
 		      	</div>
@@ -57,29 +56,30 @@
 				      	<p>Midday Visit Only</p>
 				      	</div>
 				      	<p class="description">
-				      	<small>This visit includes a bathroom break, extended walk and play time, fresh water and food, litter box scooping, complementary services**, and extra TLC!</small>
+				      	<small>Includes a bathroom break, extended walk and play time, fresh water and food, litter box scoop, complementary services**, and extra TLC!</small>
 				      	</p>
 			      	</div>
 		      	</div>
-      		</div><br>
+      		</div>
       		<div class="row">
       			<div class="col-md-12">
 	      			<div class="well well-small">
-	      				<strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each additional pet is $3 (small animal & exotic pet care - contact us for a quote)<br>
-					<br>
-					<strong>**</strong> Complementary Services: Mail Collection, Trash Service, Light Rotation, Blinds Rotation, Open/Close Windows and Indoor Plant Watering.  We will do our best to give your home that lived-in appearance.
+	      				<strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each additional cat is $2 and each additional dog is $3 (for small animal & exotic pet care - contact us for a quote)<br>
+						<br>
+						<strong>**</strong> Complementary Services: Mail Collection, Trash Service, Light Rotation, Blinds Rotation, Open/Close Windows and Indoor Plant Watering.  We will do our best to give your home that lived-in appearance.
 	      			</div>
 	      			<div class="well well-small">
-					<strong>Key Pickup/Return</strong> - Generally we keep your keys for future visits, but if you would like us to pick up or drop off your key for each reservation, we can provide this service to you for <strong>$10</strong> per service.
+						<strong>Key Pickup/Return</strong> - Generally we keep your keys for future visits, but if you would like us to pick up or drop off your key for each reservation, we can provide this service to you for <strong>$10</strong> per service.
+	      			</div>
+	      			<div class="well well-small">
+						<strong>Holiday Fees</strong> - A fee of <strong>$10</strong> will be added to each visit (up to <strong>$20</strong> maximum  per day) for services provided on each of the following holidays/non-holidays: New Year's Eve, New Year's Day, Memorial Day, Independence Day, Labor Day, Thanksgiving, Black Friday, Christmas Eve, and Christmas Day. 
 	      			</div>
       			</div>
       		</div>
-      		<br>
       		<h2>Nail Trims</h2>
       		<blockquote>
 			  <p>Nail trims can be difficult when doing them on your own. Let us help you skip the anxiety of cutting too short or let us help you get that smooth finish to keep you and your floor scratch free!</p>
 			</blockquote>
-      		<br>
       		<div class="row">
 	      			<div class="col-md-3">
 	      				<div class="text-center nails">
@@ -102,7 +102,7 @@
 	      			<div class="col-md-3">
 	      				<div class="text-center nails">
 	      					<h4>3+ Pets</h4>
-	      					<span class="muted price"><strong>$13/pet</strong></span>
+	      					<span class="muted price"><strong>$12/pet</strong></span>
 	      					<div class="detail subtle">
 					      	Regular Finish
 					      	</div>
@@ -118,16 +118,46 @@
 				      	</div>
 	      			</div>
       		</div>
-      		<br>
+            <h2>Expressions</h2>
+      		<blockquote>
+			  <p>Is your dog licking, scratching, scooting, or biting at its tail? Do you smell a funny odor? It may be time for an anal sac expression! Many factors can affect the anal sacs such as soft stools, allergies, and the quality of their food. Having a full sac can become uncomfortable, impacted, or infected.</p>
+			</blockquote>
+      		<div class="row">
+	      			<div class="col-md-6">
+	      				<div class="text-center nails">
+	      					<h4>Standalone</h4>
+	      					<span class="muted price"><strong>$18</strong></span>
+	      					<div class="detail">
+					      	Internal Expression
+					      	</div>
+				      	</div>
+	      			</div>
+	      			<div class="col-md-6">
+	      				<div class="text-center nails">
+	      					<h4>Add-on</h4>
+	      					<span class="muted price"><strong>$15</strong></span>
+	      					<div class="detail">
+					      	Internal Expression
+					      	</div>
+				      	</div>
+	      			</div>
+	      			
+      		</div>
+            <div class="row">
+                <div class="col-md-12">
+                        <div class="well well-small">
+                            Nail trim prices are applicable for nail trims where the owner is able to hold/restrain the pet(s). When scheduling a nail trim, please inform us if you are unable to restrain your pet or would like another person to help with restraint. For an additional <strong>$10</strong> we can provide a second member of Capital City Pet Care to assist with your nail trim reservation.
+                        </div>
+                </div>
+            </div>
       		<h2>Add-on Services</h2>
       		<blockquote>
 			  <p>We offer many other services which you can add on to your existing visit or nail trim.  Add-on services can also be purchased as a standalone service.  Please call for a quote.</p>
 			</blockquote>
-			<br>
 			<div class="row">
 				<div class="col-md-4">
 					<div class="service">
-						<h4>Medication Administration</h4>
+						<h4>Medication Administration*</h4>
 						<table>
 					        <tbody>
 					          <tr>
@@ -169,11 +199,11 @@
 						<table>
 						<tbody>
 					          <tr>
-					            <td>Anal Sac Expression</td>
-					            <td><strong>$15</strong></td>
+					            <td>Teeth Brushing</td>
+					            <td><strong>$3</strong></td>
 					          </tr>
 					          <tr>
-					            <td>House Sitting *</td>
+					            <td>House Sitting</td>
 					            <td><strong>$16</strong></td>
 					          </tr>
 					        </tbody>
@@ -181,11 +211,13 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-12">
-	      			<div class="well well-small">
-					* For the price of an express visit we will watch your home and you will receive all of our complementary services.
+			<div class="row">
+                <div class="col-md-12">
+					<div class="well well-small">
+	      				<strong>*</strong> Medication administration prices are based on one pet per visit.
 	      			</div>
-			</div>
+      			</div>
+   			</div>
 		</div>
   <jsp:include page="footer.jsp"/>
   </body>

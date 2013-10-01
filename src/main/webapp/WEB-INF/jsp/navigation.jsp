@@ -8,7 +8,8 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="<%=request.getContextPath()%>">${appconfig.siteName}</a>
+            <img class="visible-xs" src="/capcitypetcare/resources/img/CapitalCityPetCareLogo.png">
+          <a class="navbar-brand" href="<%=request.getContextPath()%>">${appconfig.siteName}</a>
 	    </div>
 	    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 	      <ul class="nav navbar-nav">

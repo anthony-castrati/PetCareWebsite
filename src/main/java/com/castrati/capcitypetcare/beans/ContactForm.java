@@ -32,6 +32,9 @@ public class ContactForm {
     @NotBlank(message="message required")
     private String message;
     
+    @NotBlank(message="phone number required")
+    private String phone;
+    
     @NotBlank(message="pet information required")
     private String pets;
     
@@ -99,6 +102,14 @@ public class ContactForm {
 
 		public void setZip(String zip) {
 			this.zip = zip;
+		}
+
+		public String getPhone() {
+			return phone;
+		}
+
+		public void setPhone(String phone) {
+			this.phone = phone;
 		}
 
 		public String getMessage() {

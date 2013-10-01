@@ -9,16 +9,23 @@
 <body>
 	<jsp:include page="navigation.jsp" />
 	<div class="container">
-		<div class="page-header">
-	   		<h1 class="text-center">Capital City Pet Care</h1>
-	   	</div>
-		<jsp:include page="carousel.jsp" />
+        <div class="banner">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-4 hidden-xs logo">
+                    <img src="/${appconfig.projectName}/resources/img/CapitalCityPetCareLogo.png"><br>
+                    Capital City<br>Pet Care
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-12 hidden-print">
+                    <jsp:include page="carousel.jsp" />
+                </div>
+            </div>
+        </div>
 		<!-- Example row of columns -->
 		<div class="row">
 			<div class="col-md-4">
 				<h2>Our Services</h2>
 				<p>
-					Capital City Pet Care provides service for dogs, cats, small animals and exotics.  We are proud to offer daily visits, dog walking, medication administration, nail trims and much more! For more information, please check out our <a href="services">services</a> page.
+					Capital City Pet Care is a licensed, insured and bonded pet service that provides care for dogs, cats, small animals and exotics in Raleigh andKnightdale.  We are proud to offer daily visits, dog walking, medication administration, nail trims and much more! For more information, please check out our <a href="services">services</a> page.
 				</p>
 			</div>
 			<div class="col-md-4">
