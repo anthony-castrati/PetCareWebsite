@@ -12,26 +12,26 @@
         <div class="banner">
             <div class="row">
                 <div class="col-md-3 col-sm-3 col-xs-4 hidden-xs logo">
-                    <img src="/${appconfig.projectName}/resources/img/CapitalCityPetCareLogo.png"><br>
+                    <img src="img/CapitalCityPetCareLogo.png"><br>
                     Capital City<br>Pet Care
                 </div>
                 <div class="col-md-9 col-sm-9 col-xs-12 hidden-print">
                     <jsp:include page="carousel.jsp" />
                 </div>
             </div>
-        </div>
+        </div><br>
 		<!-- Example row of columns -->
 		<div class="row">
 			<div class="col-md-4">
-				<h2>Our Services</h2>
+				<h2>Free Consultation</h2>
 				<p>
-					Capital City Pet Care is a licensed, insured and bonded pet service that provides care for dogs, cats, small animals and exotics in Raleigh andKnightdale.  We are proud to offer daily visits, dog walking, medication administration, nail trims and much more! For more information, please check out our <a href="services">services</a> page.
+					Initial consultation is free if you book with us before or during your consultation! We will travel to your home to meet with you and your pet one on one to create a specialized care plan for you and your extended family. <a href="contact">Contact us</a> today!
 				</p>
 			</div>
 			<div class="col-md-4">
-				<h2>Free Consultation</h2>
+				<h2>Our Services</h2>
 				<p>
-					Initial consultation is free! We will travel to your home to meet with you and your pet one on one to create a specialized care plan for you and your extended family. <a href="contact">Contact us</a> today!
+					Capital City Pet Care is a licensed, bonded and insured pet service that provides care for dogs, cats, small animals and exotics in Raleigh and Knightdale.  We are proud to offer daily visits, dog walking, medication administration, nail trims and much more! For more information, please check out our <a href="services">services</a> page.
 				</p>
 			</div>
 			<div class="col-md-4">

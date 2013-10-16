@@ -5,18 +5,31 @@ body{
 	-webkit-background-size: 10px 10px, 100% auto;
 	-moz-background-size: 10px 10px, 100% auto;
 	background-size: 10px 10px, 100% auto;
-	background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
-	background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('/capcitypetcare/resources/img/floral-background.png');
-	background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('/capcitypetcare/resources/img/floral-background.png');
-	background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('/capcitypetcare/resources/img/floral-background.png');
-	background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('/capcitypetcare/resources/img/floral-background.png');
-	background-image: linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('/capcitypetcare/resources/img/floral-background.png');
+	background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent)), url('../img/floral-background.png');
+	background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('../img/floral-background.png');
+	background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('../img/floral-background.png');
+	background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('../img/floral-background.png');
+	background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('../img/floral-background.png');
+	background-image: linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('../img/floral-background.png');
     color:#111;
 }
-#gallery img{
-	width:15.5%;
-	border:2px solid black;
+.consultation, .nails, .service{
 	margin-bottom:10px;
+	background-color:#fff;
+	box-shadow: 0px 0px 8px #444;
+}
+
+blockquote{
+	border-left:0px;
+}
+#gallery a{
+	width:19%;
+	border:2px solid black;
+	display:inline-block;
+	margin-bottom:5px;
+}
+#gallery img{
+	width:100%
 }
 .service {
 	background-color: #fff;
@@ -73,9 +86,6 @@ body{
 	margin:30px;
 }
 .banner{
-    background-color:rgba(170, 170, 170, 0.6);
-    padding:20px;
-    border-radius:10px;
     font-size: 1.3em;
     font-weight:bold;
     font-family: "chantelli_antiquaregular",Helvetica,Arial;
@@ -110,6 +120,8 @@ p.description{
 	border-right:1px solid #DDD;
 }
 #myCarousel{
+	 border:5px solid #aaa;
+	 border-radius:5px;
 }
 .page-header{
 	border-bottom: 1px solid #aaa;

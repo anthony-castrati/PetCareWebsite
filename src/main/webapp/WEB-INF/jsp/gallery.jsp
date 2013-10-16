@@ -9,8 +9,8 @@
                
 
 
-	<link rel="stylesheet" href="/capcitypetcare/resources/photobox/photobox.css">
-	<script src='/capcitypetcare/resources/photobox/photobox.js'></script>
+	<link rel="stylesheet" href="resources/photobox/photobox.css">
+	<script src='resources/photobox/photobox.js'></script>
 	
      <script>
      !(function(){

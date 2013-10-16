@@ -26,9 +26,14 @@ public class HelloController {
 
 	@Autowired
 	private EmailHandler eh;
-
+	
+	@RequestMapping(method = RequestMethod.GET, value = "")
+	public String root(ModelMap model){
+		return home(model);
+	}
+	
     @RequestMapping(method = RequestMethod.GET, value = "home")
-    public String test(ModelMap model) {
+    public String home(ModelMap model) {
 
         model.addAttribute("title", "Home");
         return "welcomePage";
@@ -36,29 +41,33 @@ public class HelloController {
     }
 
     @RequestMapping(method = RequestMethod.GET, value = "about")
-    public String add(ModelMap model) {
+    public String about(ModelMap model) {
 
-        model.addAttribute("title", "About");
+        model.addAttribute("title", "About Us");
         return "about";
 
     }
 
     @RequestMapping(method = RequestMethod.GET, value = "contact")
-    public String heylexi(ModelMap model) {
+    public String contact(ModelMap model) {
         ContactForm bean = new ContactForm();
         model.addAttribute("contactForm", bean);
-        model.addAttribute("title", "Contact");
+        model.addAttribute("title", "Contact Us");
         return "contact";
     }
 
-    @RequestMapping(method = RequestMethod.POST, value = "contactForm")
-    public String testing(@Valid ContactForm contactForm, BindingResult result, ModelMap model) {
+    @RequestMapping(method = RequestMethod.POST, value = "contact")
+    public String contactPost(@Valid ContactForm contactForm, BindingResult result, ModelMap model) {
         if(result.hasErrors()){
-            //model.addAttribute("contactForm",contactForm);
-            return "contact";   //go back to contact
+            return "contact";
         }else{
-        	eh.sendMessage(contactForm);
-            return add(model);  //go to home
+        	String error = eh.sendMessage(contactForm);
+        	if(error != null){
+        		model.addAttribute("error",error);
+        	}else{
+    			model.addAttribute("success","Thank you for contacting us!  You will recieve a receipt of your request via email shortly.");
+        	}
+            return "contact";
         }
     }
 

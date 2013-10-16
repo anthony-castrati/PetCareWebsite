@@ -30,16 +30,27 @@
             		<div class="container">
 		                <div class="row"><div class="col-md-1 col-sm-1 col-xs-2"><i class="icon-phone icon-large"></i></div><div class="col-md-9 col-sm-9"><a href="tel://919-732-7302">919.723.7302</a></div></div>
 		                <div class="row"><div class="col-md-1 col-sm-1 col-xs-2"><i class="icon-envelope-alt icon-large"></i></div><div class="col-md-9 col-sm-9"><a href="mailto:alexxis@capcitypetcare.com">alexxis@capcitypetcare.com</a></div></div>
-		                <div class="row"><div class="col-md-1 col-sm-1 col-xs-2"><i class="icon-facebook-sign icon-large"></i></div><div class="col-md-9 col-sm-9"><a href="http://www.facebook.com/capcitypetcare">Capital City Pet Care</a></div></div>
+		                <div class="row"><div class="col-md-1 col-sm-1 col-xs-2"><i class="icon-facebook-sign icon-large"></i></div><div class="col-md-9 col-sm-9"><a href="http://www.facebook.com/capcitypetcare" target="_blank">Capital City Pet Care</a></div></div>
 	                </div>
                 </div>
             </div>
             <div class="col-md-6 col-md-offset-1">
-                <div class="row"><div class="col-md-12"><h2>Contact Form</h2></div></div><br>
+            	<div class="row">
+                	<div class="col-md-12">
+                		<jsp:include page="messaging.jsp"/>
+                	</div>
+                </div>
                 <!-- Contact Form -->
                 <div class="row">
+                	<div class="col-md-12">
+                		<blockquote>
+                		<p>Please fill out this form to ask us a question, request a service, or just to leave a friendly review!</p>
+                		</blockquote>
+                	</div>
+                </div>
+                <div class="row">
                 <div class="col-md-12">
-                <form:form commandName="contactForm" method="post" action="contactForm" role="form">
+                <form:form commandName="contactForm" method="post" action="contact" role="form">
                   <form:errors path="*" cssClass="alert alert-error" element="div" />
                   <div class="form-group">
                     <label for="name">Full Name</label>
@@ -102,7 +113,7 @@
                   </div>
                   <div class="form-group">
                         <button class="btn btn-primary" type="submit">Submit</button>
-                        <button class="btn" type="button">Clear</button>
+                        <button class="btn" type="button" onclick="$(this).closest('form').find('input[type=text], textarea, select').val('');">Clear</button>
                   </div>
                 </form:form>
                 </div>

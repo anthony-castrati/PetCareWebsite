@@ -1,233 +1,298 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
 	xmlns:mvc="http://www.springframework.org/schema/mvc"
 	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
 		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-	<!-- Scans the classpath of this application for @Components to deploy as beans -->
+	<!-- Scans the classpath of this application for @Components to deploy as 
+		beans -->
 	<context:component-scan base-package="com.castrati.capcitypetcare.controller" />
 
 	<!-- Configures the @Controller programming model -->
 	<mvc:annotation-driven />
 
 	<!-- Forwards requests to the "/" resource to the "welcome" view -->
-	<mvc:view-controller path="/" view-name="welcome"/>
+	<mvc:view-controller path="/" view-name="welcome" />
 
 	<!-- Configures Handler Interceptors -->
 	<mvc:interceptors>
-		<!-- Changes the locale when a 'locale' request parameter is sent; e.g. /?locale=de -->
+		<!-- Changes the locale when a 'locale' request parameter is sent; e.g. 
+			/?locale=de -->
 		<bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor" />
 	</mvc:interceptors>
 
-	<!-- Handles HTTP GET requests for /resources/** by efficiently serving up static resources in the ${webappRoot}/resources/ directory -->
+	<!-- Handles HTTP GET requests for /resources/** by efficiently serving 
+		up static resources in the ${webappRoot}/resources/ directory -->
 	<mvc:resources mapping="/resources/**" location="/resources/" />
 	<mvc:resources mapping="/img/**" location="/resources/img/" />
 	<mvc:resources mapping="/js/**" location="/resources/js/" />
 	<mvc:resources mapping="/css/**" location="/resources/css/" />
-	
+	<mvc:resources mapping="/fonts/**" location="/resources/fonts/" />
+	<mvc:resources mapping="/robots.txt" location="/resources/robots.txt" />
+	<mvc:resources mapping="/google22bcb22024c37a46.html"
+		location="/resources/google22bcb22024c37a46.html" />
+
+
 
 	<!-- Saves a locale change using a cookie -->
-	<bean id="localeResolver" class="org.springframework.web.servlet.i18n.CookieLocaleResolver" />
+	<bean id="localeResolver"
+		class="org.springframework.web.servlet.i18n.CookieLocaleResolver" />
 
-    <!-- Form Validation Bean -->
-    <bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean" />
+	<!-- Form Validation Bean -->
+	<bean id="validator"
+		class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean" />
 
 	<!-- Application Message Bundle -->
-	<bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+	<bean id="messageSource"
+		class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
 		<property name="basename" value="/WEB-INF/messages" />
 		<property name="cacheSeconds" value="0" />
 	</bean>
 
-	<!-- Resolves view names to protected .jsp resources within the /WEB-INF/views directory -->
-	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+	<!-- Resolves view names to protected .jsp resources within the /WEB-INF/views 
+		directory -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="exposedContextBeanNames">
-	      <list>
-	        <value>appconfig</value>
-            <value>nav</value>
-            <value>carousel</value>
-            <value>states</value>
-            <value>gallery</value>
-	      </list>
-	  	</property>
-		<property name="prefix" value="/WEB-INF/jsp/"/>
-		<property name="suffix" value=".jsp"/>
+			<list>
+				<value>appconfig</value>
+				<value>nav</value>
+				<value>carousel</value>
+				<value>states</value>
+				<value>gallery</value>
+			</list>
+		</property>
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />
 	</bean>
 
-    <!-- Use this as an application-wide properties object -->
-	<bean class="com.castrati.capcitypetcare.beans.ApplicationConfig" id="appconfig" scope="singleton">
-		<property name="administratorEmail" value="anthonyvcastrati@gmail.com"/>
-		<property name="siteName" value="Capital City Pet Care"/>
-		<property name="url" value="http://google.com"/>
-		<property name="projectName" value="capcitypetcare"/>
+	<!-- Use this as an application-wide properties object -->
+	<bean class="com.castrati.capcitypetcare.beans.ApplicationConfig"
+		id="appconfig" scope="singleton">
+		<property name="administratorEmail" value="anthonyvcastrati@gmail.com" />
+		<property name="siteName" value="Capital City Pet Care" />
+		<property name="url" value="http://google.com" />
+		<property name="projectName" value="capcitypetcare" />
+	</bean>
+	
+	<bean id="mail" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+	    <property name="locations">
+	        <value>classpath:com/castrati/capcitypetcare/properties/mail.properties</value>
+	    </property>
+	</bean>
+	
+	<!-- Set these to add navigation items -->
+	<bean class="com.castrati.capcitypetcare.beans.Navigation" id="nav"
+		scope="singleton">
+		<property name="navItems">
+			<map>
+				<entry key="home" value="Home" />
+				<entry key="about" value="About Us" />
+				<entry key="services" value="Services" />
+				<entry key="clients" value="Our Clients" />
+				<entry key="contact" value="Contact Us" />
+			</map>
+		</property>
 	</bean>
 
-    <!-- Set these to add navigation items -->
-    <bean class="com.castrati.capcitypetcare.beans.Navigation" id="nav" scope="singleton">
-      <property name="navItems">
-        <map>
-          <entry key="home" value="Home"/>
-          <entry key="about" value="About Us"/>
-          <entry key="services" value="Services"/>
-          <entry key="contact" value="Contact Us"/>
-          <entry key="clients" value="Our Clients"/>
-        </map>
-      </property>
-    </bean>
+	<!-- Carousel Images. Use key as the picture location and value as the caption -->
+	<bean class="com.castrati.capcitypetcare.beans.Carousel" id="carousel"
+		scope="singleton">
+		<property name="scrollingImages">
+			<map>
+				<entry key="img/MidgeEye.png" value="My Cat Midge aka Meeeeeeeedge!" />
+				<entry key="img/PandaEyes.png" value="My Cat Pandora aka Panda Bear" />
+				<entry key="img/KakarotHead.png" value="The Tailless Kakarot aka Goku" />
+				<entry key="img/IcarusBanner.png" value="The Great Flying Icarus" />
+				<entry key="img/ApolloHead.png" value="Apollo In the Snow" />
+				<entry key="img/GoogleBanner.png" value="Google the Chameleon" />
+				<entry key="img/PixelBanner.png" value="Pixel's Spikes" />
+				<entry key="img/Penelope.png" value="Penelope's Grinch Eyes" />
+				<entry key="img/NoobNibb.png" value="Nooblet and Nibblet" />
+			</map>
+		</property>
+	</bean>
 
-    <!-- Carousel Images.  Use key as the picture location and value as the caption -->
-    <bean class="com.castrati.capcitypetcare.beans.Carousel" id="carousel" scope="singleton">
-      <property name="scrollingImages">
-        <map>
-          <entry key="img/Midge Eye.png" value="My Cat Midge aka Meeeeeeeedge!"/>
-          <entry key="img/Panda Eyes.png" value="My Cat Pandora aka Panda Bear"/>
-          <entry key="img/Kakarot Head.png" value="The Tailless Kakarot aka Goku"/>
-          <entry key="img/Icarus Banner.png" value="The Great Flying Icarus"/>
-          <entry key="img/Apollo Head.png" value="Apollo In the Snow"/>
-          <entry key="img/Google Banner.png" value="Google the Chameleon"/>
-          <entry key="img/Pixel Banner.png" value="Pixel's Spikes"/>
-          <entry key="img/Penelope.png" value="Penelope's Grinch Eyes"/>
-        </map>
-      </property>
-    </bean>
+	<!-- State List -->
+	<bean class="com.castrati.capcitypetcare.beans.States" id="states"
+		scope="singleton">
+		<property name="states">
+			<map>
+				<entry key="AL" value="Alabama" />
+				<entry key="AK" value="Alaska" />
+				<entry key="AZ" value="Arizona" />
+				<entry key="AR" value="Arkansas" />
+				<entry key="CA" value="California" />
+				<entry key="CO" value="Colorado" />
+				<entry key="CT" value="Connecticut" />
+				<entry key="DE" value="Delaware" />
+				<entry key="DC" value="District of Columbia" />
+				<entry key="FL" value="Florida" />
+				<entry key="GA" value="Georgia" />
+				<entry key="HI" value="Hawaii" />
+				<entry key="ID" value="Idaho" />
+				<entry key="IL" value="Illinois" />
+				<entry key="IN" value="Indiana" />
+				<entry key="IA" value="Iowa" />
+				<entry key="KS" value="Kansas" />
+				<entry key="KY" value="Kentucky" />
+				<entry key="LA" value="Louisiana" />
+				<entry key="ME" value="Maine" />
+				<entry key="MD" value="Maryland" />
+				<entry key="MA" value="Massachusetts" />
+				<entry key="MI" value="Michigan" />
+				<entry key="MN" value="Minnesota" />
+				<entry key="MS" value="Mississippi" />
+				<entry key="MO" value="Missouri" />
+				<entry key="MT" value="Montana" />
+				<entry key="NE" value="Nebraska" />
+				<entry key="NV" value="Nevada" />
+				<entry key="NH" value="New Hampshire" />
+				<entry key="NJ" value="New Jersey" />
+				<entry key="NM" value="New Mexico" />
+				<entry key="NY" value="New York" />
+				<entry key="NC" value="North Carolina" />
+				<entry key="ND" value="North Dakota" />
+				<entry key="OH" value="Ohio" />
+				<entry key="OK" value="Oklahoma" />
+				<entry key="OR" value="Oregon" />
+				<entry key="PA" value="Pennsylvania" />
+				<entry key="RI" value="Rhode Island" />
+				<entry key="SC" value="South Carolina" />
+				<entry key="SD" value="South Dakota" />
+				<entry key="TN" value="Tennessee" />
+				<entry key="TX" value="Texas" />
+				<entry key="UT" value="Utah" />
+				<entry key="VT" value="Vermont" />
+				<entry key="VA" value="Virginia" />
+				<entry key="WA" value="Washington" />
+				<entry key="WV" value="West Virginia" />
+				<entry key="WI" value="Wisconsin" />
+				<entry key="WY" value="Wyoming" />
+			</map>
+		</property>
+	</bean>
 
-    <!-- State List -->
-    <bean class="com.castrati.capcitypetcare.beans.States" id="states" scope="singleton">
-      <property name="states">
-        <map>
-        	<entry key="AL" value="Alabama"/>
-        	<entry key="AK" value="Alaska"/>
-        	<entry key="AZ" value="Arizona"/>
-        	<entry key="AR" value="Arkansas"/>
-        	<entry key="CA" value="California"/>
-        	<entry key="CO" value="Colorado"/>
-        	<entry key="CT" value="Connecticut"/>
-        	<entry key="DE" value="Delaware"/>
-        	<entry key="DC" value="District of Columbia"/>
-        	<entry key="FL" value="Florida"/>
-        	<entry key="GA" value="Georgia"/>
-        	<entry key="HI" value="Hawaii"/>
-        	<entry key="ID" value="Idaho"/>
-        	<entry key="IL" value="Illinois"/>
-        	<entry key="IN" value="Indiana"/>
-        	<entry key="IA" value="Iowa"/>
-        	<entry key="KS" value="Kansas"/>
-        	<entry key="KY" value="Kentucky"/>
-        	<entry key="LA" value="Louisiana"/>
-        	<entry key="ME" value="Maine"/>
-        	<entry key="MD" value="Maryland"/>
-        	<entry key="MA" value="Massachusetts"/>
-        	<entry key="MI" value="Michigan"/>
-        	<entry key="MN" value="Minnesota"/>
-        	<entry key="MS" value="Mississippi"/>
-        	<entry key="MO" value="Missouri"/>
-        	<entry key="MT" value="Montana"/>
-        	<entry key="NE" value="Nebraska"/>
-        	<entry key="NV" value="Nevada"/>
-        	<entry key="NH" value="New Hampshire"/>
-        	<entry key="NJ" value="New Jersey"/>
-        	<entry key="NM" value="New Mexico"/>
-        	<entry key="NY" value="New York"/>
-        	<entry key="NC" value="North Carolina"/>
-        	<entry key="ND" value="North Dakota"/>
-        	<entry key="OH" value="Ohio"/>
-        	<entry key="OK" value="Oklahoma"/>
-        	<entry key="OR" value="Oregon"/>
-        	<entry key="PA" value="Pennsylvania"/>
-        	<entry key="RI" value="Rhode Island"/>
-        	<entry key="SC" value="South Carolina"/>
-        	<entry key="SD" value="South Dakota"/>
-        	<entry key="TN" value="Tennessee"/>
-        	<entry key="TX" value="Texas"/>
-        	<entry key="UT" value="Utah"/>
-        	<entry key="VT" value="Vermont"/>
-        	<entry key="VA" value="Virginia"/>
-        	<entry key="WA" value="Washington"/>
-        	<entry key="WV" value="West Virginia"/>
-        	<entry key="WI" value="Wisconsin"/>
-        	<entry key="WY" value="Wyoming"/>
-        </map>
-      </property>
-    </bean>
-    
-    <!-- Gallery Images.  Use key as the thumb location and value as the full image -->
-    <bean class="com.castrati.capcitypetcare.beans.Gallery" id="gallery" scope="singleton">
-      <property name="scrollingImages">
-        <map>
-            <entry key="img/clients/thumbnails/Addie_Thumb.png" value="img/clients/Addie.png"/>
-			<entry key="img/clients/thumbnails/Alderaan_Thumb.png" value="img/clients/Alderaan.jpg"/>
-			<entry key="img/clients/thumbnails/Alyeska_Thumb.png" value="img/clients/Alyeska.png"/>
-			<entry key="img/clients/thumbnails/Angel_Thumb.png" value="img/clients/Angel.png"/>
-			<entry key="img/clients/thumbnails/Barnaby_Thumb.png" value="img/clients/Barnaby.png"/>
-			<entry key="img/clients/thumbnails/Bella_Thumb.png" value="img/clients/Bella.png"/>
-			<entry key="img/clients/thumbnails/BessieMae_Thumb.png" value="img/clients/BessieMae.png"/>
-			<entry key="img/clients/thumbnails/Bo_Thumb.png" value="img/clients/Bo.png"/>
-			<entry key="img/clients/thumbnails/Bojangles_Thumb.png" value="img/clients/Bojangles.png"/>
-			<entry key="img/clients/thumbnails/Carter_Thumb.png" value="img/clients/Carter.png"/>
-			<entry key="img/clients/thumbnails/Chance_Thumb.png" value="img/clients/Chance.png"/>
-			<entry key="img/clients/thumbnails/Clarice_Thumb.png" value="img/clients/Clarice.png"/>
-			<entry key="img/clients/thumbnails/Cricket_Thumb.png" value="img/clients/Cricket.png"/>
-			<entry key="img/clients/thumbnails/Daffney_Thumb.png" value="img/clients/Daffney.png"/>
-			<entry key="img/clients/thumbnails/Ellie3_Thumb.png" value="img/clients/Ellie3.png"/>
-			<entry key="img/clients/thumbnails/Finley_Thumb.png" value="img/clients/Finley.png"/>
-			<entry key="img/clients/thumbnails/George_Thumb.png" value="img/clients/George.png"/>
-			<entry key="img/clients/thumbnails/Grace_Thumb.png" value="img/clients/Grace.png"/>
-			<entry key="img/clients/thumbnails/Herman_Thumb.png" value="img/clients/Herman.png"/>
-			<entry key="img/clients/thumbnails/Jack_Thumb.png" value="img/clients/Jack.png"/>
-			<entry key="img/clients/thumbnails/Jake_Thumb.png" value="img/clients/Jake.png"/>
-			<entry key="img/clients/thumbnails/Leo_Thumb.png" value="img/clients/Leo.png"/>
-			<entry key="img/clients/thumbnails/Lincoln_Thumb.png" value="img/clients/Lincoln.jpg"/>
-			<entry key="img/clients/thumbnails/Loca_Thumb.png" value="img/clients/Loca.png"/>
-			<entry key="img/clients/thumbnails/Lucy_Thumb.png" value="img/clients/Lucy.png"/>
-			<entry key="img/clients/thumbnails/Maggie_Thumb.png" value="img/clients/Maggie.png"/>
-			<entry key="img/clients/thumbnails/Marley_Thumb.png" value="img/clients/Marley.png"/>
-			<entry key="img/clients/thumbnails/Max_Thumb.png" value="img/clients/Max.png"/>
-			<entry key="img/clients/thumbnails/Mutley_Thumb.png" value="img/clients/Mutley.png"/>
-			<entry key="img/clients/thumbnails/Mya_Thumb.png" value="img/clients/Mya.png"/>
-			<entry key="img/clients/thumbnails/Nelli_Thumb.png" value="img/clients/Nelli.png"/>
-			<entry key="img/clients/thumbnails/Nellie_Thumb.png" value="img/clients/Nellie.jpg"/>
-			<entry key="img/clients/thumbnails/Nikita_Thumb.png" value="img/clients/Nikita.png"/>
-			<entry key="img/clients/thumbnails/OreoCat_Thumb.png" value="img/clients/OreoCat.png"/>
-			<entry key="img/clients/thumbnails/Oreo_Thumb.png" value="img/clients/Oreo.png"/>
-			<entry key="img/clients/thumbnails/Rinze_Thumb.png" value="img/clients/Rinze.png"/>
-			<entry key="img/clients/thumbnails/Rowan_Thumb.png" value="img/clients/Rowan.png"/>
-			<entry key="img/clients/thumbnails/Sabrina_Thumb.png" value="img/clients/Sabrina.png"/>
-			<entry key="img/clients/thumbnails/Sadie_Thumb.png" value="img/clients/Sadie.png"/>
-			<entry key="img/clients/thumbnails/Sam_Thumb.png" value="img/clients/Sam.png"/>
-			<entry key="img/clients/thumbnails/Simon_Thumb.png" value="img/clients/Simon.png"/>
-			<entry key="img/clients/thumbnails/Solo_Thumb.png" value="img/clients/Solo.png"/>
-			<entry key="img/clients/thumbnails/Stone_Thumb.png" value="img/clients/Stone.png"/>
-			<entry key="img/clients/thumbnails/Suki_Thumb.png" value="img/clients/Suki.png"/>
-			<entry key="img/clients/thumbnails/Sunny_Thumb.png" value="img/clients/Sunny.png"/>
-			<entry key="img/clients/thumbnails/Tribble_Thumb.png" value="img/clients/Tribble.png"/>
-        </map>
-      </property>
-    </bean>
-    
-    <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
-	  <property name="host"><value>smtpout.secureserver.net</value></property>
-        <property name="port"><value>465</value></property>
-        <property name="protocol"><value>smtps</value></property>
-        <property name="username"><value>info@capcitypetcare.com</value></property>
-        <property name="password"><value>Spriggan1</value></property>
-        <property name="javaMailProperties">
-            <props>
-                <prop key="mail.smtps.auth">true</prop>
-            	<prop key="mail.smtp.ssl.enable">true</prop>
-            	<prop key="mail.transport.protocol">smtps</prop>
-            </props>
-        </property>
+	<!-- Gallery Images. Use key as the thumb location and value as the full 
+		image -->
+	<bean class="com.castrati.capcitypetcare.beans.Gallery" id="gallery"
+		scope="singleton">
+		<property name="scrollingImages">
+			<map>
+				<entry key="img/clients/thumbnails/Addie_Thumb.png" value="img/clients/Addie.png" />
+				<entry key="img/clients/thumbnails/Alderaan_Thumb.png" value="img/clients/Alderaan.jpg" />
+				<entry key="img/clients/thumbnails/Alegra_Thumb.png" value="img/clients/Alegra.png" />
+				<entry key="img/clients/thumbnails/Alyeska_Thumb.png" value="img/clients/Alyeska.png" />
+				<entry key="img/clients/thumbnails/Angel_Thumb.png" value="img/clients/Angel.png" />
+				<entry key="img/clients/thumbnails/Barnaby_Thumb.png" value="img/clients/Barnaby.png" />
+				<entry key="img/clients/thumbnails/Bella_Thumb.png" value="img/clients/Bella.png" />
+				<entry key="img/clients/thumbnails/BessieMae_Thumb.png" value="img/clients/BessieMae.png" />
+				<entry key="img/clients/thumbnails/Bo_Thumb.png" value="img/clients/Bo.png" />
+				<entry key="img/clients/thumbnails/Bogey_Thumb.png" value="img/clients/Bogey.png" />
+				<entry key="img/clients/thumbnails/Bojangles_Thumb.png" value="img/clients/Bojangles.png" />
+				<entry key="img/clients/thumbnails/Carter_Thumb.png" value="img/clients/Carter.png" />
+				<entry key="img/clients/thumbnails/Chance_Thumb.png" value="img/clients/Chance.png" />
+				<entry key="img/clients/thumbnails/Clarisse_Thumb.png" value="img/clients/Clarisse.png" />
+				<entry key="img/clients/thumbnails/Cricket_Thumb.png" value="img/clients/Cricket.png" />
+				<entry key="img/clients/thumbnails/Daffney_Thumb.png" value="img/clients/Daffney.png" />
+				<entry key="img/clients/thumbnails/Ellie_Thumb.png" value="img/clients/Ellie.png" />
+				<entry key="img/clients/thumbnails/Fergie_Thumb.png" value="img/clients/Fergie.png" />
+				<entry key="img/clients/thumbnails/Finley_Thumb.png" value="img/clients/Finley.png" />
+				<entry key="img/clients/thumbnails/George_Thumb.png" value="img/clients/George.png" />
+				<entry key="img/clients/thumbnails/Grace_Thumb.png" value="img/clients/Grace.png" />
+				<entry key="img/clients/thumbnails/Granite_Thumb.png" value="img/clients/Granite.png" />
+				<entry key="img/clients/thumbnails/Herman_Thumb.png" value="img/clients/Herman.png" />
+				<entry key="img/clients/thumbnails/Hobble_Thumb.png" value="img/clients/Hobble.png" />
+				<entry key="img/clients/thumbnails/Jack_Thumb.png" value="img/clients/Jack.png" />
+				<entry key="img/clients/thumbnails/Jake_Thumb.png" value="img/clients/Jake.png" />
+				<entry key="img/clients/thumbnails/Kitty_Thumb.png" value="img/clients/Kitty.png" />
+				<entry key="img/clients/thumbnails/Leo_Thumb.png" value="img/clients/Leo.png" />
+				<entry key="img/clients/thumbnails/Lincoln_Thumb.png" value="img/clients/Lincoln.jpg" />
+				<entry key="img/clients/thumbnails/Lincoln_Thumb.png" value="img/clients/Lincoln.png" />
+				<entry key="img/clients/thumbnails/Loca_Thumb.png" value="img/clients/Loca.png" />
+				<entry key="img/clients/thumbnails/LucyS_Thumb.png" value="img/clients/LucyS.png" />
+				<entry key="img/clients/thumbnails/Maggie_Thumb.png" value="img/clients/Maggie.png" />
+				<entry key="img/clients/thumbnails/MaggieK_Thumb.png" value="img/clients/MaggieK.png" />
+				<entry key="img/clients/thumbnails/Marigold_Thumb.png" value="img/clients/Marigold.png" />
+				<entry key="img/clients/thumbnails/Marley_Thumb.png" value="img/clients/Marley.png" />
+				<entry key="img/clients/thumbnails/Max_Thumb.png" value="img/clients/Max.png" />
+				<entry key="img/clients/thumbnails/MaxK_Thumb.png" value="img/clients/MaxK.png" />
+				<entry key="img/clients/thumbnails/MaxR_Thumb.png" value="img/clients/MaxR.png" />
+				<entry key="img/clients/thumbnails/Mollie_Thumb.png" value="img/clients/Mollie.png" />
+				<entry key="img/clients/thumbnails/Monet_Thumb.png" value="img/clients/Monet.png" />
+				<entry key="img/clients/thumbnails/Mutley_Thumb.png" value="img/clients/Mutley.png" />
+				<entry key="img/clients/thumbnails/Mya_Thumb.png" value="img/clients/Mya.png" />
+				<entry key="img/clients/thumbnails/Nelli_Thumb.png" value="img/clients/Nelli.png" />
+				<entry key="img/clients/thumbnails/Nellie_Thumb.png" value="img/clients/Nellie.jpg" />
+				<entry key="img/clients/thumbnails/Nikita_Thumb.png" value="img/clients/Nikita.png" />
+				<entry key="img/clients/thumbnails/Ollie_Thumb.png" value="img/clients/Ollie.png" />
+				<entry key="img/clients/thumbnails/Onyx_Thumb.png" value="img/clients/Onyx.png" />
+				<entry key="img/clients/thumbnails/Oreo_Thumb.png" value="img/clients/Oreo.png" />
+				<entry key="img/clients/thumbnails/OreoCat_Thumb.png" value="img/clients/OreoCat.png" />
+				<entry key="img/clients/thumbnails/Rinze_Thumb.png" value="img/clients/Rinze.png" />
+				<entry key="img/clients/thumbnails/Rocco_Thumb.png" value="img/clients/Rocco.png" />
+				<entry key="img/clients/thumbnails/Roman_Thumb.png" value="img/clients/Roman.png" />
+				<entry key="img/clients/thumbnails/Rory_Thumb.png" value="img/clients/Rory.png" />
+				<entry key="img/clients/thumbnails/Rowan_Thumb.png" value="img/clients/Rowan.png" />
+				<entry key="img/clients/thumbnails/Roxie_Thumb.png" value="img/clients/Roxie.png" />
+				<entry key="img/clients/thumbnails/Sabrina_Thumb.png" value="img/clients/Sabrina.png" />
+				<entry key="img/clients/thumbnails/Sadie_Thumb.png" value="img/clients/Sadie.png" />
+				<entry key="img/clients/thumbnails/Sam_Thumb.png" value="img/clients/Sam.png" />
+				<entry key="img/clients/thumbnails/Simon_Thumb.png" value="img/clients/Simon.png" />
+				<entry key="img/clients/thumbnails/Solo_Thumb.png" value="img/clients/Solo.png" />
+				<entry key="img/clients/thumbnails/Stone_Thumb.png" value="img/clients/Stone.png" />
+				<entry key="img/clients/thumbnails/Suki_Thumb.png" value="img/clients/Suki.png" />
+				<entry key="img/clients/thumbnails/Sunny_Thumb.png" value="img/clients/Sunny.png" />
+				<entry key="img/clients/thumbnails/Talula_Thumb.png" value="img/clients/Talula.png" />
+				<entry key="img/clients/thumbnails/Tribble_Thumb.png" value="img/clients/Tribble.png" />
+			</map>
+		</property>
+	</bean>
+
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host">
+			<value>${host}</value>
+		</property>
+		<property name="port">
+			<value>${port}</value>
+		</property>
+		<property name="protocol">
+			<value>${protocol}</value>
+		</property>
+		<property name="username">
+			<value>${username}</value>
+		</property>
+		<property name="password">
+			<value>${password}</value>
+		</property>
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.smtps.auth">true</prop>
+				<prop key="mail.smtp.ssl.enable">true</prop>
+				<prop key="mail.transport.protocol">${protocol}</prop>
+			</props>
+		</property>
 	</bean>
 
 	<bean id="mailMessage" class="org.springframework.mail.SimpleMailMessage">
-	  <property name="from"><value>info@capcitypetcare.com</value></property>
-	  <property name="to"><value>alexxis@capcitypetcare.com</value></property>
-	  <property name="subject"><value>Service Request</value></property>
+		<property name="from">
+			<value>info@capcitypetcare.com</value>
+		</property>
+		<property name="to">
+			<value>alexxis@capcitypetcare.com</value>
+		</property>
+		<property name="subject">
+			<value>Service Request</value>
+		</property>
 	</bean>
-    <bean id="emailHandler" class="com.castrati.capcitypetcare.beans.EmailHandler">
-	  <property name="mailSender"><ref bean="mailSender"/></property>
-	  <property name="message"><ref bean="mailMessage"/></property>
+	<bean id="emailHandler" class="com.castrati.capcitypetcare.beans.EmailHandler">
+		<property name="mailSender">
+			<ref bean="mailSender" />
+		</property>
+		<property name="message">
+			<ref bean="mailMessage" />
+		</property>
 	</bean>
 </beans>

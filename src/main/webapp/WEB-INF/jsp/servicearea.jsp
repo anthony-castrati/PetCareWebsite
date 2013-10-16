@@ -21,7 +21,7 @@
     </script>
     <script type="text/javascript">
       function initialize() {
-    	var image = '/capcitypetcare/resources/img/NeedleWhite.png';
+    	var image = 'img/NeedleWhite.png';
     	
         var mapOptions = {
           center: new google.maps.LatLng(35.772056,-78.638488),
