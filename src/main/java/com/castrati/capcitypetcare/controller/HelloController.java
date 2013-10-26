@@ -15,6 +15,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.context.WebApplicationContext;
 
 import com.castrati.capcitypetcare.beans.ContactForm;
@@ -94,5 +95,26 @@ public class HelloController {
         return "clients";
 
     }
+   
+   @RequestMapping(method = RequestMethod.GET, value = "payments")
+   public String pay(@RequestParam(value = "action", required = false) String action, ModelMap model) {
+	   
+       model.addAttribute("title", "Payments");
+       if("cancel".equals(action)){
+    	   model.addAttribute("warning","You have successfully cancelled your payment.");
+    	   System.out.println(action);
+       }
+       return "payments";
 
+   }
+   
+   @RequestMapping(method = RequestMethod.POST, value = "payments")
+   public String payComplete(@RequestParam(value = "payment_gross")String amount, 
+	   	@RequestParam(value="payer_email")String email, ModelMap model) {
+	   
+	   model.addAttribute("success", "Thank you for your payment of $" + amount + ". You should receive email confirmation to '" + email +  "'.");
+       model.addAttribute("title", "Payments");
+       return "payments";
+
+   }
 }

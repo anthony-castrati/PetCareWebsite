@@ -241,7 +241,7 @@
                 <div class="col-md-12">
 					<div class="well well-small">
 	      				<p><strong><sup>1</sup></strong> Medication administration prices are based on one pet per visit.</p>
-	      				<p><strong><sup>2</sup></strong> Front paws only</p>
+	      				<p><strong><sup>2</sup></strong> Front paws only.</p>
 	      				<strong><sup>3</sup></strong> If you are locked out of your house, we can come let you in!
 	      			</div>
       			</div>

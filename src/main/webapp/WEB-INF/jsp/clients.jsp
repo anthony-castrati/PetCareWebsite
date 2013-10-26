@@ -40,7 +40,7 @@
 							<p>And knowing she is a Veterinary Assistant, gives me even more piece of mind.</p>
 							<p>My dogs love Alexxis! And my husband and I do too. She is very easy to schedule with, and when I e-mail her, I always hear back from her quickly.</p>
 							<p>I highly recommend Alexxis! You simply won't find anyone better.</p>
-							<p class="pull-right">--Beth M.</p>
+							<p class="pull-right">--Beth W.</p>
 						</div>
 	                </blockquote>
                 </div>
