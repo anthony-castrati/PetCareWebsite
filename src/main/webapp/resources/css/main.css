@@ -141,6 +141,9 @@ p.description{
 .error{
 	color:#ff0000;
 }
+#pbOverlay .wrapper img{
+	border:1px solid white;
+}
 footer{
 	padding-top: 40px;
 	padding-bottom: 30px;
