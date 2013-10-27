@@ -63,7 +63,7 @@ blockquote{
 }
 .detail img{
 	width:100%;
-	max-width:60px;
+	max-width:50px;
 }
 .detail{
 	color:#FFF;
@@ -72,6 +72,7 @@ blockquote{
 }
 .pay .tier .detail{
 	margin-bottom:20px;
+	height:40px;
 }
 .subtle{
 	background-color: #666;
