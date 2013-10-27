@@ -3,19 +3,7 @@
 <html lang="en">
 
   <head>
-    <style>
-    .error {
-      color: #ff0000;
-    }
-
-    .errorblock {
-      color: #000;
-      background-color: #ffEEEE;
-      border: 3px solid #ff0000;
-      padding: 8px;
-      margin: 16px;
-    }
-    </style>
+  	<meta name="description" content="Schedule a consultation, ask us a question about our services or just leave us a friendly message.">
     <jsp:include page="header.jsp"/>
   </head>
   <body>

@@ -3,6 +3,7 @@
 
 <head>
 <title>Home - ${appconfig.siteName}</title>
+<meta name="description" content="Capital City Pet Care is a licensed, bonded and insured pet service that provides care for dogs, cats, small animals and exotics in Raleigh, NC and Knightdale, NC">
 <jsp:include page="header.jsp" />
 </head>
 

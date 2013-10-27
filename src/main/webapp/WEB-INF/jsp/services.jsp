@@ -2,6 +2,7 @@
 <html lang="en">
 
   <head>
+  	<meta name="description" content="We offer free consultations, daily visits, dog walking, nail trims and expressions.">
     <jsp:include page="header.jsp"/>
   </head>
   

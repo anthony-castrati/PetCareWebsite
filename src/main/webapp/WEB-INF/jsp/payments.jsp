@@ -2,6 +2,7 @@
 <html lang="en">
 
   <head>
+  	<meta name="description" content="Capital City Pet Care accepts online payments via Paypal, and all major debit/credit cards.">
     <jsp:include page="header.jsp"/>
   </head>
   

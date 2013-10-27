@@ -99,7 +99,7 @@ public class HelloController {
    @RequestMapping(method = RequestMethod.GET, value = "payments")
    public String pay(@RequestParam(value = "action", required = false) String action, ModelMap model) {
 	   
-       model.addAttribute("title", "Payments");
+       model.addAttribute("title", "Payments: Pay Online");
        if("cancel".equals(action)){
     	   model.addAttribute("warning","You have successfully cancelled your payment.");
     	   System.out.println(action);
@@ -113,7 +113,7 @@ public class HelloController {
 	   	@RequestParam(value="payer_email")String email, ModelMap model) {
 	   
 	   model.addAttribute("success", "Thank you for your payment of $" + amount + ". You should receive email confirmation to '" + email +  "'.");
-       model.addAttribute("title", "Payments");
+       model.addAttribute("title", "Payments: Pay Online");
        return "payments";
 
    }

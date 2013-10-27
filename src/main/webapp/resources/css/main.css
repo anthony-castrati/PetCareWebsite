@@ -138,6 +138,9 @@ p.description{
 .page-header{
 	border-bottom: 1px solid #aaa;
 }
+.error{
+	color:#ff0000;
+}
 footer{
 	padding-top: 40px;
 	padding-bottom: 30px;

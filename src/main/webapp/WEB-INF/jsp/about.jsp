@@ -2,6 +2,7 @@
 <html lang="en">
 
   <head>
+  	<meta name="description" content="Capital City Pet Care has over 10 years experience caring for animals.  Servicing the Raleigh NC and Knightdale NC areas, we tailor our services to each pets individual needs.">
     <jsp:include page="header.jsp"/>
   </head>
   
@@ -18,7 +19,7 @@
 
                 <p>I graduated early from Mt. Olive College where I obtained my Bachelors of Science Degree in Biology. After Mt. Olive I took a semester at NCSU to study animal nutrition and anatomy. While in school I volunteered for several organizations to help out in the pet community. I was able to help shelter animals get adopted through <a href="http://www.pittfriends.com/" target="_blank">Pitt Friends</a>, rehabilitate local wildlife through the <a href="http://www.nczoo.org/animals/wildliferehabcenter.html" target="_blank">Wildlife Rehabilitation Center of Asheboro Zoo</a> and help raise money for the many cats in need through the <a href="http://www.marleyfund.com/" target="_blank">Marley Fund</a>.</p>
                 
-<img class="pull-right img-rounded about-image" src="img/Anthony.png">
+<img class="pull-right img-rounded about-image" src="img/Anthony.jpg">
 <p>My husband, Anthony, a North Carolina State University graduate also helps with pet care visits and website maintenance. We offer our sincerity and dedication to you and your pets and will strive to meet all of their individual needs. We treat every pet as if they were our own. You will have comfort in knowing the amount of love and care we provide to each individual pet.</p>
 
 <p>My husband and I are the proud parents of one goofy lab mix, Apollo, three quirky cats, Pandora, Penelope, and Midge, two spunky ferrets, Nibblet and Nooblet, one fearless chinchilla, Yoshimoto, one prickly hedgehog, Pixel and one crested gecko, Kakarot. They truly bring happiness to our everyday!</p>

@@ -103,15 +103,15 @@
 		scope="singleton">
 		<property name="scrollingImages">
 			<map>
-				<entry key="img/MidgeEye.png" value="My Cat Midge aka Meeeeeeeedge!" />
-				<entry key="img/PandaEyes.png" value="My Cat Pandora aka Panda Bear" />
-				<entry key="img/KakarotHead.png" value="The Tailless Kakarot aka Goku" />
-				<entry key="img/IcarusBanner.png" value="The Great Flying Icarus" />
-				<entry key="img/ApolloHead.png" value="Apollo In the Snow" />
-				<entry key="img/GoogleBanner.png" value="Google the Chameleon" />
-				<entry key="img/PixelBanner.png" value="Pixel's Spikes" />
-				<entry key="img/Penelope.png" value="Penelope's Grinch Eyes" />
-				<entry key="img/NoobNibb.png" value="Nooblet and Nibblet" />
+				<entry key="img/MidgeEye.jpg" value="My Cat Midge aka Meeeeeeeedge!" />
+				<entry key="img/PandaEyes.jpg" value="My Cat Pandora aka Panda Bear" />
+				<entry key="img/KakarotHead.jpg" value="The Tailless Kakarot aka Goku" />
+				<entry key="img/IcarusBanner.jpg" value="The Great Flying Icarus" />
+				<entry key="img/ApolloHead.jpg" value="Apollo In the Snow" />
+				<entry key="img/GoogleBanner.jpg" value="Google the Chameleon" />
+				<entry key="img/PixelBanner.jpg" value="Pixel's Spikes" />
+				<entry key="img/Penelope.jpg" value="Penelope's Grinch Eyes" />
+				<entry key="img/NoobNibb.jpg" value="Nooblet and Nibblet" />
 			</map>
 		</property>
 	</bean>
@@ -182,73 +182,73 @@
 		scope="singleton">
 		<property name="scrollingImages">
 			<map>
-				<entry key="img/clients/thumbnails/Addie_Thumb.png" value="img/clients/Addie.png" />
-				<entry key="img/clients/thumbnails/Alderaan_Thumb.png" value="img/clients/Alderaan.jpg" />
-				<entry key="img/clients/thumbnails/Alegra_Thumb.png" value="img/clients/Alegra.png" />
-				<entry key="img/clients/thumbnails/Alyeska_Thumb.png" value="img/clients/Alyeska.png" />
-				<entry key="img/clients/thumbnails/Angel_Thumb.png" value="img/clients/Angel.png" />
-				<entry key="img/clients/thumbnails/Barnaby_Thumb.png" value="img/clients/Barnaby.png" />
-				<entry key="img/clients/thumbnails/Bella_Thumb.png" value="img/clients/Bella.png" />
-				<entry key="img/clients/thumbnails/BessieMae_Thumb.png" value="img/clients/BessieMae.png" />
-				<entry key="img/clients/thumbnails/Bo_Thumb.png" value="img/clients/Bo.png" />
-				<entry key="img/clients/thumbnails/Bogey_Thumb.png" value="img/clients/Bogey.png" />
-				<entry key="img/clients/thumbnails/Bojangles_Thumb.png" value="img/clients/Bojangles.png" />
+				<entry key="img/clients/thumbnails/Addie_Thumb.jpg" value="img/clients/Addie.jpg" />
+				<entry key="img/clients/thumbnails/Alderaan_Thumb.jpg" value="img/clients/Alderaan.jpg" />
+				<entry key="img/clients/thumbnails/Alegra_Thumb.jpg" value="img/clients/Alegra.jpg" />
+				<entry key="img/clients/thumbnails/Alyeska_Thumb.jpg" value="img/clients/Alyeska.jpg" />
+				<entry key="img/clients/thumbnails/Angel_Thumb.jpg" value="img/clients/Angel.jpg" />
+				<entry key="img/clients/thumbnails/Barnaby_Thumb.jpg" value="img/clients/Barnaby.jpg" />
+				<entry key="img/clients/thumbnails/Bella_Thumb.jpg" value="img/clients/Bella.jpg" />
+				<entry key="img/clients/thumbnails/BessieMae_Thumb.jpg" value="img/clients/BessieMae.jpg" />
+				<entry key="img/clients/thumbnails/Bo_Thumb.jpg" value="img/clients/Bo.jpg" />
+				<entry key="img/clients/thumbnails/Bogey_Thumb.jpg" value="img/clients/Bogey.jpg" />
+				<entry key="img/clients/thumbnails/Bojangles_Thumb.jpg" value="img/clients/Bojangles.jpg" />
 				<entry key="img/clients/thumbnails/Brick_Thumb.jpg" value="img/clients/Brick.jpg" />
-				<entry key="img/clients/thumbnails/Carter_Thumb.png" value="img/clients/Carter.png" />
-				<entry key="img/clients/thumbnails/Chance_Thumb.png" value="img/clients/Chance.png" />
-				<entry key="img/clients/thumbnails/Clarisse_Thumb.png" value="img/clients/Clarisse.png" />
-				<entry key="img/clients/thumbnails/Cricket_Thumb.png" value="img/clients/Cricket.png" />
-				<entry key="img/clients/thumbnails/Daffney_Thumb.png" value="img/clients/Daffney.png" />
-				<entry key="img/clients/thumbnails/Ellie_Thumb.png" value="img/clients/Ellie.png" />
-				<entry key="img/clients/thumbnails/Fergie_Thumb.png" value="img/clients/Fergie.png" />
-				<entry key="img/clients/thumbnails/Finley_Thumb.png" value="img/clients/Finley.png" />
-				<entry key="img/clients/thumbnails/George_Thumb.png" value="img/clients/George.png" />
-				<entry key="img/clients/thumbnails/Grace_Thumb.png" value="img/clients/Grace.png" />
-				<entry key="img/clients/thumbnails/Granite_Thumb.png" value="img/clients/Granite.png" />
-				<entry key="img/clients/thumbnails/Herman_Thumb.png" value="img/clients/Herman.png" />
-				<entry key="img/clients/thumbnails/Hobble_Thumb.png" value="img/clients/Hobble.png" />
-				<entry key="img/clients/thumbnails/Jack_Thumb.png" value="img/clients/Jack.png" />
-				<entry key="img/clients/thumbnails/Jake_Thumb.png" value="img/clients/Jake.png" />
-				<entry key="img/clients/thumbnails/Kitty_Thumb.png" value="img/clients/Kitty.png" />
-				<entry key="img/clients/thumbnails/Leo_Thumb.png" value="img/clients/Leo.png" />
-				<entry key="img/clients/thumbnails/Lincoln_Thumb.png" value="img/clients/Lincoln.jpg" />
-				<entry key="img/clients/thumbnails/Lincoln_Thumb.png" value="img/clients/Lincoln.png" />
-				<entry key="img/clients/thumbnails/Loca_Thumb.png" value="img/clients/Loca.png" />
-				<entry key="img/clients/thumbnails/LucyS_Thumb.png" value="img/clients/LucyS.png" />
-				<entry key="img/clients/thumbnails/Maggie_Thumb.png" value="img/clients/Maggie.png" />
-				<entry key="img/clients/thumbnails/MaggieK_Thumb.png" value="img/clients/MaggieK.png" />
-				<entry key="img/clients/thumbnails/Marigold_Thumb.png" value="img/clients/Marigold.png" />
-				<entry key="img/clients/thumbnails/Marley_Thumb.png" value="img/clients/Marley.png" />
-				<entry key="img/clients/thumbnails/Max_Thumb.png" value="img/clients/Max.png" />
-				<entry key="img/clients/thumbnails/MaxK_Thumb.png" value="img/clients/MaxK.png" />
-				<entry key="img/clients/thumbnails/MaxR_Thumb.png" value="img/clients/MaxR.png" />
-				<entry key="img/clients/thumbnails/Mollie_Thumb.png" value="img/clients/Mollie.png" />
-				<entry key="img/clients/thumbnails/Monet_Thumb.png" value="img/clients/Monet.png" />
-				<entry key="img/clients/thumbnails/Mutley_Thumb.png" value="img/clients/Mutley.png" />
-				<entry key="img/clients/thumbnails/Mya_Thumb.png" value="img/clients/Mya.png" />
-				<entry key="img/clients/thumbnails/Nelli_Thumb.png" value="img/clients/Nelli.png" />
-				<entry key="img/clients/thumbnails/Nellie_Thumb.png" value="img/clients/Nellie.jpg" />
-				<entry key="img/clients/thumbnails/Nikita_Thumb.png" value="img/clients/Nikita.png" />
-				<entry key="img/clients/thumbnails/Ollie_Thumb.png" value="img/clients/Ollie.png" />
-				<entry key="img/clients/thumbnails/Onyx_Thumb.png" value="img/clients/Onyx.png" />
-				<entry key="img/clients/thumbnails/Oreo_Thumb.png" value="img/clients/Oreo.png" />
-				<entry key="img/clients/thumbnails/OreoCat_Thumb.png" value="img/clients/OreoCat.png" />
-				<entry key="img/clients/thumbnails/Rinze_Thumb.png" value="img/clients/Rinze.png" />
-				<entry key="img/clients/thumbnails/Rocco_Thumb.png" value="img/clients/Rocco.png" />
-				<entry key="img/clients/thumbnails/Roman_Thumb.png" value="img/clients/Roman.png" />
-				<entry key="img/clients/thumbnails/Rory_Thumb.png" value="img/clients/Rory.png" />
-				<entry key="img/clients/thumbnails/Rowan_Thumb.png" value="img/clients/Rowan.png" />
-				<entry key="img/clients/thumbnails/Roxie_Thumb.png" value="img/clients/Roxie.png" />
-				<entry key="img/clients/thumbnails/Sabrina_Thumb.png" value="img/clients/Sabrina.png" />
-				<entry key="img/clients/thumbnails/Sadie_Thumb.png" value="img/clients/Sadie.png" />
-				<entry key="img/clients/thumbnails/Sam_Thumb.png" value="img/clients/Sam.png" />
-				<entry key="img/clients/thumbnails/Simon_Thumb.png" value="img/clients/Simon.png" />
-				<entry key="img/clients/thumbnails/Solo_Thumb.png" value="img/clients/Solo.png" />
-				<entry key="img/clients/thumbnails/Stone_Thumb.png" value="img/clients/Stone.png" />
-				<entry key="img/clients/thumbnails/Suki_Thumb.png" value="img/clients/Suki.png" />
-				<entry key="img/clients/thumbnails/Sunny_Thumb.png" value="img/clients/Sunny.png" />
-				<entry key="img/clients/thumbnails/Talula_Thumb.png" value="img/clients/Talula.png" />
-				<entry key="img/clients/thumbnails/Tribble_Thumb.png" value="img/clients/Tribble.png" />
+				<entry key="img/clients/thumbnails/Carter_Thumb.jpg" value="img/clients/Carter.jpg" />
+				<entry key="img/clients/thumbnails/Chance_Thumb.jpg" value="img/clients/Chance.jpg" />
+				<entry key="img/clients/thumbnails/Clarisse_Thumb.jpg" value="img/clients/Clarisse.jpg" />
+				<entry key="img/clients/thumbnails/Cricket_Thumb.jpg" value="img/clients/Cricket.jpg" />
+				<entry key="img/clients/thumbnails/Daffney_Thumb.jpg" value="img/clients/Daffney.jpg" />
+				<entry key="img/clients/thumbnails/Ellie_Thumb.jpg" value="img/clients/Ellie.jpg" />
+				<entry key="img/clients/thumbnails/Fergie_Thumb.jpg" value="img/clients/Fergie.jpg" />
+				<entry key="img/clients/thumbnails/Finley_Thumb.jpg" value="img/clients/Finley.jpg" />
+				<entry key="img/clients/thumbnails/George_Thumb.jpg" value="img/clients/George.jpg" />
+				<entry key="img/clients/thumbnails/Grace_Thumb.jpg" value="img/clients/Grace.jpg" />
+				<entry key="img/clients/thumbnails/Granite_Thumb.jpg" value="img/clients/Granite.jpg" />
+				<entry key="img/clients/thumbnails/Herman_Thumb.jpg" value="img/clients/Herman.jpg" />
+				<entry key="img/clients/thumbnails/Hobble_Thumb.jpg" value="img/clients/Hobble.jpg" />
+				<entry key="img/clients/thumbnails/Jack_Thumb.jpg" value="img/clients/Jack.jpg" />
+				<entry key="img/clients/thumbnails/Jake_Thumb.jpg" value="img/clients/Jake.jpg" />
+				<entry key="img/clients/thumbnails/Kitty_Thumb.jpg" value="img/clients/Kitty.jpg" />
+				<entry key="img/clients/thumbnails/Leo_Thumb.jpg" value="img/clients/Leo.jpg" />
+				<entry key="img/clients/thumbnails/Lincoln_Thumb.jpg" value="img/clients/Lincoln.jpg" />
+				<entry key="img/clients/thumbnails/Lincoln_Thumb.jpg" value="img/clients/Lincoln.jpg" />
+				<entry key="img/clients/thumbnails/Loca_Thumb.jpg" value="img/clients/Loca.jpg" />
+				<entry key="img/clients/thumbnails/LucyS_Thumb.jpg" value="img/clients/LucyS.jpg" />
+				<entry key="img/clients/thumbnails/Maggie_Thumb.jpg" value="img/clients/Maggie.jpg" />
+				<entry key="img/clients/thumbnails/MaggieK_Thumb.jpg" value="img/clients/MaggieK.jpg" />
+				<entry key="img/clients/thumbnails/Marigold_Thumb.jpg" value="img/clients/Marigold.jpg" />
+				<entry key="img/clients/thumbnails/Marley_Thumb.jpg" value="img/clients/Marley.jpg" />
+				<entry key="img/clients/thumbnails/Max_Thumb.jpg" value="img/clients/Max.jpg" />
+				<entry key="img/clients/thumbnails/MaxK_Thumb.jpg" value="img/clients/MaxK.jpg" />
+				<entry key="img/clients/thumbnails/MaxR_Thumb.jpg" value="img/clients/MaxR.jpg" />
+				<entry key="img/clients/thumbnails/Mollie_Thumb.jpg" value="img/clients/Mollie.jpg" />
+				<entry key="img/clients/thumbnails/Monet_Thumb.jpg" value="img/clients/Monet.jpg" />
+				<entry key="img/clients/thumbnails/Mutley_Thumb.jpg" value="img/clients/Mutley.jpg" />
+				<entry key="img/clients/thumbnails/Mya_Thumb.jpg" value="img/clients/Mya.jpg" />
+				<entry key="img/clients/thumbnails/Nelli_Thumb.jpg" value="img/clients/Nelli.jpg" />
+				<entry key="img/clients/thumbnails/Nellie_Thumb.jpg" value="img/clients/Nellie.jpg" />
+				<entry key="img/clients/thumbnails/Nikita_Thumb.jpg" value="img/clients/Nikita.jpg" />
+				<entry key="img/clients/thumbnails/Ollie_Thumb.jpg" value="img/clients/Ollie.jpg" />
+				<entry key="img/clients/thumbnails/Onyx_Thumb.jpg" value="img/clients/Onyx.jpg" />
+				<entry key="img/clients/thumbnails/Oreo_Thumb.jpg" value="img/clients/Oreo.jpg" />
+				<entry key="img/clients/thumbnails/OreoCat_Thumb.jpg" value="img/clients/OreoCat.jpg" />
+				<entry key="img/clients/thumbnails/Rinze_Thumb.jpg" value="img/clients/Rinze.jpg" />
+				<entry key="img/clients/thumbnails/Rocco_Thumb.jpg" value="img/clients/Rocco.jpg" />
+				<entry key="img/clients/thumbnails/Roman_Thumb.jpg" value="img/clients/Roman.jpg" />
+				<entry key="img/clients/thumbnails/Rory_Thumb.jpg" value="img/clients/Rory.jpg" />
+				<entry key="img/clients/thumbnails/Rowan_Thumb.jpg" value="img/clients/Rowan.jpg" />
+				<entry key="img/clients/thumbnails/Roxie_Thumb.jpg" value="img/clients/Roxie.jpg" />
+				<entry key="img/clients/thumbnails/Sabrina_Thumb.jpg" value="img/clients/Sabrina.jpg" />
+				<entry key="img/clients/thumbnails/Sadie_Thumb.jpg" value="img/clients/Sadie.jpg" />
+				<entry key="img/clients/thumbnails/Sam_Thumb.jpg" value="img/clients/Sam.jpg" />
+				<entry key="img/clients/thumbnails/Simon_Thumb.jpg" value="img/clients/Simon.jpg" />
+				<entry key="img/clients/thumbnails/Solo_Thumb.jpg" value="img/clients/Solo.jpg" />
+				<entry key="img/clients/thumbnails/Stone_Thumb.jpg" value="img/clients/Stone.jpg" />
+				<entry key="img/clients/thumbnails/Suki_Thumb.jpg" value="img/clients/Suki.jpg" />
+				<entry key="img/clients/thumbnails/Sunny_Thumb.jpg" value="img/clients/Sunny.jpg" />
+				<entry key="img/clients/thumbnails/Talula_Thumb.jpg" value="img/clients/Talula.jpg" />
+				<entry key="img/clients/thumbnails/Tribble_Thumb.jpg" value="img/clients/Tribble.jpg" />
 			</map>
 		</property>
 	</bean>
