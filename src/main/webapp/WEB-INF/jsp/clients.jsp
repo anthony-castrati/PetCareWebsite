@@ -91,7 +91,7 @@
 	                	<p>"My dogs feel so much calmer and more relaxed"</p>
 	                	<div class="full-text">
 		                	<p>We're just so very pleased with Alexxis and Anthony. My dogs feel so much calmer and more relaxed here at home and they all like Alexxis so much! I just know that this is so much better for them and, of course, therefore for me as well. I've had some bad experiences with dog sitters over the years and now I feel so thankful knowing that I could be away and not have to worry about my little ones. I very highly recommend Alexxis and Anthony!</p>
-							<p class="pull-right">Pearce J.</p>
+							<p class="pull-right">Jacqui P.</p>
 						</div>
 	                </blockquote>
                 </div>
