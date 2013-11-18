@@ -32,7 +32,7 @@
 			<div class="col-md-4">
 				<h2>Our Services</h2>
 				<p>
-					Capital City Pet Care is a licensed, bonded and insured pet service that provides care for dogs, cats, small animals and exotics in Raleigh and Knightdale.  We are proud to offer daily visits, dog walking, medication administration, nail trims and much more! For more information, please check out our <a href="services">services</a> page.
+					Capital City Pet Care is a licensed, bonded and insured pet sitting and dog walking service that provides care for dogs, cats, small animals and exotics in Raleigh and Knightdale.  We are proud to offer daily visits, dog walking, medication administration, nail trims and much more! For more information, please check out our <a href="services">services</a> page.
 				</p>
 			</div>
 			<div class="col-md-4">
