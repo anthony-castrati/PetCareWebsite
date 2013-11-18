@@ -77,7 +77,7 @@
 				      	<span class="muted price"><strong>$21*</strong></span>
 				      	<div class="detail">
 				      	<h4>Available Visits</h4>
-				      	<p>Midday Visit Only</p>
+				      	<p>Subject to Availability</p>
 				      	</div>
 				      	<p class="description">
 				      	<small>Includes a bathroom break, extended walk and play time, fresh water and food, litter box scoop, complementary services<sup>1</sup>, and extra TLC!</small>
@@ -89,7 +89,7 @@
       			<div class="col-md-12">
 	      			<div class="well well-small">
 	      				<p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each additional cat is <strong>$2</strong> and each additional dog is <strong>$3</strong> (for small animal & exotic pet care - contact us for a quote)</p>
-						<strong><sup>1</sup></strong> Complementary Services: Mail Collection, Trash Service, Light Rotation, Blinds Rotation, Open/Close Windows and Indoor Plant Watering.
+						<strong><sup>1</sup></strong> Complementary Services: Mail Collection, Trash Service, Light and Blinds Rotation, Open/Close Windows and Indoor Plant Watering.
 	      			</div>
 	      			<div class="well well-small">
 						<strong>Key Pickup/Return</strong> - Generally we keep your keys for future visits, but if you would like us to pick up or drop off your key for each reservation, we can provide this service to you for <strong>$10</strong> per service.
@@ -144,7 +144,7 @@
       		<div class="row">
                 <div class="col-md-12">
                         <div class="well well-small">
-                            Nail trim prices are applicable for nail trims where the owner is able to hold/restrain the pet(s). When scheduling a nail trim, please inform us if you are unable to restrain your pet or would like another person to help with restraint. For an additional <strong>$10</strong> we can provide a second member of Capital City Pet Care to assist with your nail trim reservation.
+                            Nail trim prices are applicable for nail trims where the owner is able to hold/restrain the pet(s). When scheduling a nail trim, please inform us if you are unable to restrain your pet or would like an additional member of Capital City Pet Care to help with restraint. An additional <strong>$10</strong> per household will be charged in this event.
                         </div>
                 </div>
             </div>
@@ -175,7 +175,7 @@
       		</div>
       		<h2>Add-on Services</h2>
       		<blockquote>
-			  <p>We offer many other services which you can add on to your existing visit or nail trim.  Add-on services can also be purchased as a standalone service.  Please call for a quote.</p>
+			  <p>In addition to pet sitting and dog walking, we offer many other services which you can add on to your existing reservation.  Add-on services can also be purchased as a standalone service.  Please call for a quote.</p>
 			</blockquote>
 			<div class="row">
 				<div class="col-md-4">
@@ -201,16 +201,16 @@
 				</div>
 				<div class="col-md-4">
 					<div class="service">
-						<h4>Kitty Caps/Soft Paw Application</h4>
+						<h4>Kitty Caps Application + Nail Trim</h4>
 						<table>
 					        <tbody>
 					          <tr>
 					            <td>Application Only</td>
-					            <td><strong>$10</strong></td>
+					            <td><strong>$21</strong></td>
 					          </tr>
 					          <tr>
 					            <td>Kitty Caps Included <sup>2</sup></td>
-					            <td><strong>$15</strong></td>
+					            <td><strong>$24</strong></td>
 					          </tr>
 					        </tbody>
 					      </table>
@@ -241,7 +241,7 @@
 			<div class="row">
                 <div class="col-md-12">
 					<div class="well well-small">
-	      				<p><strong><sup>1</sup></strong> Medication administration prices are based on one pet per visit.</p>
+	      				<p><strong><sup>1</sup></strong> Prices are based on one pet per visit per medication.</p>
 	      				<p><strong><sup>2</sup></strong> Front paws only.</p>
 	      				<strong><sup>3</sup></strong> If you are locked out of your house, we can come let you in!
 	      			</div>

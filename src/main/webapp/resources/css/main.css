@@ -80,6 +80,7 @@ blockquote{
 .about-image {
 	border:1px solid black;
   	width: 300px;
+  	margin-bottom:20px;
 }
 .about-image.pull-left{
 	margin-right:20px;

@@ -104,8 +104,9 @@
 		<property name="scrollingImages">
 			<map>
 				<entry key="img/MidgeEye.jpg" value="My Cat Midge aka Meeeeeeeedge!" />
-				<entry key="img/PandaEyes.jpg" value="My Cat Pandora aka Panda Bear" />
 				<entry key="img/KakarotHead.jpg" value="The Tailless Kakarot aka Goku" />
+				<entry key="img/Yoshi.jpg" value="Yoshimoto" />
+				<entry key="img/PandaEyes.jpg" value="My Cat Pandora aka Panda Bear" />				
 				<entry key="img/IcarusBanner.jpg" value="The Great Flying Icarus" />
 				<entry key="img/ApolloHead.jpg" value="Apollo In the Snow" />
 				<entry key="img/GoogleBanner.jpg" value="Google the Chameleon" />
@@ -187,6 +188,7 @@
 				<entry key="img/clients/thumbnails/Alegra_Thumb.jpg" value="img/clients/Alegra.jpg" />
 				<entry key="img/clients/thumbnails/Alyeska_Thumb.jpg" value="img/clients/Alyeska.jpg" />
 				<entry key="img/clients/thumbnails/Angel_Thumb.jpg" value="img/clients/Angel.jpg" />
+				<entry key="img/clients/thumbnails/Bambi_Thumb.jpg" value="img/clients/Bambi.jpg" />
 				<entry key="img/clients/thumbnails/Barnaby_Thumb.jpg" value="img/clients/Barnaby.jpg" />
 				<entry key="img/clients/thumbnails/Bella_Thumb.jpg" value="img/clients/Bella.jpg" />
 				<entry key="img/clients/thumbnails/BessieMae_Thumb.jpg" value="img/clients/BessieMae.jpg" />
@@ -194,6 +196,7 @@
 				<entry key="img/clients/thumbnails/Bogey_Thumb.jpg" value="img/clients/Bogey.jpg" />
 				<entry key="img/clients/thumbnails/Bojangles_Thumb.jpg" value="img/clients/Bojangles.jpg" />
 				<entry key="img/clients/thumbnails/Brick_Thumb.jpg" value="img/clients/Brick.jpg" />
+				<entry key="img/clients/thumbnails/Buffy_Thumb.jpg" value="img/clients/Buffy.jpg" />
 				<entry key="img/clients/thumbnails/Carter_Thumb.jpg" value="img/clients/Carter.jpg" />
 				<entry key="img/clients/thumbnails/Chance_Thumb.jpg" value="img/clients/Chance.jpg" />
 				<entry key="img/clients/thumbnails/Clarisse_Thumb.jpg" value="img/clients/Clarisse.jpg" />
@@ -233,6 +236,7 @@
 				<entry key="img/clients/thumbnails/Onyx_Thumb.jpg" value="img/clients/Onyx.jpg" />
 				<entry key="img/clients/thumbnails/Oreo_Thumb.jpg" value="img/clients/Oreo.jpg" />
 				<entry key="img/clients/thumbnails/OreoCat_Thumb.jpg" value="img/clients/OreoCat.jpg" />
+				<entry key="img/clients/thumbnails/Patches_Thumb.jpg" value="img/clients/Patches.jpg" />
 				<entry key="img/clients/thumbnails/Rinze_Thumb.jpg" value="img/clients/Rinze.jpg" />
 				<entry key="img/clients/thumbnails/Rocco_Thumb.jpg" value="img/clients/Rocco.jpg" />
 				<entry key="img/clients/thumbnails/Roman_Thumb.jpg" value="img/clients/Roman.jpg" />
@@ -249,6 +253,7 @@
 				<entry key="img/clients/thumbnails/Sunny_Thumb.jpg" value="img/clients/Sunny.jpg" />
 				<entry key="img/clients/thumbnails/Talula_Thumb.jpg" value="img/clients/Talula.jpg" />
 				<entry key="img/clients/thumbnails/Tribble_Thumb.jpg" value="img/clients/Tribble.jpg" />
+				<entry key="img/clients/thumbnails/Vegas_Thumb.jpg" value="img/clients/Vegas.jpg" />
 			</map>
 		</property>
 	</bean>
