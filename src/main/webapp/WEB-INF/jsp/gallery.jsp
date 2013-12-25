@@ -1,8 +1,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <div id="gallery">
-    <c:forEach items="${gallery.scrollingImages}" var="entry">
-		<a href="${entry.value}">
-			<img src="${entry.key}">
+    <c:forEach items="${thumbnails}" var="entry">
+		<a href="clients/${entry}">
+			<img src="clients/thumbnails/${entry}">
 		</a>
     </c:forEach>
 </div>

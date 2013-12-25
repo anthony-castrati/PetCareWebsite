@@ -4,12 +4,11 @@
     <meta name="description" content="">
     <meta name="author" content="Anthony Castrati">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 	<!-- For third-generation iPad with high-resolution Retina display: -->
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144-precomposed.png">
 	
 	<!-- For iPhone with high-resolution Retina display: -->
 	
@@ -25,13 +24,13 @@
 	<link rel="shortcut icon" href="img/favicon.png">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
+      <script src="/js/html5shiv.js"></script>
+      <script src="/js/respond.min.js"></script>
     <![endif]-->
     <!-- [if lt IE 10]>
     	<style type="text/css">
     		body{
-    			background: url('../img/floral-background.png');
+    			background: url('/img/floral-background.png');
     		}
     	</style>
     <![endif]-->

@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-  	<meta name="description" content="Capital City Pet Care has over 10 years experience caring for animals.  Servicing the Raleigh NC and Knightdale NC areas, we tailor our services to each pets individual needs.">
+        <meta name="description" content="Capital City Pet Care has over 10 years experience caring for animals.  Servicing the Raleigh NC and Knightdale NC areas, we tailor our services to each pets individual needs.">
     <jsp:include page="header.jsp"/>
   </head>
   

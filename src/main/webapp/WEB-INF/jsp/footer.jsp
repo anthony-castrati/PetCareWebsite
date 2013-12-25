@@ -15,4 +15,4 @@
         <a href="http://www.petsits.com" target="_blank"><img src='img/pups.gif' alt="PUPS - Professional United Pet Sitters"></a>
         <a href="http://www.petsitllc.com" target="_blank"><img src="img/psa.png" alt="PSA - Pet Sitters Association"></a>	
 	</footer>
-    <script src="js/bootstrap.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
