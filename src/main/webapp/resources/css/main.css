@@ -1,16 +1,9 @@
 body{
-	padding-top:70px;
+	padding-top:50px;
 	font-size:16px;
 	background-color:#eee;
-	-webkit-background-size: 10px 10px, 100% auto;
-	-moz-background-size: 10px 10px, 100% auto;
-	background-size: 10px 10px, 100% auto;
-	background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent)), url('../img/floral-background.png');
-	background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('../img/floral-background.png');
-	background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('../img/floral-background.png');
-	background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('../img/floral-background.png');
-	background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('../img/floral-background.png');
-	background-image: linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('../img/floral-background.png');
+	-moz-background-size: 100% auto;
+	background-image: url('../img/floral-background.png');
     color:#111;
 }
 .consultation, .nails, .service{
@@ -105,12 +98,16 @@ blockquote{
     font-family: "chantelli_antiquaregular",Helvetica,Arial;
 }
 .navbar-header img{
-    width:55px;
+    width:100px;
     float:left;
     padding:5px;
 }
 .banner .logo{
     text-align:center;
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    font-weight:bold;
+    font-size:2em;
+    line-height:1em;
 }
 .banner img {
     width:100%;
@@ -136,6 +133,8 @@ p.description{
 #myCarousel{
 	 border:5px solid #aaa;
 	 border-radius:5px;
+	 border-bottom-left-radius: 250px;
+	 overflow: hidden;
 }
 .page-header{
 	border-bottom: 1px solid #aaa;
@@ -146,13 +145,27 @@ p.description{
 #pbOverlay .wrapper img{
 	border:1px solid white;
 }
+.wrapper {
+	padding:15px;
+	background-color:#fff;
+	-webkit-background-size: 10px 10px;
+	-moz-background-size: 10px 10px;
+	background-size: 10px 10px;
+	/* background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+	background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+	background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+	background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+	background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent); */
+	background-image: linear-gradient(-45deg, rgba(0, 0, 0, .02) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .02) 50%, rgba(0, 0, 0, .02) 75%, transparent 75%, transparent);
+}
 footer{
 	padding-top: 40px;
 	padding-bottom: 30px;
-	margin-top: 40px;
 	text-align: center;
-	border-top: 1px solid #aaa;
-	background-color: #dedede;
+	border-top: 1px solid #333;
+	background-color: #ccc;
+	line-height:2em;
+	background: linear-gradient(#777, #ccc);
 }
 footer img{
 	width:80px;

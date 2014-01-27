@@ -8,19 +8,18 @@
 </head>
 
 <body>
-        <jsp:include page="navigation.jsp" />
         <div class="container">
-        <div class="banner">
-            <div class="row">
-                <div class="col-md-3 col-sm-3 col-xs-4 hidden-xs logo">
-                    <img src="img/CapitalCityPetCareLogo.png"><br>
-                    Capital City<br>Pet Care
-                </div>
-                <div class="col-md-9 col-sm-9 col-xs-12 hidden-print">
-                    <jsp:include page="carousel.jsp" />
-                </div>
-            </div>
-        </div><br>
+        	<jsp:include page="navigation.jsp" />
+        	<div class="wrapper">
+		        <div class="banner">
+		            <div class="row">
+		                <div class="col-md-4 col-sm-3 col-xs-4 hidden-xs logo">
+		                </div>
+		                <div class="col-md-8 col-sm-9 col-xs-12 hidden-print">
+		                    <jsp:include page="carousel.jsp" />
+		                </div>
+		            </div>
+		        </div><br>
                 <!-- Example row of columns -->
                 <div class="row">
                         <div class="col-md-4">
@@ -40,6 +39,7 @@
                                 <p>Refer a friend or family member and receive a $15 credit for future service after the referral's first completed service.</p>
                         </div>
                 </div>
+            </div>
         </div>
         <jsp:include page="footer.jsp" />
         <script type="text/javascript">
