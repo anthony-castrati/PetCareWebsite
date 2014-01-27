@@ -15,11 +15,9 @@
           <div class="row">
           <div class="col-md-4">
                 <div class="contacts">
-                        <div class="container">
-                                <div class="row"><div class="col-md-1 col-sm-1 col-xs-2"><i class="icon-phone icon-large"></i></div><div class="col-md-9 col-sm-9"><a href="tel://919-732-7302">919.723.7302</a></div></div>
-                                <div class="row"><div class="col-md-1 col-sm-1 col-xs-2"><i class="icon-envelope-alt icon-large"></i></div><div class="col-md-9 col-sm-9"><a href="mailto:alexxis@capcitypetcare.com">alexxis@capcitypetcare.com</a></div></div>
-                                <div class="row"><div class="col-md-1 col-sm-1 col-xs-2"><i class="icon-facebook-sign icon-large"></i></div><div class="col-md-9 col-sm-9"><a href="http://www.facebook.com/capcitypetcare" target="_blank">Capital City Pet Care</a></div></div>
-                        </div>
+                    <div class="row"><div class="col-xs-2"><i class="icon-phone icon-large"></i></div><div class="col-xs-10"><a href="tel://919-732-7302">919.723.7302</a></div></div>
+                    <div class="row"><div class="col-xs-2"><i class="icon-envelope-alt icon-large"></i></div><div class="col-xs-10"><a href="mailto:alexxis@capcitypetcare.com">alexxis@capcitypetcare.com</a></div></div>
+                    <div class="row"><div class="col-xs-2"><i class="icon-facebook-sign icon-large"></i></div><div class="col-xs-10"><a href="http://www.facebook.com/capcitypetcare" target="_blank">Capital City Pet Care</a></div></div>
                 </div>
             </div>
             <div class="col-md-6 col-md-offset-1">

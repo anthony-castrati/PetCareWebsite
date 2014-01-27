@@ -86,7 +86,6 @@
 		scope="singleton">
 		<property name="navItems">
 			<map>
-				<entry key="home" value="Home" />
 				<entry key="about" value="About Us" />
 				<entry key="services" value="Services" />
 				<entry key="clients" value="Our Clients" />
