@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,7 +44,7 @@
 			      	<div>
 				      	<div class="row">
 					      	<div class="col-md-8 col-md-offset-2">
-					      		<form id="Pay" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					      		<form id="Pay" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 									<input type="hidden" name="cmd" value="_xclick">
 									<input type="hidden" name="return" value="http://capcitypetcare.com/payments">
 									<input type="hidden" name="business" value="alexxis@capcitypetcare.com">

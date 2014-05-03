@@ -2,3 +2,4 @@
 target/*
 mail.properties
 /custom.properties
+/target
