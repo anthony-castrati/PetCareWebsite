@@ -231,7 +231,7 @@
                                                   </tr>
                                                   <tr>
                                                     <td>Locked Out? <sup>3</sup></td>
-                                                    <td><strong>$15</strong></td>
+                                                    <td><strong>$25</strong></td>
                                                   </tr>
                                                 </tbody>
                                               </table>
