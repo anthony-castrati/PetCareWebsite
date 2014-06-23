@@ -41,6 +41,16 @@
                         </div>
                 </div>
         </div>
+        <div class="container-fluid">
+        	<div class="row">
+        		<div class="col-md-12 image-bar">
+        			<img src="imagebar/Yellow.jpg">
+        			<img src="imagebar/Pearce Pets.jpg">
+        			<img src="imagebar/Nellie.jpg">
+        			<img src="imagebar/Ellie.JPG">
+        		</div>
+        	</div>
+        </div>
         <jsp:include page="footer.jsp" />
         <script type="text/javascript">
                 $('.carousel').carousel('cycle')

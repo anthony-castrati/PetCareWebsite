@@ -43,6 +43,9 @@ public class HelloController {
 	@Value("${image.folder}")
 	String imageFolder;
 
+	@Value("${image.bar.folder}")
+	String imageBarFolder;
+	
 	@RequestMapping(method = RequestMethod.GET, value = "")
 	public String root(ModelMap model){
 		return home(model);
@@ -132,20 +135,26 @@ public class HelloController {
 
    }
    
+   @RequestMapping(value = "imagebar/{name:.*$}", method = RequestMethod.GET)
+   public String barImages(@PathVariable String name, HttpServletResponse response, WebRequest request) throws IOException {
+	   imageHandler(imageBarFolder, name, response, request);
+	   return null;
+   }
+   
     @RequestMapping(value = "clients/{name:.*$}", method = RequestMethod.GET)
 	public String images(@PathVariable String name, HttpServletResponse response, WebRequest request) throws IOException {
-		imageHandler(name, response, request);
+		imageHandler(imageFolder, name, response, request);
 		return null;
 	}
     
     @RequestMapping(value = "clients/thumbnails/{name:.*$}", method = RequestMethod.GET)
 	public String thumbnails(@PathVariable String name, HttpServletResponse response, WebRequest request) throws IOException {
-		imageHandler("thumbnails" + File.separator + name, response, request);
+		imageHandler(imageFolder, "thumbnails" + File.separator + name, response, request);
 		return null;
 	}
     
-    private void imageHandler(String name, HttpServletResponse response, WebRequest request) throws IOException{
-		File f = new File(imageFolder + File.separator + name );
+    private void imageHandler(String folder, String name, HttpServletResponse response, WebRequest request) throws IOException{
+		File f = new File(folder + File.separator + name );
 		
 		if(f.exists()){
 			if (request.checkNotModified(f.lastModified())) {
