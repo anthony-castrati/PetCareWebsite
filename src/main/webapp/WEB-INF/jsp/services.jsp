@@ -49,7 +49,7 @@
                                         <span class="muted price"><strong>$16*</strong></span>
                                         <div class="detail">
                                         <h4>Available Visits</h4>
-                                        <p>AM, Midday, PM, Late Night</p>
+                                        <p>AM, Midday, PM</p>
                                         </div>
                                         <p class="description">
                                         <small>Our most popular visit! Includes a bathroom break with short walk, food, water, litter box scoop, complementary services<sup>1</sup> and a little TLC.</small>
