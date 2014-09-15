@@ -1,22 +1,22 @@
+h1, h2, h3 {
+    font-family: 'Fredericka the Great', cursive;
+    color: #ddd;
+}
+h1{
+    font-size:45px;
+}
 body{
 	padding-top:70px;
 	font-size:16px;
 	background-color:#eee;
-	-webkit-background-size: 10px 10px, 100% auto;
-	-moz-background-size: 10px 10px, 100% auto;
-	background-size: 10px 10px, 100% auto;
-	background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent)), url('../img/floral-background.png');
-	background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('../img/floral-background.png');
-	background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('../img/floral-background.png');
-	background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('../img/floral-background.png');
-	background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('../img/floral-background.png');
-	background-image: linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent), url('../img/floral-background.png');
-    color:#111;
+    background-image: url('../img/darkwoodenbackground.jpg');
+    color:#ddd;
 }
 .consultation, .nails, .service{
 	margin-bottom:10px;
 	background-color:#fff;
 	box-shadow: 0px 0px 8px #444;
+    color:black;
 }
 
 blockquote{
@@ -90,7 +90,7 @@ blockquote{
 }
 .contacts{
 	line-height:30px;
-	background-color:rgba(170, 170, 170, 0.6);
+	background-color:rgba(0, 0, 0, 0.4);
 	border-radius:10px;
 	padding:10px;
 }
@@ -134,11 +134,8 @@ p.description{
 	border-right:1px solid #DDD;
 }
 #myCarousel{
-	 border:5px solid #aaa;
+	 border:5px solid #332B24;
 	 border-radius:5px;
-}
-.page-header{
-	border-bottom: 1px solid #aaa;
 }
 .error{
 	color:#ff0000;
@@ -147,12 +144,12 @@ p.description{
 	border:1px solid white;
 }
 footer{
+    border-top: #080808;
+    background-color:#222;
 	padding-top: 40px;
 	padding-bottom: 30px;
 	margin-top: 40px;
 	text-align: center;
-	border-top: 1px solid #aaa;
-	background-color: #dedede;
 }
 footer img{
 	width:80px;
@@ -164,7 +161,7 @@ footer ul{
 footer i{
 	padding-right:5px;
 }
-h2, h3{
+h3{
 	color:#BF2C7D;
 }
 
@@ -187,4 +184,76 @@ and (max-device-width : 480px) {
 	-moz-background-size: 10px 10px, 800px auto;
 	background-size: 10px 10px, 800px auto;
 	}
+}
+
+.deals p{
+    background-color: rgba(0,0,0,.4);
+    padding:10px;
+}
+.deals img{
+    width:100%;
+}
+.services .well{
+    color:#ddd;
+    background-color:rgba(0,0,0,.4);
+    border-radius:10px;
+    border:none;
+    margin-top:10px;
+}
+.services blockquote p{
+    padding: 20px;
+    background-color: rgba(0,0,0,.4);
+    border-radius: 10px;
+}
+
+.deals h2{
+    text-align:center;
+    color:#ddd;
+}
+
+.banner h3{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ddd;
+}
+.banner h1{
+    font-size:60px;
+}
+.about{
+    background-color: rgba(0,0,0,.2);
+    padding:20px;
+    border-radius:10px;
+}
+.promotion h2{
+    padding: 10px 0px;
+    background-color:#BF2C7D;
+    text-align: center;
+    margin-top:0px;
+}
+.promotion{
+    background-color:white;
+    color: #000;
+    text-align:center;
+    border:5px solid #BF2C7D;
+    border-style:dashed;
+}
+.promotion p{
+    padding:10px;
+}
+
+.contactus blockquote p{
+    background-color: rgba(0,0,0,.4);
+    padding:10px;
+    border-radius:5px;
+}
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
 }

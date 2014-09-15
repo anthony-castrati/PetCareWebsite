@@ -14,6 +14,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
+                <div class="about">
                     <img class="pull-left img-rounded about-image" src="img/about.jpg">
                 <p>Hello! My name is Alexxis Castrati, owner and operator of Capital City Pet Care of Raleigh and Knightdale. I have been providing care in the pet industry since 2003 and have found those moments to be the most precious to me. After working several years at a boarding kennel, a veterinary hospital, and pet sitting part-time I decided to open Capital City Pet Care so that I may offer a more personal and catered type of pet service. Our pets are like our children and we want nothing but the best for them. Home care is a special type of service that allows us to take care of your pets in their own environment while you are away from home. Less stress equals happier and healthier pets!</p>
 
@@ -29,6 +30,7 @@
 <p>We hope to hear from you soon!</p>
             </div>
         </div>
+      </div>
       </div>
   <jsp:include page="footer.jsp"/>
   </body>

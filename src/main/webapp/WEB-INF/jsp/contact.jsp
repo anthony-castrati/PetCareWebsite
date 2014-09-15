@@ -8,7 +8,7 @@
   </head>
   <body>
     <jsp:include page="navigation.jsp"/>
-      <div class="container">
+      <div class="contactus container">
             <div class="page-header">
                 <h1 class="text-center">Contact Us</h1>
             </div>

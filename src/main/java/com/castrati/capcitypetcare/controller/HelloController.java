@@ -94,12 +94,10 @@ public class HelloController {
 
     }
 
-     @RequestMapping(method = RequestMethod.GET, value = "servicearea")
+    @RequestMapping(method = RequestMethod.GET, value = "promotions")
     public String serviceArea(ModelMap model) {
-
-        model.addAttribute("title", "Service Area");
-        return "servicearea";
-
+        model.addAttribute("title", "Promotions");
+        return "promotions";
     }
 
    @RequestMapping(method = RequestMethod.GET, value = "clients")

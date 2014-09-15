@@ -1,5 +1,6 @@
 .DS_Store
 target/*
 mail.properties
-/custom.properties
+custom.properties
 /target
+.idea
