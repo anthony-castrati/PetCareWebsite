@@ -55,7 +55,8 @@ public class EmailHandler {
     
     private String sendRequest(ContactForm contact){
     	SimpleMailMessage msg = new SimpleMailMessage(this.message);
-    	msg.setFrom(contact.getEmail());
+    	msg.setFrom(message.getFrom());
+        msg.setReplyTo(contact.getEmail());
         msg.setText(contact.getName() +" sent you a message:\n" +
         		"----------------------------------------------\n" +
         		contact.getMessage() + "\n" +
