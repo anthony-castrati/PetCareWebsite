@@ -193,7 +193,6 @@
 		</property>
 		<property name="javaMailProperties">
 			<props>
-				<prop key="mail.smtps.auth">true</prop>
 				<prop key="mail.smtp.ssl.enable">true</prop>
 				<prop key="mail.transport.protocol">${protocol}</prop>
 			</props>
