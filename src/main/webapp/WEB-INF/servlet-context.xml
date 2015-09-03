@@ -86,8 +86,10 @@
 		scope="singleton">
 		<property name="navItems">
 			<map>
+                <entry key="home" value="Home" />
 				<entry key="about" value="About Us" />
 				<entry key="services" value="Services" />
+                <entry key="promotions" value="Promotions" />
 				<entry key="clients" value="Our Clients" />
 				<entry key="contact" value="Contact Us" />
 				<entry key="payments" value="Payments" />
@@ -100,16 +102,16 @@
 		scope="singleton">
 		<property name="scrollingImages">
 			<map>
+                <entry key="img/group_photo.jpg" value="Alexxis with many of our clients." />
 				<entry key="img/MidgeEye.jpg" value="My Cat Midge aka Meeeeeeeedge!" />
+                <entry key="img/alexxis_and_apollo.jpg" value="Alexxis and Apollo." />
+                <entry key="img/penelope.jpg" value="Penelope the cat" />
 				<entry key="img/KakarotHead.jpg" value="The Tailless Kakarot aka Goku" />
-				<entry key="img/Yoshi.jpg" value="Yoshimoto" />
+                <entry key="img/NoobNibb.jpg" value="Nooblet and Nibblet" />
 				<entry key="img/PandaEyes.jpg" value="My Cat Pandora aka Panda Bear" />				
 				<entry key="img/IcarusBanner.jpg" value="The Great Flying Icarus" />
-				<entry key="img/ApolloHead.jpg" value="Apollo In the Snow" />
 				<entry key="img/GoogleBanner.jpg" value="Google the Chameleon" />
-				<entry key="img/PixelBanner.jpg" value="Pixel's Spikes" />
-				<entry key="img/Penelope.jpg" value="Penelope's Grinch Eyes" />
-				<entry key="img/NoobNibb.jpg" value="Nooblet and Nibblet" />
+                <entry key="img/Yoshi.jpg" value="Yoshimoto" />
 			</map>
 		</property>
 	</bean>

@@ -9,7 +9,7 @@
   <body>
     <jsp:include page="navigation.jsp"/>
 
-    <div class="container">
+    <div class="container services">
 
       <!-- Main hero unit for a primary marketing message or call to action -->
       
@@ -35,7 +35,7 @@
                                         <h3>Follow-Up</h3>
                                         <span class="muted price"><strong>$16</strong></span>
                                         <div class="detail">
-                                                <p><small>Follow-ups may be required in the event of major changes such as a new home, new pet or major health changes.</small></p>
+                                                <p><small>Follow-ups may be required in the event of major changes such as a new home, new pet or health.</small></p>
                                         </div>
                                         </div>
                         </div>
@@ -49,7 +49,7 @@
                                         <span class="muted price"><strong>$16*</strong></span>
                                         <div class="detail">
                                         <h4>Available Visits</h4>
-                                        <p>AM, Midday, PM, Late Night</p>
+                                        <p>AM, Midday, PM</p>
                                         </div>
                                         <p class="description">
                                         <small>Our most popular visit! Includes a bathroom break with short walk, food, water, litter box scoop, complementary services<sup>1</sup> and a little TLC.</small>
@@ -88,7 +88,7 @@
                 <div class="row">
                         <div class="col-md-12">
                                 <div class="well well-small">
-                                        <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each additional cat is <strong>$2</strong> and each additional dog is <strong>$3</strong> (for small animal & exotic pet care - contact us for a quote)</p>
+                                        <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each additional cat is <strong>$2</strong> and each additional dog is <strong>$3</strong>. For small animal & exotic pet care, contact us for a quote.</p>
                                                 <strong><sup>1</sup></strong> Complementary Services: Mail Collection, Trash Service, Light and Blinds Rotation, Open/Close Windows and Indoor Plant Watering.
                                 </div>
                                 <div class="well well-small">
@@ -142,12 +142,12 @@
                                 </div>
                 </div>
                 <div class="row">
-                <div class="col-md-12">
-                        <div class="well well-small">
-                            Nail trim prices are applicable for nail trims where the owner is able to hold/restrain the pet(s). When scheduling a nail trim, please inform us if you are unable to restrain your pet or would like an additional member of Capital City Pet Care to help with restraint. An additional <strong>$10</strong> per household will be charged in this event.
-                        </div>
+                    <div class="col-md-12">
+                            <div class="well well-small">
+                                Nail trim prices are applicable for nail trims where the owner is able to hold/restrain the pet(s). When scheduling a nail trim, please inform us if you are unable to restrain your pet or would like an additional member of Capital City Pet Care to help with restraint. An additional <strong>$10</strong> per household will be charged in this event.
+                            </div>
+                    </div>
                 </div>
-            </div>
             <h2>Expressions</h2>
                 <blockquote>
                           <p>Is your dog licking, scratching, scooting, or biting at its tail? Do you smell a funny odor? It may be time for an anal sac expression! Many factors can affect the anal sacs such as soft stools, allergies, and the quality of their food. Having a full sac can become uncomfortable, impacted, or infected.</p>
@@ -173,6 +173,13 @@
                                 </div>
               
                 </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="well well-small">
+                              Expression prices are applicable for expressions where the owner is able to hold/restrain the pet(s). When scheduling an expression, please inform us if you are unable to restrain your pet or would like an additional member of Capital City Pet Care to help with restraint. An additional <strong>$10</strong> per household will be charged in this event.
+                          </div>
+                      </div>
+                  </div>
                 <h2>Add-on Services</h2>
                 <blockquote>
                           <p>In addition to pet sitting and dog walking, we offer many other services which you can add on to your existing reservation.  Add-on services can also be purchased as a standalone service.  Please call for a quote.</p>
