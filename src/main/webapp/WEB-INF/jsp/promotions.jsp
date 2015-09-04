@@ -24,9 +24,9 @@
             </div>
             <div class="col-md-4">
                 <div class="promotion">
-                    <h2>October 2014 Special</h2>
+                    <h2>October 2015 Special</h2>
                     <p>Book 10 or more visits in October and receive 1 complementary nail trim during your reservation.  Some restrictions apply.  Limit 1 coupon per client.</p>
-                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=October%202014%20Special">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=October%202015%20Special">
                     <p><small>Please present or refer to this coupon when scheduling your reservation.</small></p>
                 </div>
             </div>

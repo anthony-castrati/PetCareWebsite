@@ -62,8 +62,7 @@ public class EmailHandler {
         		contact.getMessage() + "\n" +
         		"----------------------------------------------\n" +
         		"Pets: " + contact.getPets() + "\n\n" +
-        		contact.getStreet() + "\n" +
-        		contact.getCity() + ", " + contact.getState() + " " + contact.getZip() +"\n\n" +
+        		contact.getAddress() + "\n" +
         		contact.getPhone() + "\n\n" +
         		"Heard about you through: " + contact.getHeardfrom());
         try{

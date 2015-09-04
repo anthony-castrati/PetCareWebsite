@@ -26,7 +26,7 @@
                                         <h3>Initial</h3>
                                         <span class="muted price"><strong>Free*</strong></span>
                                         <div class="detail">
-                                                <p><small>* Initial consultations are free if you book before or during the consultation, otherwise the consultation is <strong>$21</strong></small></p>
+                                                <p><small>* Initial consultations are free if you book before or during the consultation and at least two days prior to the first visit, otherwise the consultation is <strong>$21</strong>.</small></p>
                                         </div>
                                 </div>
                         </div>
@@ -35,7 +35,7 @@
                                         <h3>Follow-Up</h3>
                                         <span class="muted price"><strong>$16</strong></span>
                                         <div class="detail">
-                                                <p><small>Follow-ups may be required in the event of major changes such as a new home, new pet or health.</small></p>
+                                                <p><small>Follow-ups may be required in the event of major changes such as a new home, new pet or health.</small><br/><br/></p>
                                         </div>
                                         </div>
                         </div>
@@ -92,10 +92,10 @@
                                                 <strong><sup>1</sup></strong> Complementary Services: Mail Collection, Trash Service, Light and Blinds Rotation, Open/Close Windows and Indoor Plant Watering.
                                 </div>
                                 <div class="well well-small">
-                                                <strong>Key Pickup/Return</strong> - Generally we keep your keys for future visits, but if you would like us to pick up or drop off your key for each reservation, we can provide this service to you for <strong>$10</strong> per service.
+                                                <strong>Key Pickup/Return</strong> - Generally we keep your keys for future visits, but if you would like us to pick up or drop off your key for each reservation, we can provide this service to you for <strong>$15</strong> per service.
                                 </div>
                                 <div class="well well-small">
-                                                <strong>Holiday Fees</strong> - A fee of <strong>$10</strong> will be added to each visit (up to <strong>$20</strong> maximum  per day) for services provided on each of the following holidays/non-holidays: New Year's Eve, New Year's Day, Easter Sunday, Memorial Day, Independence Day, Labor Day, Thanksgiving Day, Black Friday, Christmas Eve, and Christmas Day. 
+                                                <strong>Holiday Fees</strong> - A fee of <strong>$10</strong> will be added to each visit for services provided on each of the following holidays/non-holidays: New Year's Eve, New Year's Day, Easter Sunday, Memorial Day, Independence Day, Labor Day, Thanksgiving Day, Black Friday, Christmas Eve, and Christmas Day.
                                 </div>
                         </div>
                 </div>
@@ -233,10 +233,6 @@
                                                     <td><strong>$3</strong></td>
                                                   </tr>
                                                   <tr>
-                                                    <td>House Sitting</td>
-                                                    <td><strong>$16</strong></td>
-                                                  </tr>
-                                                  <tr>
                                                     <td>Locked Out? <sup>3</sup></td>
                                                     <td><strong>$25</strong></td>
                                                   </tr>
@@ -250,7 +246,7 @@
                                         <div class="well well-small">
                                         <p><strong><sup>1</sup></strong> Prices are based on one pet per visit and vary based on quantity and difficulty.</p>
                                         <p><strong><sup>2</sup></strong> Front paws only.</p>
-                                        <strong><sup>3</sup></strong> If you are locked out of your house, we can come let you in!
+                                        <strong><sup>3</sup></strong> If you are locked out of your house and we have retained your key, we can come let you in!
                                 </div>
                         </div>
                         </div>

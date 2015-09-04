@@ -4,7 +4,7 @@
                 <div class="col-md-4">
                     <ul>
                         <li>
-                            &copy; ${appconfig.siteName} 2013
+                            &copy; ${appconfig.siteName} 2015
                         </li>
                         <li>
                             Raleigh &amp; Knightdale NC

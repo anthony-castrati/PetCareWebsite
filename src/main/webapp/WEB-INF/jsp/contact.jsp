@@ -44,31 +44,11 @@
                       <form:errors path="name" cssClass="error" />
                   </div>
                   <div class="form-group">
-                    <label for="street">Street Address</label>
+                    <label for="address">Full Address</label>
                     <div class="controls">
-                      <form:input id="street" path="street" cssClass="form-control" placeholder="Street Address" />
-                      <form:errors path="street" cssClass="error" />
+                      <form:input id="address" path="address" cssClass="form-control" placeholder="ex: 000 North St. Raleigh, NC 27601" />
+                      <form:errors path="address" cssClass="error" />
                     </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="city">City</label>
-                    <div class="controls">
-                      <form:input id="city" path="city" cssClass="form-control" placeholder="City" />
-                      <form:errors path="city" cssClass="error" />
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="state">State</label>
-                      <form:select cssClass="form-control" id="state" name="state" path="state">
-                        <form:option value="" label="-- Choose one --" />
-                        <form:options items="${states.states}"/>
-                      </form:select>
-                      <form:errors path="state" cssClass="error" />
-                  </div>
-                  <div class="form-group">
-                    <label for="zip">Zip</label>
-                        <form:input cssClass="form-control" id="zip" path="zip" placeholder="Zip" />
-                        <form:errors path="zip" cssClass="error" />
                   </div>
                   <div class="form-group">
                     <label for="phone">Phone</label>
