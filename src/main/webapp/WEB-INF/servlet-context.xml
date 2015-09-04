@@ -93,6 +93,7 @@
 				<entry key="clients" value="Our Clients" />
 				<entry key="contact" value="Contact Us" />
 				<entry key="payments" value="Payments" />
+				<entry key="service_area" value="Service Area" />
 			</map>
 		</property>
 	</bean>
