@@ -28,7 +28,7 @@
             <img src="img/free_consultation.jpg">
 
             <p>
-                Sniff us out! Initial consultation is free if you book with us before or during your consultation! We will travel to
+                Sniff us out! This consultation is FREE for all clients who pre-pay and book services with Capital City Pet Care before or during the consult! We will travel to
                 your home to meet with you and your pet one on one to create a specialized care plan for you and your
                 extended family. <a href="contact">Contact us</a> today!
             </p>

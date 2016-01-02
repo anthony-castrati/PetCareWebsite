@@ -14,10 +14,27 @@
             </div>
           <div class="row">
           <div class="col-md-4">
-                <div class="contacts">
+                <div class="contacts col-xs-12">
                     <div class="row"><div class="col-xs-2"><i class="icon-phone icon-large"></i></div><div class="col-xs-10"><a href="tel://919-732-7302">919.723.7302</a></div></div>
                     <div class="row"><div class="col-xs-2"><i class="icon-envelope-alt icon-large"></i></div><div class="col-xs-10"><a href="mailto:alexxis@capcitypetcare.com">alexxis@capcitypetcare.com</a></div></div>
                     <div class="row"><div class="col-xs-2"><i class="icon-facebook-sign icon-large"></i></div><div class="col-xs-10"><a href="http://www.facebook.com/capcitypetcare" target="_blank">Capital City Pet Care</a></div></div>
+                </div>
+                <div class="col-xs-12 contacts">
+                  <h3>Hours of Operation</h3>
+                     <p>Monday - Sunday  5 a.m. - 9 p.m.</p>
+                  <h3>Phone Hours</h3>
+                    <p>Monday - Friday 8 a.m. - 8 p.m.<br> 
+                    Saturday 1 p.m. - 6 p.m.</p>
+                    <small>* Messages received on Sunday will be returned the next business day</small>
+                  <h3>Service Area</h3>
+                  <a href="/service_area">Servicing areas in Raleigh and Knightdale</a>
+                </div>
+                <div class="col-xs-12 contacts">
+                <h4></h4>
+                <p>Texts, calls, and e-mails are generally responded too within 24 hours or sooner if your pet is in our care at the time of communication. Communications recieved outside of these hours will be responded to the next business day. If you do not hear from us within 48 hours, we did not get your message! Please contact us again! For faster response feel free to email us.</p>
+                <p>
+                We provide daily check-ins at no charge. We talk to numerous clients each day, and are happy to let you know how your pet is doing, but we must make sure we have time to extend the same courtesy to all of our clients. Please keep in mind that we must eventually end our work day so be courteous when sending text messages and calling us.
+                </p>
                 </div>
             </div>
             <div class="col-md-6 col-md-offset-1">
@@ -27,13 +44,7 @@
                         </div>
                 </div>
                 <!-- Contact Form -->
-                <div class="row">
-                        <div class="col-md-12">
-                                <blockquote>
-                                <p>Please fill out this form to ask us a question, request a service, or just to leave a friendly review!</p>
-                                </blockquote>
-                        </div>
-                </div>
+                <h3 class='alt'>Service Request Form</h3>
                 <div class="row">
                 <div class="col-md-12">
                 <form:form commandName="contactForm" method="post" action="contact" role="form">

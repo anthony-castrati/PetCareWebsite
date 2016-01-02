@@ -102,12 +102,6 @@ public class HelloController {
 
 	}
 
-    @RequestMapping(method = RequestMethod.GET, value = "promotions")
-    public String promotions(ModelMap model) {
-        model.addAttribute("title", "Promotions");
-        return "promotions";
-    }
-
    @RequestMapping(method = RequestMethod.GET, value = "clients")
     public String clients(ModelMap model) {
 	   	
