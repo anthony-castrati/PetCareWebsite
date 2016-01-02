@@ -2,102 +2,136 @@ h1, h2, h3 {
     font-family: 'Fredericka the Great', cursive;
     color: #ddd;
 }
+h3.alt {
+  color: #ddd;
+}
+
 h1{
     font-size:45px;
 }
 body{
-	padding-top:70px;
-	font-size:16px;
-	background-color:#eee;
+  padding-top:70px;
+  font-size:16px;
+  background-color:#eee;
     background-image: url('../img/darkwoodenbackground.jpg');
     color:#ddd;
 }
 .consultation, .nails, .service{
-	margin-bottom:10px;
-	background-color:#fff;
-	box-shadow: 0px 0px 8px #444;
+  margin-bottom:10px;
+  background-color:#fff;
+  box-shadow: 0px 0px 8px #444;
     color:black;
+}
+.contactus h3{
+  margin-top: 0;
+}
+.page-header {
+  margin: 40px 0 40px;
 }
 
 blockquote{
-	border-left:0px;
+  border-left:0px;
 }
 #gallery a{
-	width:19%;
-	border:2px solid black;
-	display:inline-block;
-	margin-bottom:5px;
+  width:19%;
+  border:2px solid black;
+  display:inline-block;
+  margin-bottom:5px;
 }
 #gallery img{
-	width:100%
+  width:100%
+}
+.popover h3 {
+  color: black;
+  font-weight: bold;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+}
+.detail .popover {
+  width:300px;
 }
 .service {
-	background-color: #fff;
-	margin-bottom:10px;
-	padding:10px;
+  background-color: #fff;
+  margin-bottom:10px;
+  padding:10px;
 }
 .service h4 {
-	background-color: #BF2C7D;
-	line-height: 40px;
-	text-align: center;
-	color:#fff;
-	margin: -10px;
-	margin-bottom: 10px;
+  background-color: #BF2C7D;
+  line-height: 40px;
+  text-align: center;
+  color:#fff;
+  margin: -10px;
+  margin-bottom: 10px;
 }
 .service table{
-	width:100%
+  width:100%
 }
 .service table td{
-	border-top:none;
+  border-top:none;
 }
 .tier{
-	background-color:#fff;
-	color:#000;	
-	box-shadow: 0px 0px 8px #444;
-	padding-top:1px;
+  background-color:#fff;
+  color:#000; 
+  box-shadow: 0px 0px 8px #444;
+  padding-top:1px;
 }
 .tier p img{
-	width:50%;
-	max-width:100px;
-	margin:20px 0;
+  width:50%;
+  max-width:100px;
+  margin:20px 0;
 }
 .detail img{
-	width:100%;
-	max-width:50px;
+  width:100%;
+  max-width:50px;
 }
 .detail{
-	color:#FFF;
-	padding:5px;
-	background-color: #BF2C7D;
+  color:#FFF;
+  padding:5px;
+  background-color: #BF2C7D;
+}
+.detail a{
+  color:#0000FF;
+}
+.detail a:hover {
+  color:#0000CC;
+}
+.detail .popover {
+  color: black;
 }
 .pay .tier .detail{
-	margin-bottom:20px;
-	height:40px;
+  margin-bottom:20px;
+  height:40px;
 }
 .subtle{
-	background-color: #666;
+  background-color: #666;
 }
 .about-image {
-	border:1px solid black;
-  	width: 300px;
-  	margin-bottom:20px;
+  border:1px solid black;
+    width: 300px;
+    margin-bottom:20px;
 }
 .about-image.pull-left{
-	margin-right:20px;
+  margin-right:20px;
 }
 .about-image.pull-right{
-	margin-left:20px;
+  margin-left:20px;
 }
 .contacts{
-	line-height:30px;
-	background-color:rgba(0, 0, 0, 0.4);
-	border-radius:10px;
-	padding:10px;
+  line-height:30px;
+  background-color:rgba(0, 0, 0, 0.4);
+  border-radius:10px;
+  padding:10px;
+  margin-bottom: 20px;
+}
+.contacts h4 {
+  margin-bottom:10px;
 }
 .price{
-	font-size:40px;
-	display:block;
-	margin:30px;
+  display:block;
+  margin:30px;
+  min-height: 80px;
+}
+.price strong{
+  font-size:40px;
 }
 .banner{
     font-size: 1.3em;
@@ -116,58 +150,58 @@ blockquote{
     width:100%;
 }
 p.description{
-	padding:10px;
+  padding:10px;
 }
 
 .detail p {
-	font-size:16px;
+  font-size:16px;
 }
 .nails{
-	padding-top:1px;
-	background-color: white;
+  padding-top:1px;
+  background-color: white;
     margin-bottom:10px;
 }
 .nails .price{
-	font-size:30px;
+  font-size:30px;
 }
 .separator{
-	border-right:1px solid #DDD;
+  border-right:1px solid #DDD;
 }
 #myCarousel{
-	 border:5px solid #332B24;
-	 border-radius:5px;
+   border:5px solid #332B24;
+   border-radius:5px;
 }
 .servicearea.link {
-	text-align:center;
-	width:100%;
-	padding-bottom:10px;
+  text-align:center;
+  width:100%;
+  padding-bottom:10px;
 }
 .error{
-	color:#ff0000;
+  color:#ff0000;
 }
 #pbOverlay .wrapper img{
-	border:1px solid white;
+  border:1px solid white;
 }
 footer{
     border-top: #080808;
     background-color:#222;
-	padding-top: 40px;
-	padding-bottom: 30px;
-	margin-top: 40px;
-	text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  text-align: center;
 }
 footer img{
-	width:80px;
+  width:80px;
 }
 footer ul{
-	list-style:none;
-	padding:0px;
+  list-style:none;
+  padding:0px;
 }
 footer i{
-	padding-right:5px;
+  padding-right:5px;
 }
 h3{
-	color:#BF2C7D;
+  color:#BF2C7D;
 }
 
 @font-face {
