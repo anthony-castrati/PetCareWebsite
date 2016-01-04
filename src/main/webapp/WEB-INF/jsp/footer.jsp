@@ -7,6 +7,9 @@
                             &copy; ${appconfig.siteName} 2015
                         </li>
                         <li>
+                            All rights reserved.
+                        </li>
+                        <li>
                             Raleigh &amp; Knightdale NC
                         </li>
                     </ul>

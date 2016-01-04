@@ -17,9 +17,13 @@
                 <h1 class="text-center">Services</h1>
                 </div>
                 <h2>Consultations</h2>
-                <blockquote>
-                          <p>An initial consultation is required for all new clients. During your consultation we will familiarize ourselves with you and your home all while enabling your pet(s) to interact with us and determine if we are the right match for the job. We will take the time to answer any questions and formulate the right care plan for you and your pet(s). We will collect a completed new client information packet and recommend having keys ready at this time to avoid any key handling fees. Please expect this meeting to last anywhere from 30-60 minutes.</p>
-                        </blockquote>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well well-small">
+                            An initial consultation is required for all new clients. During your consultation we will familiarize ourselves with you and your home all while enabling your pet(s) to interact with us and determine if we are the right match for the job. We will take the time to answer any questions and formulate the right care plan for you and your pet(s). We will collect a completed new client information packet and recommend having keys ready at this time to avoid any key handling fees. Please expect this meeting to last anywhere from 30-60 minutes.
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                         <div class="col-md-4 col-md-offset-2 ">
                                 <div class="tier consultation text-center">
@@ -40,7 +44,7 @@
                                         <div class="detail">
                                                 <p><small>These consultations are required if you move to a new home, acquire a new pet, or any pet has a major change in medical needs. See the 
 
-                                                <a tabindex="0" data-trigger="focus" data-toggle="popover" title="Follow-Up Consultations" data-content="These consultations are required if you move to a new home, acquire a new pet, or any pet has a major change in medical needs.  We require this consultation to become aquainted with your new home or pet, obtain new keys, and have any necessary paperwork updated at this time. Follow-up consultations are $35 for up to 1 hour of time and there will be a $20 fee for each additional 30 minutes beyond the alloted 1 hour time frame.">full policy</a>
+                                                <a tabindex="0" data-trigger="focus" data-toggle="popover" title="Follow-Up Consultations" data-content="These consultations are required if you move to a new home, acquire a new pet, or any pet has a major change in medical needs.  We require this consultation to become acquainted with your new home or pet, obtain new keys, and have any necessary paperwork updated at this time. Follow-up consultations are $35 for up to 1 hour of time and there will be a $20 fee for each additional 30 minutes beyond the allotted 1 hour time frame.">full policy</a>
 
                                                  for more details.</small></p>
                                         </div>
@@ -92,9 +96,13 @@
                         </div>
                 </div>
                 <h2>Midday Dog Walking</h2>
-                <blockquote>
-                          <p>Most of us work long hours and are always on the go. There comes a moment when we realize that we are not able to give our pets all the attention they desire, or provide that extra walk or potty break they need. Mental and physical well being are key to the overall health and wellness of our pets and that's where Capital City Pet Care can help! Midday walks are a great way to provide that extra mental and physical stimulation that our pets need throughout the day. We would love to provide that added love and attention while you are away. Midday walks are M-F typically from 11 a.m. to 2 p.m.</p>
-                        </blockquote>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well well-small">
+                            Most of us work long hours and are always on the go. There comes a moment when we realize that we are not able to give our pets all the attention they desire, or provide that extra walk or potty break they need. Mental and physical well being are key to the overall health and wellness of our pets and that's where Capital City Pet Care can help! Midday walks are a great way to provide that extra mental and physical stimulation that our pets need throughout the day. We would love to provide that added love and attention while you are away. Midday walks are M-F typically from 11 a.m. to 2 p.m.
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                         <div class="col-md-4 ">
                                 <div class="tier text-center">
@@ -144,9 +152,13 @@
                         </div>
                 </div>
                 <h2>Nail Trims</h2>
-                <blockquote>
-                          <p>Nail trims can be difficult when doing them on your own. Let us help you skip the anxiety of cutting too short or let us help you get that smooth finish to keep you and your floor scratch free!</p>
-                        </blockquote>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well well-small">
+                            Nail trims can be difficult when doing them on your own. Let us help you skip the anxiety of cutting too short or let us help you get that smooth finish to keep you and your floor scratch free!
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="row">
@@ -169,7 +181,7 @@
                             <div class="col-md-4">
                                     <div class="text-center nails">
                                             <h4>Dremel</h4>
-                                            <span class="muted price"><strong>$20</strong></span>
+                                            <span class="muted price"><strong>$21</strong></span>
                                             <div class="detail">
                                             Smooth Finish
                                             </div>
@@ -186,9 +198,13 @@
                     </div>
                 </div>
             <h2>Expressions</h2>
-                <blockquote>
-                          <p>Is your dog licking, scratching, scooting, or biting at its tail? Do you smell a funny odor? It may be time for an anal sac expression! Many factors can affect the anal sacs such as soft stools, allergies, and the quality of their food. Having a full sac can become uncomfortable, impacted, or infected.</p>
-                        </blockquote>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well well-small">
+                            Is your dog licking, scratching, scooting, or biting at its tail? Do you smell a funny odor? It may be time for an anal sac expression! Many factors can affect the anal sacs such as soft stools, allergies, and the quality of their food. Having a full sac can become uncomfortable, impacted, or infected.
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                                 <div class="col-md-4 col-md-offset-4">
                                         <div class="text-center nails">
@@ -206,9 +222,13 @@
                       </div>
                   </div>
                 <h2>Add-on Services</h2>
-                <blockquote>
-                          <p>In addition to pet sitting and dog walking, we offer many other services which you can add on to your existing reservation.  Add-on services can also be purchased as a standalone service.  Please call for a quote.</p>
-                        </blockquote>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well well-small">
+                            In addition to pet sitting and dog walking, we offer many other services which you can add on to your existing reservation.  Add-on services can also be purchased as a standalone service.  Please call for a quote.
+                        </div>
+                    </div>
+                </div>
                         <div class="row">
                                 <div class="col-md-4 col-md-offset-2">
                                         <div class="service">
