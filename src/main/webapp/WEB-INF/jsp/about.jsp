@@ -38,7 +38,7 @@
                             <img class="img-rounded about-image" src="img/Amanda.jpg">
                         </div>
                         <div class="col-sm-7">
-                            <p>Amanda has been working with animals since 2007 with a diverse background working with cats, dogs, sheep, swine, seals and sea turtles. She has even studied abroad in Australia. She is a 2015 NCSU graduate and has a B.S. in Animal Science. She is an avid runner who has participated in 3 half marathons and numerous 5K’s, so she is sure to keep your fur baby on their toes!</p>
+                            <p>Amanda has been working with animals since 2007 with a diverse background working with cats, dogs, sheep, swine, seals and sea turtles. She has even studied abroad in Australia. She is a 2015 NCSU graduate and has a B.S. in Animal Science. She is an avid runner who has participated in 3 half marathons and numerous 5K&apos;s, so she is sure to keep your fur baby on their toes!</p>
                         </div>
                     </div>
                     <div class="row">
