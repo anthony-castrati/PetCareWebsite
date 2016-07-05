@@ -5,14 +5,14 @@
         <meta name="description" content="We offer free consultations, daily visits, dog walking, nail trims and expressions.">
     <jsp:include page="header.jsp"/>
   </head>
-  
+
   <body>
     <jsp:include page="navigation.jsp"/>
 
     <div class="container services">
 
       <!-- Main hero unit for a primary marketing message or call to action -->
-      
+
                 <div class="page-header">
                 <h1 class="text-center">Services</h1>
                 </div>
@@ -42,7 +42,7 @@
                                         <h3>Follow-Up</h3>
                                         <span class="muted price"><strong>$35</strong></span>
                                         <div class="detail">
-                                                <p><small>These consultations are required if you move to a new home, acquire a new pet, or any pet has a major change in medical needs. See the 
+                                                <p><small>These consultations are required if you move to a new home, acquire a new pet, or any pet has a major change in medical needs. See the
 
                                                 <a tabindex="0" data-trigger="focus" data-toggle="popover" title="Follow-Up Consultations" data-content="These consultations are required if you move to a new home, acquire a new pet, or any pet has a major change in medical needs.  We require this consultation to become acquainted with your new home or pet, obtain new keys, and have any necessary paperwork updated at this time. Follow-up consultations are $35 for up to 1 hour of time and there will be a $20 fee for each additional 30 minutes beyond the allotted 1 hour time frame.">full policy</a>
 
@@ -107,7 +107,7 @@
                         <div class="col-md-4 ">
                                 <div class="tier text-center">
                                         <h3>Express</h3>
-                                        <p>20 Minutes</p>
+                                        <p>Up to 20 Minutes</p>
                                         <span class="muted price"><strong>$18*</strong></span>
                                         <div class="detail">
                                             <small>Includes up to a 15 minute walk, refresh water, medication administration, and lunch if needed.</small>
@@ -212,7 +212,7 @@
                                                 <div class="detail">Internal Expression</div>
                                         </div>
                                 </div>
-              
+
                 </div>
                   <div class="row">
                       <div class="col-md-12">
