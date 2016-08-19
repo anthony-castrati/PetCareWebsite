@@ -23,6 +23,12 @@
                             </c:otherwise>
                         </c:choose>
                     </c:forEach>
+                    <li>
+                        <a href="https://www.timetopet.com/portal/capital-city-pet-care" class="btn btn-default client-login">
+                            Client Login 
+                            <span class="glyphicon glyphicon-user"></span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>

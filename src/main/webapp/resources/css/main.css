@@ -288,3 +288,10 @@ h3{
         text-align: center;
     }
 }
+
+li>a.btn.client-login, li>a.btn.client-login:hover  {
+    color: #000;
+    border-radius: 0;
+    background: #ddd;
+    border: 1px solid #ddd;
+}
