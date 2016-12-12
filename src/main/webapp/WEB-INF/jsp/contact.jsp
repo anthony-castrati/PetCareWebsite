@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-xs-12 contacts">
                 <h4></h4>
-                <p>Texts, calls, and e-mails are generally responded too within 24 hours or sooner if your pet is in our care at the time of communication. Communications recieved outside of normal phone hours will be responded to the next business day. If you do not hear from us within 48 hours, we may not have received your message! Please contact us again! For faster response feel free to email us.</p>
+                <p>Texts, calls, and e-mails are generally responded too within 24 hours or sooner if your pet is in our care at the time of communication. Communications received outside of normal phone hours will be responded to the next business day. If you do not hear from us within 48 hours, we may not have received your message! Please contact us again! For faster response feel free to email us.</p>
                 <p>
                 We provide daily check-ins at no charge. We talk to numerous clients each day, and are happy to let you know how your pet is doing, but we must make sure we have time to extend the same courtesy to all of our clients. Please keep in mind that we must eventually end our work day and we appreciate your consideration when contacting us.
                 </p>

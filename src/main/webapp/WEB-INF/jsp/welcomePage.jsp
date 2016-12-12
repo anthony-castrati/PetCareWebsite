@@ -4,7 +4,7 @@
 <head>
     <title>Home - ${appconfig.siteName}</title>
     <meta name="description"
-          content="Capital City Pet Care is a licensed, bonded and insured pet sitting and dog walking service that provides care for dogs, cats, small animals and exotics in Raleigh, NC and Knightdale, NC">
+          content="Capital City Pet Care is a bonded and insured pet sitting and dog walking service that provides care for dogs, cats, small animals and exotics in Raleigh, NC and Knightdale, NC">
     <jsp:include page="header.jsp"/>
 </head>
 
@@ -38,7 +38,7 @@
             <img src="img/services.jpg">
 
             <p>
-                Capital City Pet Care is a licensed, bonded and insured pet sitting service that provides care for dogs,
+                Capital City Pet Care is a bonded and insured pet sitting service that provides care for dogs,
                 cats, small animals and exotics in Raleigh and Knightdale. We are proud to offer daily visits, dog
                 walking, medication administration, nail trims and much more!
             </p>

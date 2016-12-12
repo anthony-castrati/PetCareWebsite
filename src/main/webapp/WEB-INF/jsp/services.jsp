@@ -59,7 +59,7 @@
                                         <p>Up to 20 Minutes</p>
                                         <span class="muted price"><strong>$18*</strong></span>
                                         <div class="detail">
-                                            <small>Our most popular visit! Includes a bathroom break with short walk, food, water, litter box scoop, medication administration, complementary services<sup>1</sup> and a little TLC.</small>
+                                            <small>Perfect for pets who prefer their own personal space or just need some quick relief! Includes a bathroom break, food, water, litter box scoop, medication administration, and complementary services.</small>
                                         </div>
                                 </div>
                         </div>
@@ -69,7 +69,7 @@
                                         <p>30 Minutes</p>
                                         <span class="muted price"><strong>$20*</strong></span>
                                         <div class="detail">
-                                            <small>Includes a bathroom break and lengthy walk, fresh water and food, litter box scoop, medication administration, complementary services<sup>1</sup>, and lots of belly rubs!</small>
+                                            <small>Includes a bathroom break and lengthy walk or yard play, fresh water and food, litter box scoop, medication administration, complementary services<sup>1</sup>, and lots of belly rubs!</small>
                                         </div>
                                 </div>
                         </div>
@@ -79,7 +79,7 @@
                                         <p>45 Minutes</p>
                                         <span class="muted price"><strong>$25*</strong></span>
                                         <div class="detail">
-                                            <small>Includes a bathroom break, extended walk and play time, fresh water and food, litter box scoop, medication administration, complementary services<sup>1</sup>, and extra TLC!</small>
+                                            <small>Includes a bathroom break, extended walk or yard play, fresh water and food, litter box scoop, medication administration, complementary services<sup>1</sup>, and extra TLC!</small>
                                         </div>
                                 </div>
                         </div>
@@ -88,7 +88,7 @@
                         <div class="col-md-12">
                                 <div class="well well-small">
                                         <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$5</strong> per visit. For small animal &amp; exotic pet care, contact us for a quote. Capital City Pet Care is unable to provide services for aggressive or venomous pets.</p>
-                                                <strong><sup>1</sup></strong> Complementary Services: Light brushing, mail collection, trash service, light and blinds rotation, open/close windows and indoor plant watering.
+                                                <strong><sup>1</sup></strong> Complementary Services: Light brushing, mail collection, trash service, light and blinds rotation, open/close windows and indoor plant watering. Not included in daily midday dog walking visits/packages.
                                 </div>
                                 <div class="well well-small">
                                                 <strong>Key Pickup/Return</strong> - Generally we keep your keys for future visits, but if you would like us to pick up or drop off your key for each reservation, we can provide this service to you for <strong>$15</strong> per service.
@@ -110,7 +110,7 @@
                                         <p>Up to 20 Minutes</p>
                                         <span class="muted price"><strong>$18*</strong></span>
                                         <div class="detail">
-                                            <small>Includes up to a 15 minute walk, refresh water, medication administration, and lunch if needed.</small>
+                                            <small>Includes a short walk or yard play, refresh water, medication administration, and lunch if needed.</small>
                                         </div>
                                 </div>
                         </div>
@@ -120,7 +120,7 @@
                                         <p>30 Minutes</p>
                                         <span class="muted price"><strong>$20*</strong></span>
                                         <div class="detail">
-                                            <small>Includes a 20-25 minute walk, refresh water, medication administration, and lunch if needed.</small>
+                                            <small>Includes a lengthy walk or yard play, refresh water, medication administration, and lunch if needed.</small>
                                         </div>
                                 </div>
                         </div>
@@ -147,7 +147,7 @@
                 <div class="row">
                         <div class="col-md-12">
                                 <div class="well well-small">
-                                        <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$5</strong> per visit. For small animal &amp; exotic pet care, contact us for a quote. Capital City Pet Care is unable to provide services for aggressive or venomous pets.</p>
+                                        <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$5</strong> per pet per visit. For small animal &amp; exotic pet care, contact us for a quote. Capital City Pet Care is unable to provide services for aggressive or venomous pets.</p>
                                 </div>
                         </div>
                 </div>
@@ -221,48 +221,56 @@
                           </div>
                       </div>
                   </div>
-                <h2>Add-on Services</h2>
+                <h2>Other Services</h2>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="well well-small">
-                            In addition to pet sitting and dog walking, we offer many other services which you can add on to your existing reservation.  Add-on services can also be purchased as a standalone service.  Please call for a quote.
+                            In addition to pet sitting and dog walking, we offer many other services which you can add on to your existing reservation or they can also be purchased as a standalone service.  Please call for a quote.
                         </div>
                     </div>
                 </div>
                         <div class="row">
-                                <div class="col-md-4 col-md-offset-2">
+                                <div class="col-md-5 col-md-offset-1">
                                         <div class="service">
                                                 <h4>Other Services</h4>
                                                 <table>
                                                 <tbody>
-                                                    <tr>
-                                                    <td>Subcutaneous Fluid</td>
+                                                  <tr>
+                                                    <td>Medication Administration Visit</td>
+                                                    <td><strong>$18</strong></td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Subcutaneous Fluid Add-on</td>
                                                     <td><strong>$5</strong></td>
                                                   </tr>
                                                   <tr>
-                                                    <td>Teeth Brushing</td>
-                                                    <td><strong>$3</strong></td>
+                                                    <td>Teeth Brushing Add-on</td>
+                                                    <td><strong>$10</strong></td>
                                                   </tr>
                                                   <tr>
                                                     <td>Locked Out? <sup>1</sup></td>
-                                                    <td><strong>$25</strong></td>
+                                                    <td><strong>$28</strong></td>
                                                   </tr>
                                                 </tbody>
                                               </table>
                                         </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-5">
                                         <div class="service">
-                                                <h4>Kitty Caps Application + Nail Trim</h4>
+                                                <h4>Kitty Caps/Soft Paws + Nail Trim</h4>
                                                 <table>
                                                 <tbody>
                                                   <tr>
                                                     <td>Application Only</td>
-                                                    <td><strong>$21</strong></td>
+                                                    <td><strong>$34</strong></td>
                                                   </tr>
                                                   <tr>
-                                                    <td>Kitty Caps Included <sup>2</sup></td>
-                                                    <td><strong>$24</strong></td>
+                                                    <td>Feline Kitty Caps Included (Front Paws Only)</td>
+                                                    <td><strong>$38</strong></td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Canine Soft Paws Included (All Paws)</td>
+                                                    <td><strong>$45</strong></td>
                                                   </tr>
                                                 </tbody>
                                               </table>
@@ -272,9 +280,7 @@
                         <div class="row">
                 <div class="col-md-12">
                                         <div class="well well-small">
-                                        <strong><sup>1</sup></strong> If you are locked out of your house and we have retained your key, we can come let you in!
-                                        <p><strong><sup>2</sup></strong> Front paws only.</p>
-                                </div>
+                                        <strong><sup>1</sup></strong>If we have retained your key and you lock yourself out of your home, we can let you back in and provide you with a working key.</div>
                         </div>
                         </div>
                 </div>
