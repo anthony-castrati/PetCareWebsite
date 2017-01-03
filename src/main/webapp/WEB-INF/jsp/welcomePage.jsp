@@ -9,19 +9,27 @@
 </head>
 
 <body>
-<jsp:include page="navigation.jsp"/>
-<div class="container">
-    <div class="banner">
-        <h1 class="logo">Capital City Pet Care</h1>
-        <h3>Pet Sitting &amp; Dog Walking</h3>
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1 hidden-print">
-                <jsp:include page="carousel.jsp"/>
-            </div>
-        </div>
+  <div class="container content">
+    <div class="row">
+      <div class="col-xs-12 navi">
+        <jsp:include page="navigation.jsp"/>
+      </div>
     </div>
-    <br>
-    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-xs-12 welcome">
+          <span>Welcome</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <blockquote>We don't always have the luxury or convenience of bringing our pets with us everywhere we go and when leaving them in an unfamiliar place doesn't sound like the perfect scenario, let us be there for you and your pet. Capital City Pet Care understands the importance of allowing pets to stay in their own home where they feel the most secure. If you're going on vacation or anticipate a long day at work let us pamper your pet while you're away.<p></p></blockquote>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="mask"></div>
+      </div>
+    </div>
     <div class="row deals">
         <div class="col-md-4">
             <h2>Free Consultation</h2>
@@ -51,10 +59,7 @@
                 completed service.</p>
         </div>
     </div>
-</div>
-<jsp:include page="footer.jsp"/>
-<script type="text/javascript">
-    $('.carousel').carousel('cycle')
-</script>
+    <jsp:include page="footer.jsp"/>
+  </div>
 </body>
 </html>

@@ -1,30 +1,252 @@
 h1, h2, h3 {
-    font-family: 'Fredericka the Great', cursive;
-    color: #ddd;
+    font-family: 'Rasa', serif;
+    color: #182126;
 }
 h3.alt {
-  color: #ddd;
+  color: #182126;
 }
 
-h1{
+h1 {
     font-size:45px;
 }
-body{
-  padding-top:70px;
+
+h2 {
+  font-size: 35px;
+}
+
+.logo-container {
+  text-align: center;
+  position: relative;
+}
+
+body {
   font-size:1.8em;
   background-color:#eee;
-    background-image: url('../img/darkwoodenbackground.jpg');
-    color:#ddd;
+  background-image: url('../img/white-linen.jpg');
+  color:#182126;
+  background-attachment: fixed;
+  background-size: 100%;
 }
+
+.content {
+  background-color:#f5fcff;
+  box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.25);
+}
+
+.navi {
+  padding: 0px;
+}
+
+.small-banner {
+	background: #61a4fb;
+	color: #182126;
+  font-size: .8em;
+  padding: 5px 15px;
+}
+
+.small-banner a {
+	color: #182126;
+}
+
+.full-business-name {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.business-name-container {
+  padding-right:90px;
+  height: 100%;
+  display: table;
+}
+
+/** Separator **/
+.mask {
+    overflow: hidden;
+    height: 20px;
+    display: block;
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    margin-top: 11px;
+    z-index: 100;
+}
+
+.mask::after {
+    content: '';
+    display: block;
+    margin: -25px auto 0;
+    width: 100%;
+    height: 25px;
+    border-radius: 125px / 12px;
+    box-shadow: 0 0 8px black;
+}
+
+.separator {
+  position:relative;
+}
+
+.separator span {
+  border-radius: 30px;
+  box-shadow: 0 2px 4px #999;
+  background: white;
+  padding: 5px;
+  display: inline-block;
+  margin-top: -50px;
+  z-index: 200;
+  position: relative;
+}
+
+.separator span i {
+  border-radius: 30px;
+  border: 1px dashed #aaa;
+  text-align: center;
+  line-height: 50px;
+  font-style: normal;
+  color: #999;
+  height: 50px;
+  display: block;
+  padding: 8px;
+}
+
+.separator span i h2 {
+  margin: 0;
+}
+
+/** Logo and header **/
+.business-name {
+    font-size: 4.8em;
+    font-size: 5.2vw;
+    line-height: 80px;
+}
+
+.business-purpose {
+  font-size: 30px;
+  font-size: 2vw;
+  line-height: normal;
+}
+
+.full-business-name {
+  font-family: 'Rasa', serif;
+}
+
+.small-banner i {
+	margin: 0 5px;
+}
+
+.anchor {
+	display: block;
+	position: relative;
+	top: -75px;
+}
+
+.welcome {
+	height: 350px;
+	padding: 0px;
+	overflow: hidden;
+	background-image:  url("../img/alexxis_nick_simone.jpg");
+	background-position-y: -159px;
+  background-position-x: center;
+	background-repeat: no-repeat;
+}
+
+.welcome span {
+  position: absolute;
+  left:30px;
+  bottom:8px;
+  color: #f5fcff;
+  font-family: "Aguafina Script";
+  font-size:100px;
+  line-height:24px;
+  font-weight:bold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.welcome img {
+  width:100%;
+}
+
+.review-panel {
+	text-align: center;
+	max-width: 205px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.review-panel img {
+	height: 35px;
+	margin: 0 auto;
+	display: block;
+}
+
+.yelp {
+  background: #D32323;
+  padding: 0px;
+}
+
+.prenav img.logo {
+  width: 280px;
+  position: absolute;
+  top:0px;
+  left:0px;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.navbar-brand img.logo {
+  width: 75px;
+  position: static;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand .full-business-name {
+  display: inline-block;
+}
+
+.navbar-brand .business-name {
+  line-height: unset;
+  margin-bottom:2px;
+}
+
+.logo-row {
+  height: 187px;
+}
+
+blockquote {
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10%;
+  padding: 0.5em 15px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #bbb;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
 .consultation, .nails, .service{
   margin-bottom:10px;
   background-color:#fff;
   box-shadow: 0px 0px 8px #444;
     color:black;
 }
+
 .contactus h3{
   margin-top: 0;
 }
+
 .page-header {
   margin: 40px 0 40px;
 }
@@ -32,28 +254,34 @@ body{
 blockquote{
   border-left:0px;
 }
+
 #gallery a{
   width:19%;
   border:2px solid black;
   display:inline-block;
   margin-bottom:5px;
 }
+
 #gallery img{
   width:100%
 }
+
 .popover h3 {
   color: black;
   font-weight: bold;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
 }
+
 .detail .popover {
   width:300px;
 }
+
 .service {
   background-color: #fff;
   margin-bottom:10px;
   padding:10px;
 }
+
 .service h4 {
   background-color: #BF2C7D;
   line-height: 40px;
@@ -62,61 +290,76 @@ blockquote{
   margin: -10px;
   margin-bottom: 10px;
 }
+
 .service table{
   width:100%
 }
+
 .service table td{
   border-top:none;
 }
+
 .tier{
   background-color:#fff;
-  color:#000; 
+  color:#000;
   box-shadow: 0px 0px 8px #444;
   padding-top:1px;
 }
+
 .tier p img{
   width:50%;
   max-width:100px;
   margin:20px 0;
 }
+
 .detail img{
   width:100%;
   max-width:50px;
 }
+
 .detail{
   color:#FFF;
   padding:5px;
   background-color: #BF2C7D;
 }
+
 .detail a{
   color:#0000FF;
 }
+
 .detail a:hover {
   color:#0000CC;
 }
+
 .detail .popover {
   color: black;
 }
+
 .pay .tier .detail{
   margin-bottom:20px;
   height:40px;
 }
+
 .subtle{
   background-color: #666;
 }
+
 .bio {
     margin-bottom: 30px;
     text-align: center;
 }
+
 .bio p {
     text-align: justify;
 }
+
 .about-image {
   border:1px solid black;
     max-width: 300px;
     margin-bottom:20px;
     width:100%;
 }
+
 .contacts{
   line-height:30px;
   background-color:rgba(0, 0, 0, 0.4);
@@ -124,33 +367,35 @@ blockquote{
   padding:10px;
   margin-bottom: 20px;
 }
+
 .contacts h4 {
   margin-bottom:10px;
 }
+
 .price{
   display:block;
   margin:30px;
   min-height: 80px;
 }
+
 .price strong{
   font-size:40px;
 }
+
 .banner{
     font-size: 1.3em;
     font-weight:bold;
     font-family: "chantelli_antiquaregular",Helvetica,Arial;
 }
-.navbar-header img{
-    width:55px;
-    float:left;
-    padding:5px;
-}
+
 .banner .logo{
     text-align:center;
 }
+
 .banner img {
     width:100%;
 }
+
 p.description{
   padding:10px;
 }
@@ -158,50 +403,64 @@ p.description{
 .detail p {
   font-size:16px;
 }
+
 .nails{
   padding-top:1px;
   background-color: white;
     margin-bottom:10px;
 }
+
 .nails .price{
   font-size:30px;
 }
+
 .separator{
   border-right:1px solid #DDD;
 }
+
 #myCarousel{
    border:5px solid #332B24;
    border-radius:5px;
 }
+
 .servicearea.link {
   text-align:center;
   width:100%;
   padding-bottom:10px;
 }
+
 .error{
   color:#ff0000;
 }
+
 #pbOverlay .wrapper img{
   border:1px solid white;
 }
+
 footer{
-    border-top: #080808;
-    background-color:#222;
+  border-top: #080808;
+  background-color:#222;
   padding-top: 40px;
   padding-bottom: 30px;
   margin-top: 40px;
   text-align: center;
+  color: #f5fcff;
+  margin: 0px -15px;
 }
+
 footer img{
   width:80px;
 }
+
 footer ul{
   list-style:none;
   padding:0px;
 }
+
 footer i{
   padding-right:5px;
 }
+
 h3{
   color:#BF2C7D;
 }
@@ -216,13 +475,19 @@ h3{
     font-weight: normal;
     font-style: normal;
 }
+
 .deals p{
-    background-color: rgba(0,0,0,.4);
     padding:10px;
 }
+
 .deals img{
     width:100%;
 }
+
+.deals div {
+  padding:15px;
+}
+
 .services .well{
     color:#ddd;
     background-color:rgba(0,0,0,.4);
@@ -230,6 +495,7 @@ h3{
     border:none;
     margin-top:10px;
 }
+
 .services blockquote p{
     padding: 20px;
     background-color: rgba(0,0,0,.4);
@@ -238,28 +504,30 @@ h3{
 
 .deals h2{
     text-align:center;
-    color:#ddd;
 }
 
 .banner h3{
     text-align: center;
     margin-bottom: 40px;
-    color: #ddd;
 }
+
 .banner h1{
     font-size:60px;
 }
+
 .about{
     background-color: rgba(0,0,0,.3);
     padding:20px;
     border-radius:10px;
 }
+
 .promotion h2{
     padding: 10px 0px;
     background-color:#BF2C7D;
     text-align: center;
     margin-top:0px;
 }
+
 .promotion{
     background-color:white;
     color: #000;
@@ -268,6 +536,7 @@ h3{
     border-style:dashed;
     margin-bottom:20px;
 }
+
 .promotion p{
     padding:10px;
 }
@@ -277,6 +546,25 @@ h3{
     padding:10px;
     border-radius:5px;
 }
+
+li>a.btn.client-login, li>a.btn.client-login:hover  {
+    color: #000;
+    border-radius: 0;
+    background: #ddd;
+    border: 1px solid #ddd;
+}
+
+/*new content container */
+.real-content {
+    margin: 30px 0;
+}
+
+/* Navigation */
+.navbar {
+  margin-bottom: 0px;
+  border-radius: initial;
+}
+
 @media (min-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;
@@ -289,9 +577,33 @@ h3{
     }
 }
 
-li>a.btn.client-login, li>a.btn.client-login:hover  {
-    color: #000;
-    border-radius: 0;
-    background: #ddd;
-    border: 1px solid #ddd;
-}
+.affix {
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+  /** Utility **/
+
+  .no-margin {
+    margin-top: 0;
+  }
+
+  .margin-bottom {
+    margin-bottom:30px;
+  }
+
+  .margin-top {
+    margin-top: 30px;
+  }
+
+  .services .separator {
+    margin-top: 50px;
+    margin-bottom:30px;
+    text-align: center;
+  }
