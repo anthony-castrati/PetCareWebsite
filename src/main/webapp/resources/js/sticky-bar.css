@@ -1,0 +1,120 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+   font-family: "entypo", sans-serif;
+}
+
+#sticky-social a {
+   text-decoration: none;
+}
+
+#sticky-social a img {
+  width:35px;
+  vertical-align: unset;
+}
+#sticky-social.mobile a img {
+  float:left;
+}
+#sticky-social ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   width: 156px;
+}
+
+#sticky-social.mobile ul li {
+  width: 50%;
+  display: block;
+  float: left;
+}
+
+#sticky-social.mobile ul {
+  width: 100%;
+}
+
+#sticky-social .container {
+   margin: 0 auto;
+   padding: 20px 50px;
+   background:white;
+}
+
+#sticky-social {
+   position: fixed;
+   top: 225px;
+   margin-bottom: 15px;
+}
+#sticky-social.mobile {
+  position:static;
+}
+
+#sticky-social a {
+   background: #333;
+   color: #fff;
+   display: block;
+   height: 35px;
+   font: 16px "Open Sans", sans-serif;
+   line-height: 35px;
+   position: relative;
+   text-align: center;
+   width: 35px;
+}
+#sticky-social.mobile a {
+  position:static;
+  width: 100%;
+}
+#sticky-social:not(.mobile) a:hover span {
+   display: inline-block;
+   float:left
+}
+
+#sticky-social a span {
+   line-height: 35px;
+   left: -120px;
+   position: absolute;
+   text-align: center;
+   width: 120px;
+   display: none;
+}
+#sticky-social.mobile a span {
+  display:inline-block;
+  left:auto;
+  position: relative;
+}
+
+#sticky-social .rev {
+  transform: rotate(90deg);
+  height: 35px;
+  display: inline-block;
+  position: absolute;
+  left: 96px;
+  top: -60px;
+  background: #555;
+  padding: 0px 8px;
+  vertical-align: middle;
+  line-height: 35px;
+  color: #fff;
+}
+#sticky-social.mobile .rev {
+  transform: none;
+  position: static;
+  width: 100%;
+}
+
+#sticky-social a.facebook,
+#sticky-social a.facebook:hover,
+#sticky-social a.facebook span { background: #3b5998; }
+#sticky-social a.facebook img { height:100%; padding: 4px;}
+
+#sticky-social a.angieslist,
+#sticky-social a.angieslist:hover,
+#sticky-social a.angieslist span { background: #29A036; }
+
+#sticky-social a.yelp,
+#sticky-social a.yelp:hover,
+#sticky-social a.yelp span { background: #D32323; }
+
+#sticky-social a.google,
+#sticky-social a.google:hover,
+#sticky-social a.google span { background: #ffffff; color: #000; }
+#sticky-social a.google img { height:100%; padding: 4px;}

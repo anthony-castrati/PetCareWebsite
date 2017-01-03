@@ -6,14 +6,14 @@
 		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-	<!-- Scans the classpath of this application for @Components to deploy as 
+	<!-- Scans the classpath of this application for @Components to deploy as
 		beans -->
 	<context:component-scan base-package="com.castrati.capcitypetcare" />
 
 	<!-- Properties -->
 	<context:property-placeholder order="0" ignore-resource-not-found="true" ignore-unresolvable="true" location="classpath:/application.properties" />
 	<context:property-placeholder order="-1" ignore-resource-not-found="true" ignore-unresolvable="true" location="file:${overrideProps}" />
-	
+
 	<!-- Configures the @Controller programming model -->
 	<mvc:annotation-driven />
 
@@ -22,12 +22,12 @@
 
 	<!-- Configures Handler Interceptors -->
 	<mvc:interceptors>
-		<!-- Changes the locale when a 'locale' request parameter is sent; e.g. 
+		<!-- Changes the locale when a 'locale' request parameter is sent; e.g.
 			/?locale=de -->
 		<bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor" />
 	</mvc:interceptors>
 
-	<!-- Handles HTTP GET requests for /resources/** by efficiently serving 
+	<!-- Handles HTTP GET requests for /resources/** by efficiently serving
 		up static resources in the ${webappRoot}/resources/ directory -->
 	<mvc:resources mapping="/resources/**" location="/resources/" />
 	<mvc:resources mapping="/img/**" location="/resources/img/" />
@@ -55,7 +55,7 @@
 		<property name="cacheSeconds" value="0" />
 	</bean>
 
-	<!-- Resolves view names to protected .jsp resources within the /WEB-INF/views 
+	<!-- Resolves view names to protected .jsp resources within the /WEB-INF/views
 		directory -->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -63,9 +63,7 @@
 			<list>
 				<value>appconfig</value>
 				<value>nav</value>
-				<value>carousel</value>
 				<value>states</value>
-				<value>gallery</value>
 			</list>
 		</property>
 		<property name="prefix" value="/WEB-INF/jsp/" />
@@ -80,7 +78,7 @@
 		<property name="url" value="http://google.com" />
 		<property name="projectName" value="capcitypetcare" />
 	</bean>
-	
+
 	<!-- Set these to add navigation items -->
 	<bean class="com.castrati.capcitypetcare.beans.Navigation" id="nav"
 		scope="singleton">
@@ -88,30 +86,8 @@
 			<map>
                 <entry key="home" value="Home" />
 				<entry key="about" value="About Us" />
-				<entry key="services" value="Services" />
-				<entry key="clients" value="Our Clients" />
 				<entry key="contact" value="Contact Us" />
-				<entry key="payments" value="Payments" />
 				<entry key="service_area" value="Service Area" />
-			</map>
-		</property>
-	</bean>
-
-	<!-- Carousel Images. Use key as the picture location and value as the caption -->
-	<bean class="com.castrati.capcitypetcare.beans.Carousel" id="carousel"
-		scope="singleton">
-		<property name="scrollingImages">
-			<map>
-                <entry key="img/group_photo.jpg" value="Alexxis with many of our clients." />
-				<entry key="img/MidgeEye.jpg" value="My Cat Midge aka Meeeeeeeedge!" />
-                <entry key="img/alexxis_and_apollo.jpg" value="Alexxis and Apollo." />
-                <entry key="img/penelope.jpg" value="Penelope the cat" />
-				<entry key="img/KakarotHead.jpg" value="The Tailless Kakarot aka Goku" />
-                <entry key="img/NoobNibb.jpg" value="Nooblet and Nibblet" />
-				<entry key="img/PandaEyes.jpg" value="My Cat Pandora aka Panda Bear" />				
-				<entry key="img/IcarusBanner.jpg" value="The Great Flying Icarus" />
-				<entry key="img/GoogleBanner.jpg" value="Google the Chameleon" />
-                <entry key="img/Yoshi.jpg" value="Yoshimoto" />
 			</map>
 		</property>
 	</bean>
