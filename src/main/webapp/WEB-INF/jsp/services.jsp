@@ -214,7 +214,7 @@
                     <div class="col-md-4">
                             <div class="text-center nails">
                                     <h4>Add Dremel</h4>
-                                    <span class="muted price"><strong>+ $6 / pet</strong></span>
+                                    <span class="muted price">+<strong>$6</strong>/pet</span>
                                     <div class="detail">
                                     Smooth Finish
                                     </div>
@@ -273,7 +273,7 @@
           <div class="row">
               <div class="col-md-10 col-md-offset-1">
                   <p class="margin-bottom">
-                      In addition to pet sitting and dog walking, we offer many other services which you can add on to your existing reservation or they can also be purchased as a standalone service.  Please call for a quote.
+                      In addition to pet sitting and dog walking, we offer other services which you can add on to your existing reservation or they can also be purchased as a standalone service.  Please call for a quote.
                   </p>
               </div>
           </div>
