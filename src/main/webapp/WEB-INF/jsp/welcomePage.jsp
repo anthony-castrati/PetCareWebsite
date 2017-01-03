@@ -22,7 +22,7 @@
     </div>
     <div class="row">
       <div class="col-xs-12">
-        <blockquote>As pet parents, we strive to provide the best possbile life for our forever friends, but day to day life can become hectic. Some of us work long hours or maybe we just can&apos;t take our beloved pet on our next vacation. Every pet has different needs and whether you have a puppy or a senior pet that needs more frequent outings, a high energy pet that needs extra mental and physical stimulation, or you just want to provide your pet with the comforts that boarding facilities just can&apos;t accomodate, whatever the reason, let Capital City Pet Care be there for you and your pet. We understand the importance of allowing pets to stay in their own home where they feel most secure. So, if you're going on vacation or anticipate a long day at the work, let us provide you with the peace of mind that your pet&apos;s are receiving the highest quality of care while you&apos;re away.<p></p></blockquote>
+        <blockquote>As pet parents, we strive to provide the best possbile life for our forever friends, but day to day life can become hectic. Some of us work long hours or maybe we just can&apos;t take our beloved pet on our next vacation. Every pet has different needs and whether you have a puppy or a senior pet that needs more frequent outings, a high energy pet that needs extra mental and physical stimulation, or you just want to provide your pet with the comforts that boarding facilities just can&apos;t accommodate, whatever the reason, let Capital City Pet Care of Raleigh and Knightdale be there for you and your pet. We understand the importance of allowing pets to stay in their own home where they feel most secure. So, if you're going on vacation or anticipate a long day at the work, let us provide you with the peace of mind that your pet&apos;s are receiving the highest quality of care while you&apos;re away.<p></p></blockquote>
       </div>
     </div>
     <div class="row">
@@ -48,7 +48,7 @@
             <p>
                 Capital City Pet Care is a fully bonded and insured pet sitting service that provides care for dogs,
                 cats, small animals and exotics in Raleigh and Knightdale. We are proud to offer daily visits, dog
-                walking, medication administration, nail trims and much more!
+                walking, medication administration, nail trims and <a href="services">much more</a>!
             </p>
         </div>
         <div class="col-md-4">

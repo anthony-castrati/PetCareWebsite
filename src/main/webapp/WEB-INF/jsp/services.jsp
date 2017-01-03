@@ -25,7 +25,7 @@
           <div class="row">
               <div class="col-md-10 col-md-offset-1">
                   <p class="margin-bottom">
-                      An initial consultation is required for all new clients. During your consultation we will familiarize ourselves with you and your home all while enabling your pet(s) to interact with us and determine if we are the right match for the job. We will take the time to answer any questions and formulate the right care plan for you and your pet(s). We will collect a completed new client information packet and recommend having keys ready at this time to avoid any key handling fees. Please expect this meeting to last anywhere from 30-60 minutes.
+                      An initial consultation is required for all new clients. During your consultation we will familiarize ourselves with you and your home all while enabling your pet(s) to interact with us and determine if we are the right match for the job. We will take the time to answer any questions and formulate the right care plan for you and your pet(s). We will collect an up-to-date copy of your pets&apos; proof of rabies vaccination and payment for your first reservation. We recommend having keys ready at this time to avoid any key handling fees. Please expect this meeting to last anywhere from 30 minutes to an hour.
                   </p>
               </div>
           </div>
@@ -37,7 +37,7 @@
                                   <div class="detail">
                                           <p><small>* This consultation is FREE for all clients who pre-pay and book services with Capital City Pet Care before or during the consult. See the
 
-                                          <a tabindex="0" data-trigger="focus" data-toggle="popover" title="Initial Consultations" data-content="This consultation is FREE for all clients who pre-pay and book services with Capital City Pet Care before or during the consult, otherwise a fee of $35 will be due at this time.  There will be a $20 fee for each additional 30 minutes beyond the alloted 1 hour time frame. If you decide to decline services at this time, but change your mind within 14 days, the $35 consultation fee will be applied to your first bill. We require at least a two day in advance booking for consultations. Please be aware that Capital City Pet Care is unable to provide services for aggressive or venomous pets. If we determine your pet is aggressive or venomous we will be forced to decline services and the full consultation fee in the amount of $35 will be due at this time. ">full policy</a>
+                                          <a tabindex="0" data-trigger="focus" data-toggle="popover" title="Initial Consultations" data-content="This consultation is FREE for all clients who pre-pay and book services with Capital City Pet Care before or during the consult, otherwise a fee of $30 will be due at this time.  There will be a $20 fee for each additional 30 minutes beyond the allotted 1 hour time frame. If you decide to decline services at this time, but change your mind within 14 days, the $30 consultation fee will be applied to your first bill. We require at least a two day in advance booking for consultations. Please be aware that Capital City Pet Care is unable to provide services for aggressive or venomous pets. If we determine your pet is aggressive or venomous we will be forced to decline services and the full consultation fee in the amount of $30 will be due at this time. ">full policy</a>
                                           for more details.</small></p>
                                   </div>
                           </div>
@@ -45,11 +45,11 @@
                   <div class="col-md-4">
                           <div class="tier text-center">
                                   <h3>Follow-Up</h3>
-                                  <span class="muted price"><strong>$35</strong></span>
+                                  <span class="muted price"><strong>$30</strong></span>
                                   <div class="detail">
                                           <p><small>These consultations are required if you move to a new home, acquire a new pet, or any pet has a major change in medical needs. See the
 
-                                          <a tabindex="0" data-trigger="focus" data-toggle="popover" title="Follow-Up Consultations" data-content="These consultations are required if you move to a new home, acquire a new pet, or any pet has a major change in medical needs.  We require this consultation to become acquainted with your new home or pet, obtain new keys, and have any necessary paperwork updated at this time. Follow-up consultations are $35 for up to 1 hour of time and there will be a $20 fee for each additional 30 minutes beyond the alloted 1 hour time frame.">full policy</a>
+                                          <a tabindex="0" data-trigger="focus" data-toggle="popover" title="Follow-Up Consultations" data-content="These consultations are required if you move to a new home, acquire a new pet, or any pet has a major change in medical needs.  We require this consultation to become acquainted with your new home or pet, obtain new keys, and have any necessary paperwork updated at this time. Follow-up consultations are $30 for up to 1 hour of time and there will be a $20 fee for each additional 30 minutes beyond the allotted 1 hour time frame.">full policy</a>
 
                                            for more details.</small></p>
                                   </div>
@@ -80,7 +80,7 @@
                                   <p>Up to 20 Minutes</p>
                                   <span class="muted price"><strong>$18*</strong></span>
                                   <div class="detail">
-                                      <small>Perfect for pets who prefer their own personal space or just need some quick relief! Includes a bathroom break, food, water, litter box scoop, medication administration, and complementary services.</small>
+                                      <small>Perfect for pets who prefer their own personal space or just need some quick relief! Includes a bathroom break, food, water, litter box scoop, medication administration, and complementary services.<sup>1</sup></small>
                                   </div>
                           </div>
                   </div>
@@ -109,7 +109,7 @@
                   <div class="col-md-10 col-md-offset-1">
                           <p class="margin-top">
                             <small>
-                              <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$5</strong> per visit. For small animal &amp; exotic pet care, contact us for a quote. Capital City Pet Care is unable to provide services for aggressive or venomous pets.</p>
+                              <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$5</strong> per pet per visit. For small animal &amp; exotic pet care, contact us for a quote. Capital City Pet Care is unable to provide services for aggressive or venomous pets.</p>
                               <strong><sup>1</sup></strong> Complementary Services: Light brushing, mail collection, trash service, light and blinds rotation, open/close windows and indoor plant watering. Not included in daily midday dog walking visits/packages.
                             </small>
                           </p>
@@ -173,7 +173,7 @@
                   <div class="col-md-10 col-md-offset-1">
                           <p class="margin-top">
                             <small>
-                                  <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$5</strong> per pet per visit. For small animal &amp; exotic pet care, contact us for a quote. Capital City Pet Care is unable to provide services for aggressive or venomous pets.</p>
+                                  <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$5</strong> per pet per visit. Capital City Pet Care is unable to provide services for aggressive pets.</p>
                             </small>
                           </p>
                   </div>
@@ -197,15 +197,15 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="text-center nails">
-                            <h4>1 Pet</h4>
+                            <h4>First Pet</h4>
                             <span class="muted price"><strong>$16</strong></span>
                             <div class="detail subtle"> Standard Finish </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                             <div class="text-center nails">
-                                    <h4>Multi-Pet</h4>
-                                    <span class="muted price"><strong>$13</strong>/pet</span>
+                                    <h4>Additional Pet(s)</h4>
+                                    <span class="muted price"><strong>$14</strong>/pet</span>
                                     <div class="detail subtle">
                                     Standard Finish
                                     </div>
@@ -213,8 +213,8 @@
                     </div>
                     <div class="col-md-4">
                             <div class="text-center nails">
-                                    <h4>Dremel</h4>
-                                    <span class="muted price"><strong>$21</strong></span>
+                                    <h4>Add Dremel</h4>
+                                    <span class="muted price"><strong>+ $6 / pet</strong></span>
                                     <div class="detail">
                                     Smooth Finish
                                     </div>

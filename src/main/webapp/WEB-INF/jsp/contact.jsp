@@ -20,12 +20,12 @@
                 <div class="row">
                     <div class="col-xs-12">
                       <h3 class="no-margin">Hours of Operation</h3>
-                         <p>Monday - Sunday  5 a.m. - 9 p.m.</p>
+                         <p>Monday - Sunday  5 a.m. - 10 p.m.</p>
                       <h3>Office/Phone Hours</h3>
                         <a href="tel:919-723-7302">919.723.7302</a>
                         <p>Monday - Friday 8 a.m. - 8 p.m.<br>
                         Saturday 1 p.m. - 6 p.m.</p>
-                        <small>* Messages received on Sunday will be returned the next business day</small>
+                        <small>* Messages received on Sunday will be returned the next business day.</small>
                       <h3>Service Area</h3>
                       <a href="/service_area">Servicing areas in Raleigh and Knightdale</a>
                     </div>

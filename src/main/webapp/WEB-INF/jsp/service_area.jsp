@@ -16,7 +16,7 @@
         <div class="col-xs-12 real-content">
           <div class="row">
               <div class="col-md-6 col-md-offset-3">
-                  <div>
+                  <div class="center">
                       <a href="https://mapsengine.google.com/map/edit?mid=z6pNdum8fnnE.khBlpJYSTjcM">Search for your address</a> to see if you are in our service area.
                   </div>
               </div>

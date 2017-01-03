@@ -18,10 +18,13 @@
             <div class="col-md-4">
                 <ul>
                     <li>
-                        &copy; ${appconfig.siteName} 2015
+                        &copy; ${appconfig.siteName} 2017
                     </li>
                     <li>
                         All rights reserved.
+                    </li>
+                    <li>
+                      Pet Sitting &amp; Dog Walking
                     </li>
                     <li>
                         Raleigh &amp; Knightdale NC
@@ -36,12 +39,24 @@
                 </ul>
             </div>
             <div class="col-md-4">
-                <a href="http://www.petsits.com" target="_blank"><img src='img/pups.gif' alt="PUPS - Professional United Pet Sitters"></a>
-                <a href="http://www.petsitllc.com" target="_blank"><img src="img/psa.png" alt="PSA - Pet Sitters Association"></a>
+              <div class="row">
+                <div class="col-md-12 small-margin-bottom">
+                  <span>Veterinarian Recommended</span>
+                  <a href="http://www.hiddenvalleyanimalhospital.com" target="_blank" title="Hidden Valley Animal Hospital &amp; Boarding"><img class="hv" alt="Hidden Valley Animal Hospital &amp; Boarding" src="http://cdn11.g5search.com/assets/235797/hidden-valley-animal-hospital-logo.png?1392920446"></a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 col-md-offset-2">
+                  <a href="http://www.petsits.com" target="_blank"><img src='img/pups.gif' alt="PUPS - Professional United Pet Sitters"></a>
+                </div>
+                <div class="col-md-4">
+                  <a href="http://www.petsitllc.com" target="_blank"><img src="img/psa.png" alt="PSA - Pet Sitters Association"></a>
+                </div>
+              </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 small-margin-top">
                 Servicing areas in Raleigh and Knightdale [<a href="https://mapsengine.google.com/map/edit?mid=z6pNdum8fnnE.khBlpJYSTjcM">Service Map</a>]
             </div>
         </div>

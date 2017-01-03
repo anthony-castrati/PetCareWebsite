@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<title>${title} - ${appconfig.siteName}</title>
+<title>${appconfig.siteName} Pet Sitting &amp; Dog Walking | ${title}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="Anthony Castrati">

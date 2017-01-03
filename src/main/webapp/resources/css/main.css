@@ -356,9 +356,9 @@ blockquote{
 
 .about-image {
   border:1px solid black;
-    max-width: 300px;
+    max-width: 270px;
     margin-bottom:20px;
-    width:100%;
+    float: right;
 }
 
 .contacts{
@@ -564,6 +564,7 @@ li>a.btn.client-login, li>a.btn.client-login:hover  {
 .navbar {
   margin-bottom: 0px;
   border-radius: initial;
+  border:none;
 }
 
 @media (min-width: 768px) {
@@ -603,8 +604,22 @@ li>a.btn.client-login, li>a.btn.client-login:hover  {
     margin-top: 30px;
   }
 
+  .small-margin-top {
+    margin-top: 10px;
+  }
+  .small-margin-bottom {
+    margin-bottom: 10px;
+  }
+
   .services .separator {
     margin-top: 50px;
     margin-bottom:30px;
+    text-align: center;
+  }
+
+  .hv {
+    width:150px;
+  }
+  .center {
     text-align: center;
   }
