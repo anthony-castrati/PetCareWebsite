@@ -22,7 +22,7 @@
     </div>
     <div class="row">
       <div class="col-xs-12">
-        <blockquote>We don't always have the luxury or convenience of bringing our pets with us everywhere we go and when leaving them in an unfamiliar place doesn't sound like the perfect scenario, let us be there for you and your pet. Capital City Pet Care understands the importance of allowing pets to stay in their own home where they feel the most secure. If you're going on vacation or anticipate a long day at work let us pamper your pet while you're away.<p></p></blockquote>
+        <blockquote>As pet parents, we strive to provide the best possbile life for our forever friends, but day to day life can become hectic. Some of us work long hours or maybe we just can&apos;t take our beloved pet on our next vacation. Every pet has different needs and whether you have a puppy or a senior pet that needs more frequent outings, a high energy pet that needs extra mental and physical stimulation, or you just want to provide your pet with the comforts that boarding facilities just can&apos;t accomodate, whatever the reason, let Capital City Pet Care be there for you and your pet. We understand the importance of allowing pets to stay in their own home where they feel most secure. So, if you're going on vacation or anticipate a long day at the work, let us provide you with the peace of mind that your pet&apos;s are receiving the highest quality of care while you&apos;re away.<p></p></blockquote>
       </div>
     </div>
     <div class="row">

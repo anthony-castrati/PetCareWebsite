@@ -49,7 +49,7 @@
                                   <div class="detail">
                                           <p><small>These consultations are required if you move to a new home, acquire a new pet, or any pet has a major change in medical needs. See the
 
-                                          <a tabindex="0" data-trigger="focus" data-toggle="popover" title="Follow-Up Consultations" data-content="These consultations are required if you move to a new home, acquire a new pet, or any pet has a major change in medical needs.  We require this consultation to become acquainted with your new home or pet, obtain new keys, and have any necessary paperwork updated at this time. Follow-up consultations are $35 for up to 1 hour of time and there will be a $20 fee for each additional 30 minutes beyond the allotted 1 hour time frame.">full policy</a>
+                                          <a tabindex="0" data-trigger="focus" data-toggle="popover" title="Follow-Up Consultations" data-content="These consultations are required if you move to a new home, acquire a new pet, or any pet has a major change in medical needs.  We require this consultation to become acquainted with your new home or pet, obtain new keys, and have any necessary paperwork updated at this time. Follow-up consultations are $35 for up to 1 hour of time and there will be a $20 fee for each additional 30 minutes beyond the alloted 1 hour time frame.">full policy</a>
 
                                            for more details.</small></p>
                                   </div>
