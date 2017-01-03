@@ -131,7 +131,7 @@ body {
 }
 
 .small-banner i {
-	margin: 0 5px;
+	margin: 0 10px;
 }
 
 .anchor {
@@ -160,6 +160,18 @@ body {
   line-height:24px;
   font-weight:bold;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@media screen and (max-width: 480px) {
+  .welcome {
+    height: 200px;
+    background-position-y: -60px;
+    background-size: 480px;
+  }
+  .welcome span {
+    bottom: 4px;
+    font-size: 75px;
+  }
 }
 
 .welcome img {
@@ -358,7 +370,7 @@ blockquote{
   border:1px solid black;
     max-width: 270px;
     margin-bottom:20px;
-    float: right;
+    width: 100%;
 }
 
 .contacts{
