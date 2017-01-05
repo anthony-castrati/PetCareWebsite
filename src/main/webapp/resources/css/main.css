@@ -22,6 +22,7 @@ h2 {
 body {
   font-size:1.8em;
   background-color:#eee;
+  /*Background acquired from http://vector4free.com/vectors/author/233*/
   background-image: url('../img/white-linen.jpg');
   color:#182126;
   background-attachment: fixed;
@@ -55,7 +56,6 @@ body {
 }
 
 .business-name-container {
-  padding-right:90px;
   height: 100%;
   display: table;
 }
@@ -115,19 +115,24 @@ body {
 
 /** Logo and header **/
 .business-name {
-    font-size: 4.8em;
-    font-size: 5.2vw;
     line-height: 80px;
 }
 
-.business-purpose {
-  font-size: 30px;
-  font-size: 2vw;
+.logo-row .business-purpose {
+  font-size: .3em;
   line-height: normal;
+  text-shadow: 1px 1px 1px #ddd;
+  margin-top: 10px;
 }
 
-.full-business-name {
-  font-family: 'Rasa', serif;
+.logo-row .full-business-name {
+  font-size: 3.9em;
+  font-family: 'Fontdiner Swanky';
+  text-shadow: 1px 1px 1px #ddd;
+}
+
+.navbar-brand .business-purpose {
+	font-size: 10px;
 }
 
 .small-banner i {
@@ -206,6 +211,11 @@ body {
   pointer-events: none;
 }
 
+.prenav {
+  background-image: url('../img/polygon.jpg');
+  background-size: 100%;
+}
+
 .navbar-brand img.logo {
   width: 75px;
   position: static;
@@ -225,7 +235,9 @@ body {
 }
 
 .logo-row {
-  height: 187px;
+  height: 220px;
+  margin: 0px;
+  background-color: rgba(255,255,255,.45);
 }
 
 blockquote {
@@ -498,7 +510,7 @@ h3{
 }
 
 .deals div {
-  padding:15px;
+  padding:0px 15px;
 }
 
 .services .well{

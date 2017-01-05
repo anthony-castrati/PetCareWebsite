@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <header role="banner">
   <div class="small-banner">
-    <a href="mailto:alexxis@capcitypetcare.com">Contact us</a> today!</span>
+    <a href="contact">Contact us</a> today!</span>
     <a href="https://www.instagram.com/capitalcitypetcare13"><i class="icon-large icon-instagram pull-right"></i></a>
     <a href="https://www.facebook.com/capcitypetcare/"><i class="icon-large icon-facebook pull-right"></i></a>
   </div>

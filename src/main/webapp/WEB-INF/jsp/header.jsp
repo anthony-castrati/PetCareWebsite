@@ -5,7 +5,7 @@
 <meta name="author" content="Anthony Castrati">
 
 <%-- <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'> --%>
-<link href="https://fonts.googleapis.com/css?family=Adamina|Chewy|Coustard|Frijole|Gabriela|Judson|Patua+One|Rasa|Fredericka+the+Great" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky|Adamina|Fredericka+the+Great" rel="stylesheet">
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
