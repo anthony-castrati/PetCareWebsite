@@ -36,10 +36,10 @@
                     </div>
                     <div class="row bio">
                         <div class="col-sm-4">
-                            <img class="img-rounded about-image" src="img/Amanda.jpg">
+                            <img class="img-rounded about-image" src="img/kathryn.jpg">
                         </div>
                         <div class="col-sm-7">
-                            <p>Amanda is a fantastic pet sitter and has been working with animals since 2007 with a diverse background working with cats, dogs, sheep, swine, seals and sea turtles. She has even studied abroad in Australia. She is a 2015 NCSU graduate and has a B.S. in Animal Science. She is an avid runner who has participated in 3 half marathons and numerous 5K&apos;s, so she is sure to keep your fur baby on their toes!</p>
+                            <p>Kathryn graduated from Rutgers University with highest honors and is currently attending North Carolina State University College of Veterinary Medicine working towards her DVM degree. She has been working with animals since 2008 and has a diverse background working as a veterinary assistant, grooming assistant, and doggy daycare attendant. She is no stranger to hard work and dedication. She is a very detailed and compassionate animal lover who will be sure to treat your pets as if they were her own.</p>
                         </div>
                     </div>
                     <div class="row">
