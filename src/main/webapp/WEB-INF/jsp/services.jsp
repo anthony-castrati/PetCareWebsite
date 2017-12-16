@@ -130,7 +130,7 @@
               </div>
           </div>
           <div class="row">
-                  <div class="col-md-4 ">
+                  <div class="col-md-offset-2 col-md-4 ">
                           <div class="tier text-center">
                                   <h3>Express</h3>
                                   <p>Up to 20 Minutes</p>
@@ -147,24 +147,6 @@
                                   <span class="muted price"><strong>$20*</strong></span>
                                   <div class="detail">
                                       <small>Includes a lengthy walk or yard play, refresh water, medication administration, and lunch if needed.</small>
-                                  </div>
-                          </div>
-                  </div>
-                  <div class="col-md-4">
-                          <div class="tier text-center">
-                                  <h3>Weekly Packages</h3>
-                                  <p>Monday - Friday</p>
-                                  <span class="muted price">
-                                      <div class="row">
-                                      <div class="col-md-6">
-                                          <strong>$80*</strong> Express
-                                          </div>
-                                      <div class="col-md-6">
-                                      <strong>$90*</strong> Standard
-                                          </div></div>
-                                  </span>
-                                  <div class="detail">
-                                      <small>We offer a discounted rate for weekly bookings. Otherwise, regular rates apply.</small>
                                   </div>
                           </div>
                   </div>
