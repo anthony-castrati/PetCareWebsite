@@ -68,10 +68,13 @@
                 <ul class="dropdown-menu">
                   <li><a href="services#consultations">Consultations</a></li>
                   <li><a href="services#vacation-visits">Vacation Visits</a></li>
+                  <li><a href="services#add-ons">Add-Ons</a></li>
+                  <li><a href="services#medication-administration">Medication Administration Visit</a></li>
                   <li><a href="services#dog-walking">Midday Dog Walking</a></li>
-                  <li><a href="services#nail-trims">Nail Trims</a></li>
-                  <li><a href="services#expressions">Expressions</a></li>
-                  <li><a href="services#other-services">Other Services</a></li>
+                  <li><a href="services#nail-trims">Nail Trim Visit</a></li>
+                  <li><a href="services#nail-caps">Nail Caps + Nail Trim Visit</a></li>
+                  <li><a href="services#expressions">Anal Sac Expression Visit</a></li>
+                  <li><a href="services#locked-out">Locked Out Emergency</a></li>
                 </ul>
               </li>
               <li>

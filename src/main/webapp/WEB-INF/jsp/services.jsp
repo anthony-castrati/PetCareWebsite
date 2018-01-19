@@ -37,7 +37,11 @@
                                   <div class="detail">
                                           <p><small>* This consultation is FREE for all clients who pre-pay and book services with Capital City Pet Care before or during the consult. See the
 
-                                          <a tabindex="0" data-trigger="focus" data-toggle="popover" title="Initial Consultations" data-content="This consultation is FREE for all clients who pre-pay and book services with Capital City Pet Care before or during the consult, otherwise a fee of $30 will be due at this time.  There will be a $20 fee for each additional 30 minutes beyond the allotted 1 hour time frame. If you decide to decline services at this time, but change your mind within 14 days, the $30 consultation fee will be applied to your first bill. We require at least a two day in advance booking for consultations. Please be aware that Capital City Pet Care is unable to provide services for aggressive or venomous pets. If we determine your pet is aggressive or venomous we will be forced to decline services and the full consultation fee in the amount of $30 will be due at this time. ">full policy</a>
+                                          <a tabindex="0"
+                                            data-trigger="focus"
+                                            data-toggle="popover"
+                                            title="Initial Consultations"
+                                            data-content="Initial consultation is free for all clients who pre-pay and book services with Capital City Pet Care before or during the consult. A $30 reservation fee will be due before the meet and greet with CCPC and that fee will be deducted from your first bill. If you decide to decline services at this time, you have 14 days to change your mind. We require at least a two day in advance booking for consultations. Please be aware that Capital City Pet Care is unable to provide services for aggressive or venomous pets. If we determine your pet is aggressive or venomous we will be forced to decline services and the consultation fee will not be refunded.">full policy</a>
                                           for more details.</small></p>
                                   </div>
                           </div>
@@ -72,48 +76,119 @@
               <span><i><h2>Vacation Visits</h2></i></span>
             </div>
           </div>
-
           <div class="row">
-                  <div class="col-md-4 ">
-                          <div class="tier text-center">
-                                  <h3>Express</h3>
-                                  <p>Up to 20 Minutes</p>
-                                  <span class="muted price"><strong>$18*</strong></span>
-                                  <div class="detail">
-                                      <small>Perfect for pets who prefer their own personal space or just need some quick relief! Includes a bathroom break, food, water, litter box scoop, medication administration, and complementary services.<sup>1</sup></small>
-                                  </div>
-                          </div>
-                  </div>
-                  <div class="col-md-4">
-                          <div class="tier text-center">
-                                  <h3>Standard</h3>
-                                  <p>30 Minutes</p>
-                                  <span class="muted price"><strong>$20*</strong></span>
-                                  <div class="detail">
-                                      <small>Includes a bathroom break and lengthy walk or yard play, fresh water and food, litter box scoop, medication administration, complementary services<sup>1</sup>, and lots of belly rubs!</small>
-                                  </div>
-                          </div>
-                  </div>
-                  <div class="col-md-4">
-                          <div class="tier text-center">
-                                  <h3>Extended</h3>
-                                  <p>45 Minutes</p>
-                                  <span class="muted price"><strong>$25*</strong></span>
-                                  <div class="detail">
-                                      <small>Includes a bathroom break, extended walk or yard play, fresh water and food, litter box scoop, medication administration, complementary services<sup>1</sup>, and extra TLC!</small>
-                                  </div>
-                          </div>
-                  </div>
+            <div class="col-md-4 ">
+              <div class="tier text-center">
+                <h3>Express</h3>
+                <p>Up to 20 Minutes</p>
+                <span class="muted price"><strong>$18*</strong></span>
+                <div class="detail">
+                  <small>Perfect for pets who prefer their own personal space or just need some quick relief! Includes a bathroom break, food, water, litter box scoop, medication administration, and complementary services.<sup>1</sup></small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="tier text-center">
+                <h3>Standard</h3>
+                <p>30 Minutes</p>
+                <span class="muted price"><strong>$20*</strong></span>
+                <div class="detail">
+                  <small>Includes a bathroom break and lengthy walk or yard play, fresh water and food, litter box scoop, medication administration, complementary services<sup>1</sup>, and lots of belly rubs!</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="tier text-center">
+                <h3>Extended</h3>
+                <p>45 Minutes</p>
+                <span class="muted price"><strong>$25*</strong></span>
+                <div class="detail">
+                  <small>Includes a bathroom break, extended walk or yard play, fresh water and food, litter box scoop, medication administration, complementary services<sup>1</sup>, and extra TLC!</small>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="row">
-                  <div class="col-md-10 col-md-offset-1">
-                          <p class="margin-top">
-                            <small>
-                              <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$5</strong> per pet per visit. For small animal &amp; exotic pet care, contact us for a quote. Capital City Pet Care is unable to provide services for aggressive or venomous pets.</p>
-                              <strong><sup>1</sup></strong> Complementary Services: Light brushing, mail collection, trash service, light and blinds rotation, open/close windows and indoor plant watering. Not included in daily midday dog walking visits/packages.
-                            </small>
-                          </p>
-                  </div>
+            <div class="col-md-10 col-md-offset-1">
+              <p class="margin-top">
+                <small>
+                  <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$5</strong> per pet per visit. For small animal &amp; exotic pet care, contact us for a quote. Capital City Pet Care is unable to provide services for aggressive or venomous pets.</p>
+                  <strong><sup>1</sup></strong> Complementary Services: Light brushing, mail collection, trash service, light and blinds rotation, open/close windows and indoor plant watering. Not included in daily midday dog walking visits.
+                </small>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 separator">
+              <a class="anchor" id="add-ons"></a>
+              <div class="mask"></div>
+              <span><i><h2>Add-Ons</h2></i></span>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                  <p class="margin-bottom">
+                      In addition to pet sitting and dog walking, we offer other services which you can add on to your existing reservation or they can also be purchased as a standalone service.
+                  </p>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <div class="service">
+                <h4>Add-On Services</h4>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Nail Trim</td>
+                      <td><strong>$16</strong>/pet</td>
+                    </tr>
+                    <tr>
+                      <td>Anal Gland Expression</td>
+                      <td><strong>$20</strong>/pet</td>
+                    </tr>
+                    <tr>
+                      <td>Subcutaneous Fluids</td>
+                      <td><strong>$5</strong></td>
+                    </tr>
+                    <tr>
+                      <td>Teeth Brushing</td>
+                      <td><strong>$10</strong></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 separator">
+              <a class="anchor" id="medication-administration"></a>
+              <div class="mask"></div>
+              <span><i><h2>Medication Administration Visit</h2></i></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <p class="margin-bottom">
+                Like humans, pets may require medications for various reasons. Whether your pet has an ongoing medical condition, had a recent surgery, or just needs their monthly heartworm or flea prevention, let our skilled staff help you keep them on track. This visit is applicable for oral, topical, or injectable medications. Subcutaneous fluids are an additional <strong>$5</strong>.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+              <div class="text-center nails">
+                <span class="muted price"><strong>$18</strong></span>
+                <div class="detail">Medication Administration</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <p class="margin-top">
+                <small>
+                  <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$5</strong> per pet per visit. Restrictions apply based on pet temperament and level of difficulty.</p>
+                </small>
+              </p>
+            </div>
           </div>
           <div class="row">
             <div class="col-xs-12 separator">
@@ -152,19 +227,19 @@
                   </div>
           </div>
           <div class="row">
-                  <div class="col-md-10 col-md-offset-1">
-                          <p class="margin-top">
-                            <small>
-                                  <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$5</strong> per pet per visit. Capital City Pet Care is unable to provide services for aggressive pets.</p>
-                            </small>
-                          </p>
-                  </div>
+            <div class="col-md-10 col-md-offset-1">
+              <p class="margin-top">
+                <small>
+                  <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$5</strong> per pet per visit. Restrictions apply based on pet temperament and level of difficulty.</p>
+                </small>
+              </p>
+            </div>
           </div>
           <div class="row">
             <div class="col-xs-12 separator">
               <a class="anchor" id="nail-trims"></a>
               <div class="mask"></div>
-              <span><i><h2>Nail Trims</h2></i></span>
+              <span><i><h2>Nail Trim Visit</h2></i></span>
             </div>
           </div>
           <div class="row">
@@ -180,14 +255,14 @@
                     <div class="col-md-4">
                         <div class="text-center nails">
                             <h4>First Pet</h4>
-                            <span class="muted price"><strong>$16</strong></span>
+                            <span class="muted price"><strong>$18</strong></span>
                             <div class="detail subtle"> Standard Finish </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                             <div class="text-center nails">
                                     <h4>Additional Pet(s)</h4>
-                                    <span class="muted price"><strong>$14</strong>/pet</span>
+                                    <span class="muted price"><strong>$16</strong>/pet</span>
                                     <div class="detail subtle">
                                     Standard Finish
                                     </div>
@@ -216,9 +291,55 @@
           </div>
           <div class="row">
             <div class="col-xs-12 separator">
+              <a class="anchor" id="nail-caps"></a>
+              <div class="mask"></div>
+              <span><i><h2>Nail Caps + Nail Trim Visit</h2></i></span>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                  <p class="margin-bottom">
+                    Are your pets scratching your floor or furniture? Are their nails too sharp? Do you have thin or sensitive skin? Nail covers provide a safe alternative to declawing and cover the nail completely while still allowing your pet to fully extend and retract their claws. The caps naturally shed as your pet's nails grow in generally 4 to 8 weeks. If they do not fall of on their own they can be cut off during a regular nail trim. If you have your own supply we can do the nail trim and apply them for you. If you need covers we can supply those as well. Each session starts with a nail trim and then we carefully apply the covers with a pet safe adhesive.
+                  </p>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <div class="service">
+                <h4>Nail Caps + Nail Trim</h4>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Application Only</td>
+                      <td><strong>$34</strong></td>
+                    </tr>
+                    <tr>
+                      <td>Feline Nail Caps Included (Front Paws Only)</td>
+                      <td><strong>$38</strong></td>
+                    </tr>
+                    <tr>
+                      <td>Canine Nail Caps Included (All Paws)</td>
+                      <td><strong>$45</strong></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <p class="margin-top">
+                <small>
+                  Nail trims/cap application prices are applicable for nail trims where the owner is able to hold/restrain the pet(s). When scheduling a nail trim, please inform us if you are unable to restrain your pet or would like an additional member of Capital City Pet Care to help with restraint. An additional <strong>$10</strong> per household will be charged in this event.
+                </small>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 separator">
               <a class="anchor" id="expressions"></a>
               <div class="mask"></div>
-              <span><i><h2>Expressions</h2></i></span>
+              <span><i><h2>Anal Sac Expression Visit</h2></i></span>
             </div>
           </div>
           <div class="row">
@@ -231,7 +352,7 @@
           <div class="row">
               <div class="col-md-4 col-md-offset-4">
                       <div class="text-center nails">
-                              <span class="muted price"><strong>$20</strong></span>
+                              <span class="muted price"><strong>$22</strong></span>
                               <div class="detail">Internal Expression</div>
                       </div>
               </div>
@@ -247,78 +368,29 @@
           </div>
           <div class="row">
             <div class="col-xs-12 separator">
-              <a class="anchor" id="other-services"></a>
+              <a class="anchor" id="locked-out"></a>
               <div class="mask"></div>
-              <span><i><h2>Other Services</h2></i></span>
+              <span><i><h2>Locked Out Emergency</h2></i></span>
             </div>
           </div>
           <div class="row">
               <div class="col-md-10 col-md-offset-1">
                   <p class="margin-bottom">
-                      In addition to pet sitting and dog walking, we offer other services which you can add on to your existing reservation or they can also be purchased as a standalone service.  Please call for a quote.
+                      If we have retained your key and you lock yourself out of your home, we can let you back in and provide you with a working key.
                   </p>
               </div>
           </div>
           <div class="row">
-            <div class="col-md-5 col-md-offset-1">
-                    <div class="service">
-                            <h4>Other Services</h4>
-                            <table>
-                            <tbody>
-                              <tr>
-                                <td>Medication Administration Visit</td>
-                                <td><strong>$18</strong></td>
-                              </tr>
-                              <tr>
-                                <td>Subcutaneous Fluid Add-on</td>
-                                <td><strong>$5</strong></td>
-                              </tr>
-                              <tr>
-                                <td>Teeth Brushing Add-on</td>
-                                <td><strong>$10</strong></td>
-                              </tr>
-                              <tr>
-                                <td>Locked Out? <sup>1</sup></td>
-                                <td><strong>$28</strong></td>
-                              </tr>
-                            </tbody>
-                          </table>
-                    </div>
+            <div class="col-md-4 col-md-offset-4">
+              <div class="text-center nails">
+                <span class="muted price"><strong>$28</strong></span>
+                <div class="detail">Emergency Key Service</div>
+              </div>
             </div>
-            <div class="col-md-5">
-                    <div class="service">
-                            <h4>Kitty Caps/Soft Paws + Nail Trim</h4>
-                            <table>
-                            <tbody>
-                              <tr>
-                                <td>Application Only</td>
-                                <td><strong>$34</strong></td>
-                              </tr>
-                              <tr>
-                                <td>Feline Kitty Caps Included (Front Paws Only)</td>
-                                <td><strong>$38</strong></td>
-                              </tr>
-                              <tr>
-                                <td>Canine Soft Paws Included (All Paws)</td>
-                                <td><strong>$45</strong></td>
-                              </tr>
-                            </tbody>
-                          </table>
-                    </div>
-            </div>
-        </div>
-                  <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-                                  <p class="margin-top">
-                                    <small>
-                                  <strong><sup>1</sup></strong>If we have retained your key and you lock yourself out of your home, we can let you back in and provide you with a working key.
-                                </small>
-                          </p>
-                  </div>
-                  </div>
           </div>
         </div>
-        <jsp:include page="footer.jsp"/>
       </div>
+      <jsp:include page="footer.jsp"/>
+    </div>
   </body>
 </html>

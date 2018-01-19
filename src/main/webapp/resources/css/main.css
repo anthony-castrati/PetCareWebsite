@@ -149,10 +149,11 @@ body {
 	height: 350px;
 	padding: 0px;
 	overflow: hidden;
-	background-image:  url("../img/alexxis_nick_simone.jpg");
-	background-position-y: -159px;
+	background-image:  url("../img/apollo_snow.jpg");
+	background-position-y: -40px;
   background-position-x: center;
 	background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .welcome span {
@@ -170,8 +171,7 @@ body {
 @media screen and (max-width: 480px) {
   .welcome {
     height: 200px;
-    background-position-y: -60px;
-    background-size: 480px;
+    background-position-y: 0px;
   }
   .welcome span {
     bottom: 4px;
