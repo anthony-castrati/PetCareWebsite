@@ -80,7 +80,7 @@ public class HelloController {
         	if(error != null){
         		model.addAttribute("error",error);
         	}else{
-    			model.addAttribute("success","Thank you for contacting us!  You will recieve a receipt of your request via email shortly.");
+    			model.addAttribute("success","Thank you for contacting us! You will receive a receipt of your request via email shortly.");
         	}
             return "contact";
         }
