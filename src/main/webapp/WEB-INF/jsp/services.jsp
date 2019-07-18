@@ -81,7 +81,7 @@
               <div class="tier text-center">
                 <h3>Express</h3>
                 <p>Up to 20 Minutes</p>
-                <span class="muted price"><strong>$18*</strong></span>
+                <span class="muted price"><strong>$20*</strong></span>
                 <div class="detail">
                   <small>Perfect for pets who prefer their own personal space or just need some quick relief! Includes a bathroom break, food, water, litter box scoop, medication administration, and complementary services.<sup>1</sup></small>
                 </div>
@@ -91,7 +91,7 @@
               <div class="tier text-center">
                 <h3>Standard</h3>
                 <p>30 Minutes</p>
-                <span class="muted price"><strong>$20*</strong></span>
+                <span class="muted price"><strong>$22*</strong></span>
                 <div class="detail">
                   <small>Includes a bathroom break and lengthy walk or yard play, fresh water and food, litter box scoop, medication administration, complementary services<sup>1</sup>, and lots of belly rubs!</small>
                 </div>
@@ -101,7 +101,7 @@
               <div class="tier text-center">
                 <h3>Extended</h3>
                 <p>45 Minutes</p>
-                <span class="muted price"><strong>$25*</strong></span>
+                <span class="muted price"><strong>$27*</strong></span>
                 <div class="detail">
                   <small>Includes a bathroom break, extended walk or yard play, fresh water and food, litter box scoop, medication administration, complementary services<sup>1</sup>, and extra TLC!</small>
                 </div>
@@ -112,7 +112,7 @@
             <div class="col-md-10 col-md-offset-1">
               <p class="margin-top">
                 <small>
-                  <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$5</strong> per pet per visit. For small animal &amp; exotic pet care, contact us for a quote. Capital City Pet Care is unable to provide services for aggressive or venomous pets.</p>
+                  <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$3</strong> per pet per visit. For small animal &amp; exotic pet care, contact us for a quote. Capital City Pet Care is unable to provide services for aggressive or venomous pets.</p>
                   <strong><sup>1</sup></strong> Complementary Services: Light brushing, mail collection, trash service, light and blinds rotation, open/close windows and indoor plant watering. Not included in daily midday dog walking visits.
                 </small>
               </p>
@@ -140,7 +140,7 @@
                   <tbody>
                     <tr>
                       <td>Nail Trim</td>
-                      <td><strong>$16</strong>/pet</td>
+                      <td><strong>$18</strong>/pet</td>
                     </tr>
                     <tr>
                       <td>Anal Gland Expression</td>
@@ -148,7 +148,7 @@
                     </tr>
                     <tr>
                       <td>Subcutaneous Fluids</td>
-                      <td><strong>$5</strong></td>
+                      <td><strong>$3</strong></td>
                     </tr>
                     <tr>
                       <td>Teeth Brushing</td>
@@ -169,14 +169,14 @@
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
               <p class="margin-bottom">
-                Like humans, pets may require medications for various reasons. Whether your pet has an ongoing medical condition, had a recent surgery, or just needs their monthly heartworm or flea prevention, let our skilled staff help you keep them on track. This visit is applicable for oral, topical, or injectable medications. Subcutaneous fluids are an additional <strong>$5</strong>.
+                Like humans, pets may require medications for various reasons. Whether your pet has an ongoing medical condition, had a recent surgery, or just needs their monthly heartworm or flea prevention, let our skilled staff help you keep them on track. This visit is applicable for oral, topical, or injectable medications. Subcutaneous fluids are an additional <strong>$3</strong>.
               </p>
             </div>
           </div>
           <div class="row">
             <div class="col-md-4 col-md-offset-4">
               <div class="text-center nails">
-                <span class="muted price"><strong>$18</strong></span>
+                <span class="muted price"><strong>$20</strong></span>
                 <div class="detail">Medication Administration</div>
               </div>
             </div>
@@ -185,7 +185,7 @@
             <div class="col-md-10 col-md-offset-1">
               <p class="margin-top">
                 <small>
-                  <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$5</strong> per pet per visit. Restrictions apply based on pet temperament and level of difficulty.</p>
+                  <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$3</strong> per pet per visit. Restrictions apply based on pet temperament and level of difficulty.</p>
                 </small>
               </p>
             </div>
@@ -209,7 +209,7 @@
                           <div class="tier text-center">
                                   <h3>Express</h3>
                                   <p>Up to 20 Minutes</p>
-                                  <span class="muted price"><strong>$18*</strong></span>
+                                  <span class="muted price"><strong>$20*</strong></span>
                                   <div class="detail">
                                       <small>Includes a short walk or yard play, refresh water, medication administration, and lunch if needed.</small>
                                   </div>
@@ -219,7 +219,7 @@
                           <div class="tier text-center">
                                   <h3>Standard</h3>
                                   <p>30 Minutes</p>
-                                  <span class="muted price"><strong>$20*</strong></span>
+                                  <span class="muted price"><strong>$22*</strong></span>
                                   <div class="detail">
                                       <small>Includes a lengthy walk or yard play, refresh water, medication administration, and lunch if needed.</small>
                                   </div>
@@ -230,7 +230,7 @@
             <div class="col-md-10 col-md-offset-1">
               <p class="margin-top">
                 <small>
-                  <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$5</strong> per pet per visit. Restrictions apply based on pet temperament and level of difficulty.</p>
+                  <p><strong>*</strong> Prices are based on a <strong>2 pet household</strong>. Each cat/dog beyond a two pet household will be an additional <strong>$3</strong> per pet per visit. Restrictions apply based on pet temperament and level of difficulty.</p>
                 </small>
               </p>
             </div>
@@ -255,14 +255,14 @@
                     <div class="col-md-4">
                         <div class="text-center nails">
                             <h4>First Pet</h4>
-                            <span class="muted price"><strong>$18</strong></span>
+                            <span class="muted price"><strong>$20</strong></span>
                             <div class="detail subtle"> Standard Finish </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                             <div class="text-center nails">
                                     <h4>Additional Pet(s)</h4>
-                                    <span class="muted price"><strong>$16</strong>/pet</span>
+                                    <span class="muted price"><strong>$18</strong>/pet</span>
                                     <div class="detail subtle">
                                     Standard Finish
                                     </div>
