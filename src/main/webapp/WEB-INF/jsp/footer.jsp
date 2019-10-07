@@ -18,7 +18,7 @@
             <div class="col-md-4">
                 <ul>
                     <li>
-                        &copy; ${appconfig.siteName} 2017
+                        &copy; ${appconfig.siteName} 2019
                     </li>
                     <li>
                         All rights reserved.

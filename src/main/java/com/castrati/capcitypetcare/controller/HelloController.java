@@ -71,20 +71,6 @@ public class HelloController {
         return "contact";
     }
 
-    @RequestMapping(method = RequestMethod.POST, value = "contact")
-    public String contactPost(@Valid ContactForm contactForm, BindingResult result, ModelMap model) {
-        if(result.hasErrors()){
-            return "contact";
-        }else{
-        	String error = eh.sendMessage(contactForm);
-        	if(error != null){
-        		model.addAttribute("error",error);
-        	}else{
-    			model.addAttribute("success","Thank you for contacting us! You will receive a receipt of your request via email shortly.");
-        	}
-            return "contact";
-        }
-    }
 
     @RequestMapping(method = RequestMethod.GET, value = "services")
     public String services(ModelMap model) {

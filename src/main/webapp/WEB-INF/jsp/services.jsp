@@ -252,30 +252,19 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-md-offset-2">
                         <div class="text-center nails">
-                            <h4>First Pet</h4>
+                            <h4>Regular Nail Trim</h4>
                             <span class="muted price"><strong>$20</strong></span>
-                            <div class="detail subtle"> Standard Finish </div>
+                            <div class="detail subtle">Standard Finish</div>
                         </div>
                     </div>
                     <div class="col-md-4">
-                            <div class="text-center nails">
-                                    <h4>Additional Pet(s)</h4>
-                                    <span class="muted price"><strong>$18</strong>/pet</span>
-                                    <div class="detail subtle">
-                                    Standard Finish
-                                    </div>
-                            </div>
-                    </div>
-                    <div class="col-md-4">
-                            <div class="text-center nails">
-                                    <h4>Add Dremel</h4>
-                                    <span class="muted price">+<strong>$6</strong>/pet</span>
-                                    <div class="detail">
-                                    Smooth Finish
-                                    </div>
-                            </div>
+                        <div class="text-center nails">
+                            <h4>Dremel</h4>
+                            <span class="muted price"><strong>$28</strong></span>
+                            <div class="detail">Smooth Finish</div>
+                        </div>
                     </div>
                 </div>
               </div>

@@ -1,6 +1,7 @@
 package com.castrati.capcitypetcare.beans;
 
 import java.util.logging.Logger;
+import java.util.logging.Level;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailException;
@@ -13,7 +14,7 @@ public class EmailHandler {
 	private MailSender mailSender;
 	@Autowired
     private SimpleMailMessage message;
-	private Logger logger;
+	private Logger logger = Logger.getLogger(EmailHandler.class.getName());
 
     public void setMailSender(MailSender mailSender) {
         this.mailSender = mailSender;
@@ -69,10 +70,12 @@ public class EmailHandler {
             mailSender.send(msg);
         }
         catch(MailException ex) {
-        	if(ex.getMessage().contains("Sender Rejected"))
+            logger.log(Level.WARNING, "Problem sending email", ex);
+        	if(ex.getMessage().contains("Sender Rejected")) {
         		return "Error sending email.  Please verify <strong>" + contact.getEmail() + "</strong> is your valid email address.";
-        	else
+            } else {
         		return "There was an error in submitting your request.  Please try again later.";            
+            }
         }
         return null;
     }
