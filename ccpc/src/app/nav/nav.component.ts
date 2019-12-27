@@ -6,7 +6,7 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
   styleUrls: ['./nav.component.sass']
 })
 export class NavComponent {
-  @ViewChild('navbar-toggler', {static: true}) navbarToggler: ElementRef;
+  @ViewChild('navbarToggler', {static: true}) navbarToggler: ElementRef;
 
   constructor() { }
 

@@ -5,7 +5,7 @@
     <br>
     <span class="shown-text d-none d-lg-block"><h4>Capital City Pet Care, LLC</h4></span>
   </a>
-  <button class="navbar-toggler" type="button"(click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <button #navbarToggler class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -15,7 +15,7 @@
       <a (click)="collapseNav()" class="nav-item nav-link" href="contact" routerLink="contact" routerLinkActive="active">Contact Us</a>
       <a (click)="collapseNav()" class="nav-item nav-link" href="service_area" routerLink="service_area" routerLinkActive="active">Service Area</a>
       <li class="nav-item dropdown">
-        <a (click)="collapseNav()" class="nav-link dropdown-toggle" href="services" routerLink="services" routerLinkActive="active" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" routerLink="services" routerLinkActive="active" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
           Services & Rates
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
