@@ -7,7 +7,7 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 })
 export class NavComponent {
   @ViewChild('navbarToggler', {static: true}) navbarToggler: ElementRef;
-
+  isCollapsed = true;
   constructor() { }
 
   navBarTogglerIsVisible() {
