@@ -1,10 +1,17 @@
 .navbar-brand
+  max-width: 250px
   text-align: center
   font-family: 'Rasa', serif
   img
     margin-left: -7px
   h4
     margin-top: -5px
+  .brand-name
+    display: flex
+    align-items: center
+    span
+      vertical-align: middle
+      width: 100%
 
 @media (max-width: 767px) //Mobile Only
   .navbar-brand
@@ -15,7 +22,7 @@
   .navbar-nav .nav-link.active
     border-bottom: 1px solid #524848e6
   .navbar-brand
-    span
+    .brand-name
       height: auto
       visibility: visible
       opacity: 1
@@ -27,8 +34,12 @@
       img
         height: 75px
         transition: height .5s linear
-      span
+      .brand-name
         visibility: hidden
         height: 0px
         opacity: 0
         transition: height .5s, opacity .5s  linear
+
+.pos-f-t
+  position: fixed
+  top: 0px

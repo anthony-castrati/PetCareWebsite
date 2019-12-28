@@ -1,9 +1,14 @@
 <!--Navigation to include on all pages-->
 <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light bg-light ">
   <a class="navbar-brand" href="home">
-    <img src="assets/images/CCPC_Logo_Final_No_Text.png" class="d-inline-block align-top" alt="">
-    <br>
-    <span class="shown-text d-none d-lg-block"><h4>Capital City Pet Care, LLC</h4></span>
+    <div class="row">
+      <div class="col-3 col-md-12">
+        <img src="assets/images/CCPC_Logo_Final_No_Text.png" class="d-inline-block align-top" alt="">
+      </div>
+      <div class="col-9 col-md-12 brand-name">
+        <span>Capital City Pet Care, LLC</span>
+      </div>
+    </div>
   </a>
   <button #navbarToggler class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

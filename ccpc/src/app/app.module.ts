@@ -12,6 +12,7 @@ import { ServicesComponent } from './services/services.component';
 import { FaqComponent } from './faq/faq.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
+import { AlertComponent } from './alert/alert.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FooterComponent } from './footer/footer.component';
     ServicesComponent,
     FaqComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    AlertComponent
   ],
   imports: [
     BrowserModule,
