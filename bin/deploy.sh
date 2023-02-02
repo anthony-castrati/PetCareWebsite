@@ -8,4 +8,5 @@ echo "Building project directory $PROJECT_DIR"
 ng build --prod="true"
 
 echo "Zipping application"
-zip -r $PROJECT_DIR/dist/ccpc.zip $PROJECT_DIR/dist
+cd $PROJECT_DIR/dist
+zip -r ccpc.zip .

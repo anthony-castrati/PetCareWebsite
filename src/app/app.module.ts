@@ -9,7 +9,6 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServiceAreaComponent } from './service-area/service-area.component';
 import { ServicesComponent } from './services/services.component';
-import { FaqComponent } from './faq/faq.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { AlertComponent } from './alert/alert.component';
@@ -22,7 +21,6 @@ import { AlertComponent } from './alert/alert.component';
     ContactComponent,
     ServiceAreaComponent,
     ServicesComponent,
-    FaqComponent,
     NavComponent,
     FooterComponent,
     AlertComponent

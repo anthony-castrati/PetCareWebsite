@@ -5,7 +5,6 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServiceAreaComponent } from './service-area/service-area.component';
 import { ServicesComponent } from './services/services.component';
-import { FaqComponent } from './faq/faq.component';
 
 
 const routes: Routes = [
@@ -28,10 +27,6 @@ const routes: Routes = [
   {
     path: 'services',
     component: ServicesComponent
-  },
-  {
-    path: 'faq',
-    component: FaqComponent
   },
   {
     path: '**',
