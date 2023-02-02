@@ -127,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ccpc"
+    }
+  },
+  "defaultProject": "ccpc",
+  "cli": {
+    "analytics": false
+  }
 }
