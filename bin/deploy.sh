@@ -11,7 +11,7 @@ ls | grep -xv "CNAME" | xargs rm -r
 
 echo "Building project directory $PROJECT_DIR"
 cd $PROJECT_DIR
-ng build --prod="true"
+ng build --configuration production
 
 echo "Prepare for Github Pages"
 cp -r $OUTPUT_DIR/* $DOCS_FOLDER
